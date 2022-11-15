@@ -2293,3 +2293,932 @@ KeyBP_C.BndEvt__LockedDoorBP_Box_K2Node_ComponentBoundEvent_0_ComponentBeginOver
 [2022.11.15-13.35.39:900][694]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
 [2022.11.15-13.35.39:924][694]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
 [2022.11.15-13.35.39:961][694]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2022.11.15-13.40.48:325][729]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/InteractInterface.InteractInterface
+[2022.11.15-13.40.48:326][729]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.15-13.41.23:454][802]LogSlate: Window 'InteractInterface' being destroyed
+[2022.11.15-13.41.23:462][802]LogSlate: Window 'InteractInterface' being destroyed
+[2022.11.15-13.41.23:494][802]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2022.11.15-13.41.23:494][802]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-13.41.40:599][606]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.11.15-13.41.40:610][606]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.11.15-13.41.40:617][606]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.11.15-13.41.40:638][607]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2022.11.15-13.41.50:078][172]LogContentBrowser: Attempting asset rename: NewBlueprint -> ButtonDoorBP
+[2022.11.15-13.41.50:085][172]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.11.15-13.42.05:828][332]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ButtonDoorBP.ButtonDoorBP
+[2022.11.15-13.42.05:828][332]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.15-13.42.06:391][332]LogViewport: Scene viewport resized to 1504x974, mode Windowed.
+[2022.11.15-13.45.23:297][127]BlueprintLog: New page: Compile ButtonDoorBP
+[2022.11.15-13.45.23:414][127]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2022.11.15-13.45.24:372][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ButtonDoorBP" FILE="D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ButtonDoorBP.uasset" SILENT=true
+[2022.11.15-13.45.24:564][163]LogSavePackage: Moving output files for package: /Game/ButtonDoorBP
+[2022.11.15-13.45.24:565][163]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/ButtonDoorBPCB63C5414BB7D581625A5DB9665236F6.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ButtonDoorBP.uasset'
+[2022.11.15-13.45.24:580][163]AssetCheck: New page: Asset Save: ButtonDoorBP
+[2022.11.15-13.45.24:580][163]LogContentValidation: Display: Validating Blueprint /Game/ButtonDoorBP.ButtonDoorBP
+[2022.11.15-13.45.35:709][423]LogViewport: Scene viewport resized to 506x138, mode Windowed.
+[2022.11.15-13.45.38:401][563]LogViewport: Scene viewport resized to 506x150, mode Windowed.
+[2022.11.15-13.45.38:450][563]LogViewport: Scene viewport resized to 506x170, mode Windowed.
+[2022.11.15-13.45.38:512][563]LogViewport: Scene viewport resized to 506x191, mode Windowed.
+[2022.11.15-13.45.38:569][563]LogViewport: Scene viewport resized to 506x217, mode Windowed.
+[2022.11.15-13.45.38:616][563]LogViewport: Scene viewport resized to 506x252, mode Windowed.
+[2022.11.15-13.45.38:688][563]LogViewport: Scene viewport resized to 506x296, mode Windowed.
+[2022.11.15-13.45.38:752][563]LogViewport: Scene viewport resized to 506x350, mode Windowed.
+[2022.11.15-13.45.38:805][563]LogViewport: Scene viewport resized to 506x386, mode Windowed.
+[2022.11.15-13.45.38:853][563]LogViewport: Scene viewport resized to 506x405, mode Windowed.
+[2022.11.15-13.45.38:903][563]LogViewport: Scene viewport resized to 506x425, mode Windowed.
+[2022.11.15-13.45.38:965][563]LogViewport: Scene viewport resized to 506x449, mode Windowed.
+[2022.11.15-13.45.39:027][563]LogViewport: Scene viewport resized to 506x472, mode Windowed.
+[2022.11.15-13.45.39:083][563]LogViewport: Scene viewport resized to 506x512, mode Windowed.
+[2022.11.15-13.45.39:131][563]LogViewport: Scene viewport resized to 506x526, mode Windowed.
+[2022.11.15-13.45.39:188][563]LogViewport: Scene viewport resized to 506x535, mode Windowed.
+[2022.11.15-13.45.39:235][563]LogViewport: Scene viewport resized to 506x539, mode Windowed.
+[2022.11.15-13.45.39:346][563]LogViewport: Scene viewport resized to 506x537, mode Windowed.
+[2022.11.15-13.45.39:403][563]LogViewport: Scene viewport resized to 506x530, mode Windowed.
+[2022.11.15-13.45.45:039][804]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButtonDoorBP.ButtonDoorBP_C
+[2022.11.15-13.45.45:039][804]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButtonDoorBP.ButtonDoorBP_C
+[2022.11.15-13.45.45:041][804]LogActorFactory: Actor Factory spawned Blueprint /Game/ButtonDoorBP.ButtonDoorBP as actor: ButtonDoorBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ButtonDoorBP_C_0
+[2022.11.15-13.45.45:042][804]LogActorFactory: Actor Factory spawned Blueprint /Game/ButtonDoorBP.ButtonDoorBP as actor: ButtonDoorBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ButtonDoorBP_C_0
+[2022.11.15-13.45.47:465][936]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButtonDoorBP.ButtonDoorBP_C
+[2022.11.15-13.45.47:465][936]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButtonDoorBP.ButtonDoorBP_C
+[2022.11.15-13.45.47:468][936]LogActorFactory: Actor Factory spawned Blueprint /Game/ButtonDoorBP.ButtonDoorBP as actor: ButtonDoorBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ButtonDoorBP_C_UAID_3C7C3FEBD325E74901_1355460913
+[2022.11.15-13.45.47:470][936]LogActorFactory: Actor Factory spawned Blueprint /Game/ButtonDoorBP.ButtonDoorBP as actor: ButtonDoorBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ButtonDoorBP_C_UAID_3C7C3FEBD325E74901_1355460913
+[2022.11.15-13.45.47:534][937]LogViewport: Scene viewport resized to 499x396, mode Windowed.
+[2022.11.15-13.46.34:639][627]BlueprintLog: New page: Compile ButtonDoorBP
+[2022.11.15-13.46.34:762][627]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2022.11.15-13.46.34:945][629]LogViewport: Scene viewport resized to 499x396, mode Windowed.
+[2022.11.15-13.46.35:482][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ButtonDoorBP" FILE="D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ButtonDoorBP.uasset" SILENT=true
+[2022.11.15-13.46.35:678][643]LogSavePackage: Moving output files for package: /Game/ButtonDoorBP
+[2022.11.15-13.46.35:680][643]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/ButtonDoorBP8672757D4AE05CD5B7CDBCA122CA660A.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ButtonDoorBP.uasset'
+[2022.11.15-13.46.35:700][643]AssetCheck: New page: Asset Save: ButtonDoorBP
+[2022.11.15-13.46.35:700][643]LogContentValidation: Display: Validating Blueprint /Game/ButtonDoorBP.ButtonDoorBP
+[2022.11.15-13.46.56:505][916]LogViewport: Scene viewport resized to 1504x974, mode Windowed.
+[2022.11.15-13.47.29:851][693]BlueprintLog: New page: Compile ButtonDoorBP
+[2022.11.15-13.47.29:925][693]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2022.11.15-13.47.30:074][695]LogViewport: Scene viewport resized to 499x396, mode Windowed.
+[2022.11.15-13.47.30:556][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ButtonDoorBP" FILE="D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ButtonDoorBP.uasset" SILENT=true
+[2022.11.15-13.47.30:779][708]LogSavePackage: Moving output files for package: /Game/ButtonDoorBP
+[2022.11.15-13.47.30:781][708]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/ButtonDoorBP7729B9694971A705427F74A3879D473A.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ButtonDoorBP.uasset'
+[2022.11.15-13.47.30:802][708]AssetCheck: New page: Asset Save: ButtonDoorBP
+[2022.11.15-13.47.30:802][708]LogContentValidation: Display: Validating Blueprint /Game/ButtonDoorBP.ButtonDoorBP
+[2022.11.15-13.47.54:940][947]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2022.11.15-13.47.54:981][947]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/PH/F0QGAUN5AAIPJXEPWWPUQZ_Auto3
+[2022.11.15-13.47.54:981][947]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/F0QGAUN5AAIPJXEPWWPUQZ_Auto360F26A404DB7A19366E1A7AEAC1E5B58.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/PH/F0QGAUN5AAIPJXEPWWPUQZ_Auto3.uasset'
+[2022.11.15-13.47.54:983][947]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.076
+[2022.11.15-13.47.54:983][947]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.076
+[2022.11.15-13.47.54:983][947]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ButtonDoorBP] ([2] browsable assets)...
+[2022.11.15-13.47.55:016][947]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ButtonDoorBP.ButtonDoorBP]
+[2022.11.15-13.47.55:016][947]OBJ SavePackage: Finished generating thumbnails for package [/Game/ButtonDoorBP]
+[2022.11.15-13.47.55:016][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ButtonDoorBP" FILE="D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/Autosaves/Game/ButtonDoorBP_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2022.11.15-13.47.55:162][947]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ButtonDoorBP_Auto3
+[2022.11.15-13.47.55:162][947]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/ButtonDoorBP_Auto3DEDF703142BC736F5EE9CFB33ACDE8DC.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/Autosaves/Game/ButtonDoorBP_Auto3.uasset'
+[2022.11.15-13.47.55:164][947]LogFileHelpers: Auto-saving content packages took 0.182
+[2022.11.15-13.50.37:990][300]BlueprintLog: New page: Compile ButtonDoorBP
+[2022.11.15-13.50.38:062][300]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2022.11.15-13.50.38:169][302]LogViewport: Scene viewport resized to 499x396, mode Windowed.
+[2022.11.15-13.50.39:124][337]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ButtonDoorBP" FILE="D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ButtonDoorBP.uasset" SILENT=true
+[2022.11.15-13.50.39:375][337]LogSavePackage: Moving output files for package: /Game/ButtonDoorBP
+[2022.11.15-13.50.39:377][337]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/ButtonDoorBP738E09754DD96EBD0D29C3B39992FA3D.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ButtonDoorBP.uasset'
+[2022.11.15-13.50.39:398][337]AssetCheck: New page: Asset Save: ButtonDoorBP
+[2022.11.15-13.50.39:398][337]LogContentValidation: Display: Validating Blueprint /Game/ButtonDoorBP.ButtonDoorBP
+[2022.11.15-13.55.30:554][261]BlueprintLog: New page: Compile ButtonDoorBP
+[2022.11.15-13.55.30:630][261]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2022.11.15-13.55.30:759][263]LogViewport: Scene viewport resized to 499x396, mode Windowed.
+[2022.11.15-13.55.31:573][290]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ButtonDoorBP" FILE="D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ButtonDoorBP.uasset" SILENT=true
+[2022.11.15-13.55.31:899][290]LogSavePackage: Moving output files for package: /Game/ButtonDoorBP
+[2022.11.15-13.55.31:900][290]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/ButtonDoorBP4ACA134E41877E661C1B568D1E8B1FF9.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ButtonDoorBP.uasset'
+[2022.11.15-13.55.31:921][290]AssetCheck: New page: Asset Save: ButtonDoorBP
+[2022.11.15-13.55.31:921][290]LogContentValidation: Display: Validating Blueprint /Game/ButtonDoorBP.ButtonDoorBP
+[2022.11.15-13.55.47:795][436]LogSlate: Window 'ButtonDoorBP' being destroyed
+[2022.11.15-13.55.47:807][436]LogSlate: Window 'ButtonDoorBP' being destroyed
+[2022.11.15-13.55.47:832][436]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2022.11.15-13.55.47:832][436]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-13.56.03:193][771]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.11.15-13.56.03:203][771]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.11.15-13.56.03:212][771]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.11.15-13.56.03:229][772]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2022.11.15-13.56.11:474][243]LogContentBrowser: Attempting asset rename: NewBlueprint -> ButtonBP
+[2022.11.15-13.56.11:482][243]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.11.15-13.56.14:521][405]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ButtonBP.ButtonBP
+[2022.11.15-13.56.14:522][405]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.15-13.56.15:065][405]LogViewport: Scene viewport resized to 1504x974, mode Windowed.
+[2022.11.15-13.56.18:102][439]LogDerivedDataCache: C:/Users/debsi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.470 and deleted 0 file(s) with total size 0 MiB.
+[2022.11.15-13.58.28:754][767]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2022.11.15-13.58.28:855][767]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/PH/F0QGAUN5AAIPJXEPWWPUQZ_Auto4
+[2022.11.15-13.58.28:855][767]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/F0QGAUN5AAIPJXEPWWPUQZ_Auto4C111D5764626EA2105D003BD740F419C.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/PH/F0QGAUN5AAIPJXEPWWPUQZ_Auto4.uasset'
+[2022.11.15-13.58.28:857][767]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.136
+[2022.11.15-13.58.28:857][767]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.136
+[2022.11.15-13.58.29:904][771]BlueprintLog: New page: Compile ButtonBP
+[2022.11.15-13.58.29:952][771]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2022.11.15-13.58.30:969][802]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ButtonBP" FILE="D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ButtonBP.uasset" SILENT=true
+[2022.11.15-13.58.31:162][802]LogSavePackage: Moving output files for package: /Game/ButtonBP
+[2022.11.15-13.58.31:162][802]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/ButtonBPA75CB7B24BB3B95AC31E608EDF2AE251.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ButtonBP.uasset'
+[2022.11.15-13.58.31:181][802]AssetCheck: New page: Asset Save: ButtonBP
+[2022.11.15-13.58.31:182][802]LogContentValidation: Display: Validating Blueprint /Game/ButtonBP.ButtonBP
+[2022.11.15-13.59.09:449][188]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.11.15-13.59.53:600][914]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2022.11.15-13.59.53:600][914]LogBlueprint: Error: [AssetLog]  (no disk path found): [Compiler] A function can only be converted if it does not have any output parameters.
+[2022.11.15-13.59.53:600][914]BlueprintLog: New page: Convert Event to Function
+[2022.11.15-13.59.53:600][914]BlueprintLog: Error: A function can only be converted if it does not have any output parameters.
+[2022.11.15-14.00.25:418][ 13]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2022.11.15-14.00.25:418][ 13]LogBlueprint: Error: [AssetLog]  (no disk path found): [Compiler] A function can only be converted if it does not have any output parameters.
+[2022.11.15-14.00.25:418][ 13]BlueprintLog: New page: Convert Event to Function
+[2022.11.15-14.00.25:418][ 13]BlueprintLog: Error: A function can only be converted if it does not have any output parameters.
+[2022.11.15-14.00.35:107][417]LogSlate: Window 'Message Log' being destroyed
+[2022.11.15-14.00.35:118][417]LogSlate: Window 'Message Log' being destroyed
+[2022.11.15-14.00.44:887][819]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/InteractInterface.InteractInterface
+[2022.11.15-14.00.44:887][819]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.15-14.01.27:532][828]LogContentBrowser: Deferred new asset file creation: NewInterface
+[2022.11.15-14.01.27:544][828]LogContentBrowser: Creating deferred item: NewInterface
+[2022.11.15-14.01.27:559][829]LogContentBrowser: Renaming the item being created (Deferred Item: NewInterface).
+[2022.11.15-14.01.59:935][675]LogContentBrowser: Attempting asset rename: NewInterface -> InteractInterface_b
+[2022.11.15-14.01.59:941][675]LogContentBrowser: End creating deferred item NewInterface
+[2022.11.15-14.02.02:531][813]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/InteractInterface_b.InteractInterface_b
+[2022.11.15-14.02.02:532][813]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.15-14.03.48:567][452]BlueprintLog: New page: Compile InteractInterface_b
+[2022.11.15-14.03.48:614][452]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2022.11.15-14.03.49:618][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InteractInterface_b" FILE="D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/InteractInterface_b.uasset" SILENT=true
+[2022.11.15-14.03.49:688][489]LogSavePackage: Moving output files for package: /Game/InteractInterface_b
+[2022.11.15-14.03.49:688][489]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/InteractInterface_b2A1A361644BFC981FD794BB65A7AC758.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/InteractInterface_b.uasset'
+[2022.11.15-14.03.49:704][489]AssetCheck: New page: Asset Save: InteractInterface_b
+[2022.11.15-14.03.49:704][489]LogContentValidation: Display: Validating Blueprint /Game/InteractInterface_b.InteractInterface_b
+[2022.11.15-14.04.07:867][ 11]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2022.11.15-14.04.07:868][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-14.04.31:470][641]LogSlate: Window 'Message' being destroyed
+[2022.11.15-14.04.31:477][641]Message dialog closed, result: Cancel, title: Message, text: Would you like to transfer the interface functions to be part of your blueprint?
+[2022.11.15-14.04.39:899][773]LogSlate: Window 'Message' being destroyed
+[2022.11.15-14.04.39:905][773]Message dialog closed, result: No, title: Message, text: Would you like to transfer the interface functions to be part of your blueprint?
+[2022.11.15-14.04.44:057][951]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.11.15-14.05.27:066][131]BlueprintLog: New page: Compile ButtonBP
+[2022.11.15-14.05.27:119][131]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2022.11.15-14.05.27:880][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ButtonBP" FILE="D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ButtonBP.uasset" SILENT=true
+[2022.11.15-14.05.28:087][158]LogSavePackage: Moving output files for package: /Game/ButtonBP
+[2022.11.15-14.05.28:089][158]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/ButtonBPAA08261A4F911697EA63F3AC16AF256A.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ButtonBP.uasset'
+[2022.11.15-14.05.28:107][158]AssetCheck: New page: Asset Save: ButtonBP
+[2022.11.15-14.05.28:107][158]LogContentValidation: Display: Validating Blueprint /Game/ButtonBP.ButtonBP
+[2022.11.15-14.05.33:955][433]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/LightSwitchBP.LightSwitchBP
+[2022.11.15-14.05.33:955][433]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.15-14.05.45:658][994]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2022.11.15-14.05.45:658][994]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-14.06.04:233][538]BlueprintLog: New page: Compile ButtonBP
+[2022.11.15-14.06.04:236][538]LogClass: Warning: Type mismatch in Button Value of ButtonBP_C - Previous (BoolProperty) Current(IntProperty) for package:  FObjectReader
+[2022.11.15-14.06.04:287][538]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2022.11.15-14.06.05:275][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ButtonBP" FILE="D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ButtonBP.uasset" SILENT=true
+[2022.11.15-14.06.05:494][574]LogSavePackage: Moving output files for package: /Game/ButtonBP
+[2022.11.15-14.06.05:496][574]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/ButtonBP5EBB14E64F46A91BCCC081B912E1673A.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ButtonBP.uasset'
+[2022.11.15-14.06.05:517][574]AssetCheck: New page: Asset Save: ButtonBP
+[2022.11.15-14.06.05:517][574]LogContentValidation: Display: Validating Blueprint /Game/ButtonBP.ButtonBP
+[2022.11.15-14.06.36:326][ 53]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.11.15-14.08.52:489][604]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2022.11.15-14.08.52:494][604]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.050
+[2022.11.15-14.08.52:495][604]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ButtonBP] ([2] browsable assets)...
+[2022.11.15-14.08.52:530][604]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ButtonBP.ButtonBP]
+[2022.11.15-14.08.52:530][604]OBJ SavePackage: Finished generating thumbnails for package [/Game/ButtonBP]
+[2022.11.15-14.08.52:530][604]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ButtonBP" FILE="D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/Autosaves/Game/ButtonBP_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2022.11.15-14.08.52:775][604]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ButtonBP_Auto5
+[2022.11.15-14.08.52:775][604]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/ButtonBP_Auto5630454F44C9B5C06B7546E8C7BCBDCCF.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/Autosaves/Game/ButtonBP_Auto5.uasset'
+[2022.11.15-14.08.52:777][604]LogFileHelpers: Auto-saving content packages took 0.283
+[2022.11.15-14.11.19:679][337]BlueprintLog: New page: Compile ButtonBP
+[2022.11.15-14.11.19:731][337]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2022.11.15-14.11.20:558][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ButtonBP" FILE="D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ButtonBP.uasset" SILENT=true
+[2022.11.15-14.11.20:914][365]LogSavePackage: Moving output files for package: /Game/ButtonBP
+[2022.11.15-14.11.20:916][365]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/ButtonBPD1172F2344C4CCCA32A262B08F679A46.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ButtonBP.uasset'
+[2022.11.15-14.11.20:935][365]AssetCheck: New page: Asset Save: ButtonBP
+[2022.11.15-14.11.20:935][365]LogContentValidation: Display: Validating Blueprint /Game/ButtonBP.ButtonBP
+[2022.11.15-14.11.52:480][571]LogSlate: Window 'InteractInterface_b' being destroyed
+[2022.11.15-14.11.52:491][571]LogSlate: Window 'InteractInterface_b' being destroyed
+[2022.11.15-14.11.52:521][571]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.11.15-14.11.52:521][571]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2022.11.15-14.11.52:521][571]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-14.11.52:623][571]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2022.11.15-14.11.52:623][571]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-14.11.59:586][926]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2022.11.15-14.11.59:587][926]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.15-14.12.55:763][759]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ButtonBP.ButtonBP
+[2022.11.15-14.12.55:763][759]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.15-14.13.17:543][738]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.11.15-14.13.31:888][531]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2022.11.15-14.13.31:888][531]LogBlueprint: Error: [AssetLog]  (no disk path found): [Compiler] A function can only be converted if it does not have any output parameters.
+[2022.11.15-14.13.31:888][531]BlueprintLog: New page: Convert Event to Function
+[2022.11.15-14.13.31:888][531]BlueprintLog: Error: A function can only be converted if it does not have any output parameters.
+[2022.11.15-14.14.18:111][631]LogSlate: Window 'Message' being destroyed
+[2022.11.15-14.14.18:119][631]Message dialog closed, result: No, title: Message, text: Would you like to transfer the interface functions to be part of your blueprint?
+[2022.11.15-14.14.40:730][169]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/LightBP.LightBP
+[2022.11.15-14.14.40:730][169]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.15-14.14.45:846][370]LogSlate: Window 'LightBP' being destroyed
+[2022.11.15-14.14.45:854][370]LogSlate: Window 'LightBP' being destroyed
+[2022.11.15-14.14.45:880][370]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2022.11.15-14.14.45:880][370]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-14.14.45:996][370]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.11.15-14.14.45:996][370]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2022.11.15-14.14.45:996][370]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-14.14.46:074][370]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.11.15-14.14.46:074][370]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2022.11.15-14.14.46:074][370]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-14.14.50:956][599]LogContentBrowser: Attempting asset rename: LightSwitchBP -> LightSwitchBP
+[2022.11.15-14.14.51:106][607]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/LightSwitchBP.LightSwitchBP
+[2022.11.15-14.14.51:107][607]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.15-14.15.30:232][446]LogSlate: Window 'LightSwitchBP' being destroyed
+[2022.11.15-14.15.30:241][446]LogSlate: Window 'LightSwitchBP' being destroyed
+[2022.11.15-14.15.30:278][446]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2022.11.15-14.15.30:278][446]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-14.15.36:727][752]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/KeyBP.KeyBP
+[2022.11.15-14.15.36:728][752]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.15-14.15.58:354][831]LogSlate: Window 'KeyBP' being destroyed
+[2022.11.15-14.15.58:363][831]LogSlate: Window 'KeyBP' being destroyed
+[2022.11.15-14.15.58:391][831]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2022.11.15-14.15.58:391][831]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-14.16.02:416][ 32]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/InteractInterface.InteractInterface
+[2022.11.15-14.16.02:417][ 32]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.15-14.16.46:574][ 39]BlueprintLog: New page: Compile InteractInterface
+[2022.11.15-14.16.46:581][ 39]LogK2Compiler: Unable to find connection for pin!  Check AllocateDefaultPins() for consistency!
+[2022.11.15-14.16.46:666][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2022.11.15-14.16.47:658][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InteractInterface" FILE="D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/InteractInterface.uasset" SILENT=true
+[2022.11.15-14.16.47:743][ 78]LogSavePackage: Moving output files for package: /Game/InteractInterface
+[2022.11.15-14.16.47:745][ 78]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/InteractInterface78B1D562412D80F2FF76E7B9269836C5.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/InteractInterface.uasset'
+[2022.11.15-14.16.47:766][ 78]AssetCheck: New page: Asset Save: InteractInterface
+[2022.11.15-14.16.47:766][ 78]LogContentValidation: Display: Validating Blueprint /Game/InteractInterface.InteractInterface
+[2022.11.15-14.16.51:028][231]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.15-14.16.51:069][231]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.15-14.16.51:069][231]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.15-14.16.51:069][231]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.15-14.16.51:069][231]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.15-14.16.51:069][231]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.15-14.16.51:069][231]LogWorldPartition: Display: GetPartitionedActors took 37 us
+[2022.11.15-14.16.51:069][231]LogWorldPartition: Display: GenerateStreaming took 171 us
+[2022.11.15-14.16.51:069][231]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.11.15-14.16.51:069][231]LogPlayLevel: [PlayLevel] Compiling ButtonBP before play...
+[2022.11.15-14.16.51:120][231]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2022.11.15-14.16.51:121][231]LogPlayLevel: PlayLevel: Blueprint regeneration took 53 ms (1 blueprints)
+[2022.11.15-14.16.51:121][231]PIE: New page: PIE session: ThirdPersonMap (15 Nov 2022, 14:16:51)
+[2022.11.15-14.16.51:121][231]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.15-14.16.51:125][231]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.15-14.16.51:125][231]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003489s)
+[2022.11.15-14.16.51:125][231]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003540s)
+[2022.11.15-14.16.51:125][231]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.15-14.16.51:126][231]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.15-14.16.51:126][231]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.15-14.16.51:126][231]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.15-14.16.51:127][231]LogWorldPartition: Display: WorldPartition initialize took 863 us
+[2022.11.15-14.16.51:127][231]LogPlayLevel: PIE: World Init took: (0.001993s)
+[2022.11.15-14.16.51:159][231]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2022.11.15-14.16.51:160][231]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2022.11.15-14.16.51:160][231]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.15-14.16.51:160][231]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.15-14.16.51:160][231]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.15-14.16.51:160][231]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.15-14.16.51:160][231]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.15-14.16.51:160][231]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.15-14.16.51:160][231]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.15-14.16.51:160][231]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.15-14.16.51:161][231]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.15-14.16.51:161][231]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.15-14.16.51:161][231]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.15-14.16.51:163][231]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.15-14.16.51:223][231]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.11.15-14.16.51:223][231]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.15-14.16.51:223][231]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.15-14.16.51:223][231]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.15-14.16.51:224][231]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2022.11.15-14.16.51:224][231]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2022.11.15-14.16.51:226][231]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2022.11.15-14.16.51:226][231]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2022.11.15-14.16.51:226][231]LogInit: FAudioDevice initialized.
+[2022.11.15-14.16.51:226][231]LogAudio: Display: Audio Device (ID: 17) registered with world 'ThirdPersonMap'.
+[2022.11.15-14.16.51:238][231]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.11.15-14.16.51:239][231]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2022.11.15-14.16.51
+[2022.11.15-14.16.51:239][231]LogWorld: Bringing up level for play took: 0.000865
+[2022.11.15-14.16.51:242][231]LogOnline: OSS: Created online subsystem instance for: :Context_63
+[2022.11.15-14.16.51:244][231]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2022.11.15-14.16.51:244][231]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.15-14.16.51:245][231]PIE: Server logged in
+[2022.11.15-14.16.51:246][231]PIE: Play in editor total start time 0.182 seconds.
+[2022.11.15-14.16.56:631][546]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.15-14.16.56:631][546]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.15-14.16.56:632][546]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.15-14.16.56:632][546]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-14.16.56:646][546]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.15-14.16.56:652][546]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-14.16.56:683][546]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.15-14.16.56:683][546]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2022.11.15-14.16.56:685][546]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2022.11.15-14.16.56:693][546]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2022.11.15-14.16.56:750][547]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2022.11.15-14.16.56:755][547]LogViewport: Scene viewport resized to 499x396, mode Windowed.
+[2022.11.15-14.17.19:105][613]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/LightSwitchBP.LightSwitchBP
+[2022.11.15-14.17.19:105][613]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.15-14.17.36:363][426]LogSlate: Window 'LightSwitchBP' being destroyed
+[2022.11.15-14.17.36:371][426]LogSlate: Window 'LightSwitchBP' being destroyed
+[2022.11.15-14.17.36:410][426]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2022.11.15-14.17.36:410][426]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-14.17.36:492][426]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2022.11.15-14.17.36:492][426]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-14.17.41:932][673]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LockedDoorBP.LockedDoorBP_C
+[2022.11.15-14.17.41:932][673]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LockedDoorBP.LockedDoorBP_C
+[2022.11.15-14.17.41:934][673]LogActorFactory: Actor Factory spawned Blueprint /Game/LockedDoorBP.LockedDoorBP as actor: LockedDoorBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LockedDoorBP_C_1
+[2022.11.15-14.17.41:935][673]LogActorFactory: Actor Factory spawned Blueprint /Game/LockedDoorBP.LockedDoorBP as actor: LockedDoorBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LockedDoorBP_C_1
+[2022.11.15-14.17.43:057][738]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LockedDoorBP.LockedDoorBP_C
+[2022.11.15-14.17.43:057][738]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LockedDoorBP.LockedDoorBP_C
+[2022.11.15-14.17.43:061][738]LogActorFactory: Actor Factory spawned Blueprint /Game/LockedDoorBP.LockedDoorBP as actor: LockedDoorBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LockedDoorBP_C_UAID_3C7C3FEBD325E94901_1123569266
+[2022.11.15-14.17.43:063][738]LogActorFactory: Actor Factory spawned Blueprint /Game/LockedDoorBP.LockedDoorBP as actor: LockedDoorBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LockedDoorBP_C_UAID_3C7C3FEBD325E94901_1123569266
+[2022.11.15-14.17.46:489][921]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Coin.Coin_C
+[2022.11.15-14.17.46:489][921]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Coin.Coin_C
+[2022.11.15-14.17.46:490][921]LogActorFactory: Actor Factory spawned Blueprint /Game/Coin.Coin as actor: Coin_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Coin_C_1
+[2022.11.15-14.17.46:492][921]LogActorFactory: Actor Factory spawned Blueprint /Game/Coin.Coin as actor: Coin_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Coin_C_1
+[2022.11.15-14.17.47:039][951]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Coin.Coin_C
+[2022.11.15-14.17.47:039][951]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Coin.Coin_C
+[2022.11.15-14.17.47:041][951]LogActorFactory: Actor Factory spawned Blueprint /Game/Coin.Coin as actor: Coin_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Coin_C_UAID_3C7C3FEBD325E94901_1127551267
+[2022.11.15-14.17.47:043][951]LogActorFactory: Actor Factory spawned Blueprint /Game/Coin.Coin as actor: Coin_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Coin_C_UAID_3C7C3FEBD325E94901_1127551267
+[2022.11.15-14.17.51:612][201]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/KeyBP.KeyBP_C
+[2022.11.15-14.17.51:612][201]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/KeyBP.KeyBP_C
+[2022.11.15-14.17.51:614][201]LogActorFactory: Actor Factory spawned Blueprint /Game/KeyBP.KeyBP as actor: KeyBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.KeyBP_C_2
+[2022.11.15-14.17.51:615][201]LogActorFactory: Actor Factory spawned Blueprint /Game/KeyBP.KeyBP as actor: KeyBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.KeyBP_C_2
+[2022.11.15-14.17.52:161][231]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/KeyBP.KeyBP_C
+[2022.11.15-14.17.52:161][231]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/KeyBP.KeyBP_C
+[2022.11.15-14.17.52:164][231]LogActorFactory: Actor Factory spawned Blueprint /Game/KeyBP.KeyBP as actor: KeyBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.KeyBP_C_UAID_3C7C3FEBD325E94901_1132673268
+[2022.11.15-14.17.52:165][231]LogActorFactory: Actor Factory spawned Blueprint /Game/KeyBP.KeyBP as actor: KeyBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.KeyBP_C_UAID_3C7C3FEBD325E94901_1132673268
+[2022.11.15-14.18.00:055][666]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/DoorBP.DoorBP
+[2022.11.15-14.18.00:055][666]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.15-14.18.10:395][222]LogSlate: Window 'DoorBP' being destroyed
+[2022.11.15-14.18.10:405][222]LogSlate: Window 'DoorBP' being destroyed
+[2022.11.15-14.18.10:438][222]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2022.11.15-14.18.10:438][222]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-14.18.15:129][473]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.11.15-14.18.15:129][473]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.11.15-14.18.15:695][501]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2022.11.15-14.18.16:786][501]LogSlate: Window 'Delete Assets' being destroyed
+[2022.11.15-14.18.16:841][501]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/DoorBP.DoorBP
+	Asset Type: Blueprint
+[2022.11.15-14.18.17:183][501]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2022.11.15-14.18.17:227][501]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2022.11.15-14.18.17:250][501]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2022.11.15-14.18.17:276][501]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.11.15-14.18.22:657][786]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LightSwitchBP.LightSwitchBP_C
+[2022.11.15-14.18.22:657][786]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LightSwitchBP.LightSwitchBP_C
+[2022.11.15-14.18.22:660][786]LogActorFactory: Actor Factory spawned Blueprint /Game/LightSwitchBP.LightSwitchBP as actor: LightSwitchBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LightSwitchBP_C_1
+[2022.11.15-14.18.22:661][786]LogActorFactory: Actor Factory spawned Blueprint /Game/LightSwitchBP.LightSwitchBP as actor: LightSwitchBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LightSwitchBP_C_1
+[2022.11.15-14.18.23:318][823]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LightSwitchBP.LightSwitchBP_C
+[2022.11.15-14.18.23:318][823]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LightSwitchBP.LightSwitchBP_C
+[2022.11.15-14.18.23:320][823]LogActorFactory: Actor Factory spawned Blueprint /Game/LightSwitchBP.LightSwitchBP as actor: LightSwitchBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LightSwitchBP_C_UAID_3C7C3FEBD325E94901_1163830269
+[2022.11.15-14.18.23:321][823]LogActorFactory: Actor Factory spawned Blueprint /Game/LightSwitchBP.LightSwitchBP as actor: LightSwitchBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LightSwitchBP_C_UAID_3C7C3FEBD325E94901_1163830269
+[2022.11.15-14.18.29:100][148]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LightBP.LightBP_C
+[2022.11.15-14.18.29:100][148]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LightBP.LightBP_C
+[2022.11.15-14.18.29:103][148]LogActorFactory: Actor Factory spawned Blueprint /Game/LightBP.LightBP as actor: LightBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LightBP_C_1
+[2022.11.15-14.18.29:105][148]LogActorFactory: Actor Factory spawned Blueprint /Game/LightBP.LightBP as actor: LightBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LightBP_C_1
+[2022.11.15-14.18.29:703][180]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LightBP.LightBP_C
+[2022.11.15-14.18.29:703][180]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/LightBP.LightBP_C
+[2022.11.15-14.18.29:706][180]LogActorFactory: Actor Factory spawned Blueprint /Game/LightBP.LightBP as actor: LightBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LightBP_C_UAID_3C7C3FEBD325E94901_1170215270
+[2022.11.15-14.18.29:708][180]LogActorFactory: Actor Factory spawned Blueprint /Game/LightBP.LightBP as actor: LightBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LightBP_C_UAID_3C7C3FEBD325E94901_1170215270
+[2022.11.15-14.18.34:498][459]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.15-14.18.34:530][459]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.15-14.18.34:530][459]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.15-14.18.34:530][459]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.15-14.18.34:530][459]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.15-14.18.34:530][459]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.15-14.18.34:530][459]LogWorldPartition: Display: GetPartitionedActors took 39 us
+[2022.11.15-14.18.34:530][459]LogWorldPartition: Display: GenerateStreaming took 220 us
+[2022.11.15-14.18.34:530][459]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.15-14.18.34:530][459]PIE: New page: PIE session: ThirdPersonMap (15 Nov 2022, 14:18:34)
+[2022.11.15-14.18.34:531][459]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.15-14.18.34:534][459]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.15-14.18.34:535][459]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004186s)
+[2022.11.15-14.18.34:535][459]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004233s)
+[2022.11.15-14.18.34:535][459]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.15-14.18.34:535][459]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.15-14.18.34:536][459]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.15-14.18.34:536][459]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.15-14.18.34:536][459]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.11.15-14.18.34:536][459]LogPlayLevel: PIE: World Init took: (0.002158s)
+[2022.11.15-14.18.34:561][459]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2022.11.15-14.18.34:567][459]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2022.11.15-14.18.34:567][459]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.15-14.18.34:567][459]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.15-14.18.34:567][459]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.15-14.18.34:567][459]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.15-14.18.34:567][459]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.15-14.18.34:567][459]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.15-14.18.34:567][459]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.15-14.18.34:567][459]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.15-14.18.34:567][459]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.15-14.18.34:567][459]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.15-14.18.34:567][459]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.15-14.18.34:569][459]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.15-14.18.34:627][459]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.11.15-14.18.34:627][459]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.15-14.18.34:627][459]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.15-14.18.34:627][459]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.15-14.18.34:628][459]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2022.11.15-14.18.34:628][459]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2022.11.15-14.18.34:630][459]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2022.11.15-14.18.34:630][459]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2022.11.15-14.18.34:630][459]LogInit: FAudioDevice initialized.
+[2022.11.15-14.18.34:630][459]LogAudio: Display: Audio Device (ID: 18) registered with world 'ThirdPersonMap'.
+[2022.11.15-14.18.34:643][459]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.11.15-14.18.34:645][459]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2022.11.15-14.18.34
+[2022.11.15-14.18.34:645][459]LogWorld: Bringing up level for play took: 0.001461
+[2022.11.15-14.18.34:647][459]LogOnline: OSS: Created online subsystem instance for: :Context_66
+[2022.11.15-14.18.34:651][459]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2022.11.15-14.18.34:651][459]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.15-14.18.34:652][459]PIE: Server logged in
+[2022.11.15-14.18.34:653][459]PIE: Play in editor total start time 0.127 seconds.
+[2022.11.15-14.18.50:145][382]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.15-14.18.50:145][382]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.15-14.18.50:145][382]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.15-14.18.50:146][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-14.18.50:160][382]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.15-14.18.50:165][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-14.18.50:189][382]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.15-14.18.50:189][382]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2022.11.15-14.18.50:191][382]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2022.11.15-14.18.50:197][382]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.15-14.18.50:200][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2022.11.15-14.18.50:258][383]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2022.11.15-14.18.56:535][747]Cmd: DELETE
+[2022.11.15-14.18.56:535][747]Cmd: ACTOR DELETE
+[2022.11.15-14.18.56:537][747]LogEditorActor: Deleted Actor: LightBP_C
+[2022.11.15-14.18.56:564][747]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2022.11.15-14.18.56:567][747]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2022.11.15-14.18.57:891][823]Cmd: DELETE
+[2022.11.15-14.18.57:891][823]Cmd: ACTOR DELETE
+[2022.11.15-14.18.57:893][823]LogEditorActor: Deleted Actor: LightSwitchBP_C
+[2022.11.15-14.18.57:918][823]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2022.11.15-14.18.57:921][823]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2022.11.15-14.18.58:547][855]Cmd: DELETE
+[2022.11.15-14.18.58:548][855]Cmd: ACTOR DELETE
+[2022.11.15-14.18.58:549][855]LogEditorActor: Deleted Actor: LockedDoorBP_C
+[2022.11.15-14.18.58:575][855]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2022.11.15-14.18.58:577][855]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2022.11.15-14.18.59:684][916]Cmd: DELETE
+[2022.11.15-14.18.59:684][916]Cmd: ACTOR DELETE
+[2022.11.15-14.18.59:686][916]LogEditorActor: Deleted Actor: KeyBP_C
+[2022.11.15-14.18.59:712][916]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2022.11.15-14.18.59:715][916]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2022.11.15-14.19.01:374][ 12]Cmd: DELETE
+[2022.11.15-14.19.01:374][ 12]Cmd: ACTOR DELETE
+[2022.11.15-14.19.01:376][ 12]LogEditorActor: Deleted Actor: Coin_C
+[2022.11.15-14.19.01:402][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2022.11.15-14.19.01:404][ 12]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2022.11.15-14.19.08:316][410]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.11.15-14.19.08:316][410]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.11.15-14.19.09:182][457]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2022.11.15-14.19.20:630][457]LogSlate: Window 'Delete Assets' being destroyed
+[2022.11.15-14.19.23:845][627]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2022.11.15-14.19.23:847][627]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.027
+[2022.11.15-14.19.23:847][627]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ButtonBP] ([2] browsable assets)...
+[2022.11.15-14.19.23:856][627]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ButtonBP.ButtonBP]
+[2022.11.15-14.19.23:856][627]OBJ SavePackage: Finished generating thumbnails for package [/Game/ButtonBP]
+[2022.11.15-14.19.23:856][627]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ButtonBP" FILE="D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/Autosaves/Game/ButtonBP_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2022.11.15-14.19.24:183][627]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ButtonBP_Auto6
+[2022.11.15-14.19.24:183][627]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/ButtonBP_Auto6468A51504C9188CEDF580785BA672B72.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/Autosaves/Game/ButtonBP_Auto6.uasset'
+[2022.11.15-14.19.24:185][627]LogFileHelpers: Auto-saving content packages took 0.338
+[2022.11.15-14.19.26:466][761]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ButtonBP.ButtonBP
+[2022.11.15-14.19.26:466][761]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.15-14.19.34:446][198]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.11.15-14.19.57:845][566]LogEditorTransaction: Undo Delete current selection
+[2022.11.15-14.20.23:971][ 94]LogEditorTransaction: Undo Move Node
+[2022.11.15-14.20.24:448][105]LogEditorTransaction: Undo Create Pin Link
+[2022.11.15-14.20.25:107][141]LogEditorTransaction: Undo Move Node
+[2022.11.15-14.20.25:687][174]LogEditorTransaction: Undo Delete current selection
+[2022.11.15-14.21.02:855][265]LogSlate: Window 'Message' being destroyed
+[2022.11.15-14.21.02:865][265]Message dialog closed, result: No, title: Message, text: Would you like to transfer the interface functions to be part of your blueprint?
+[2022.11.15-14.21.10:362][704]BlueprintLog: New page: Compile ButtonBP
+[2022.11.15-14.21.10:418][704]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2022.11.15-14.21.11:285][745]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ButtonBP" FILE="D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ButtonBP.uasset" SILENT=true
+[2022.11.15-14.21.11:626][745]LogSavePackage: Moving output files for package: /Game/ButtonBP
+[2022.11.15-14.21.11:627][745]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/ButtonBPA7B1BFD640FDA40AB4F7B58ADC1AD3EB.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ButtonBP.uasset'
+[2022.11.15-14.21.11:647][745]AssetCheck: New page: Asset Save: ButtonBP
+[2022.11.15-14.21.11:647][745]LogContentValidation: Display: Validating Blueprint /Game/ButtonBP.ButtonBP
+[2022.11.15-14.21.16:862][ 51]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ButtonDoorBP.ButtonDoorBP
+[2022.11.15-14.21.16:862][ 51]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.15-14.21.31:056][856]LogSlate: Window 'ButtonDoorBP' being destroyed
+[2022.11.15-14.21.31:063][856]LogSlate: Window 'ButtonDoorBP' being destroyed
+[2022.11.15-14.21.31:101][856]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2022.11.15-14.21.31:102][856]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-14.21.31:213][856]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.11.15-14.21.31:215][856]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2022.11.15-14.21.31:215][856]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-14.21.41:558][429]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2022.11.15-14.21.44:248][429]LogSlate: Window 'Delete Assets' being destroyed
+[2022.11.15-14.21.44:287][429]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/InteractInterface_b.InteractInterface_b
+	Asset Type: Blueprint
+[2022.11.15-14.21.44:599][429]LogWorldPartition: Warning: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.KeyBP_C_UAID_3C7C3FEBD325E94901_1132673268 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/QF/JH26SQ30A28GEON6KZBENN.PackageMetaData in its package
+[2022.11.15-14.21.44:599][429]LogWorldPartition: Warning: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Coin_C_UAID_3C7C3FEBD325E94901_1127551267 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/UW/LVZCCDA4SR9FNKI99AVZ3D.PackageMetaData in its package
+[2022.11.15-14.21.44:599][429]LogWorldPartition: Warning: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LightBP_C_UAID_3C7C3FEBD325E94901_1170215270 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/5D/4SMVQ8SCODKDONAOYLIIZP.PackageMetaData in its package
+[2022.11.15-14.21.44:599][429]LogWorldPartition: Warning: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LockedDoorBP_C_UAID_3C7C3FEBD325E94901_1123569266 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/0S/0LIFG4FIWUX6ND27XK4OYH.PackageMetaData in its package
+[2022.11.15-14.21.44:599][429]LogWorldPartition: Warning: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LightSwitchBP_C_UAID_3C7C3FEBD325E94901_1163830269 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/6I/CFT3I21P65DIOD1YHJF3SY.PackageMetaData in its package
+[2022.11.15-14.21.44:609][429]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2022.11.15-14.21.44:635][429]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2022.11.15-14.21.44:658][429]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.11.15-14.21.44:691][429]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2022.11.15-14.21.46:353][527]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/InteractInterface.InteractInterface
+[2022.11.15-14.21.46:354][527]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.15-14.21.51:176][787]LogSlate: Window 'InteractInterface' being destroyed
+[2022.11.15-14.21.51:184][787]LogSlate: Window 'InteractInterface' being destroyed
+[2022.11.15-14.21.51:216][787]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
+[2022.11.15-14.21.51:217][787]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-14.21.56:281][ 79]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2022.11.15-14.21.56:281][ 79]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.15-14.24.04:800][ 96]LogEditorTransaction: Undo Create Reroute Node
+[2022.11.15-14.24.34:491][421]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2022.11.15-14.24.34:578][421]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2022.11.15-14.24.36:455][456]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2022.11.15-14.24.36:458][456]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/BP_ThirdPersonCharacter6A9D7B3D4BA9BD8DAC0BDCA870B49F7D.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2022.11.15-14.24.36:479][456]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2022.11.15-14.24.36:479][456]LogContentValidation: Display: Validating Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2022.11.15-14.24.58:938][967]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ButtonBP.ButtonBP
+[2022.11.15-14.24.58:938][967]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.15-14.25.47:455][764]BlueprintLog: New page: Compile ButtonBP
+[2022.11.15-14.25.47:513][764]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2022.11.15-14.25.48:309][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ButtonBP" FILE="D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ButtonBP.uasset" SILENT=true
+[2022.11.15-14.25.48:669][798]LogSavePackage: Moving output files for package: /Game/ButtonBP
+[2022.11.15-14.25.48:670][798]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/ButtonBPC4CB3F0C4D366D2AAC2C92B965EA262A.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ButtonBP.uasset'
+[2022.11.15-14.25.48:690][798]AssetCheck: New page: Asset Save: ButtonBP
+[2022.11.15-14.25.48:690][798]LogContentValidation: Display: Validating Blueprint /Game/ButtonBP.ButtonBP
+[2022.11.15-14.27.10:158][588]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButtonBP.ButtonBP_C
+[2022.11.15-14.27.10:158][588]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButtonBP.ButtonBP_C
+[2022.11.15-14.27.10:159][588]LogActorFactory: Actor Factory spawned Blueprint /Game/ButtonBP.ButtonBP as actor: ButtonBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ButtonBP_C_0
+[2022.11.15-14.27.10:160][588]LogActorFactory: Actor Factory spawned Blueprint /Game/ButtonBP.ButtonBP as actor: ButtonBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ButtonBP_C_0
+[2022.11.15-14.27.11:830][687]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButtonBP.ButtonBP_C
+[2022.11.15-14.27.11:832][687]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButtonBP.ButtonBP_C
+[2022.11.15-14.27.11:835][687]LogActorFactory: Actor Factory spawned Blueprint /Game/ButtonBP.ButtonBP as actor: ButtonBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ButtonBP_C_UAID_3C7C3FEBD325E94901_1692344271
+[2022.11.15-14.27.11:836][687]LogActorFactory: Actor Factory spawned Blueprint /Game/ButtonBP.ButtonBP as actor: ButtonBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ButtonBP_C_UAID_3C7C3FEBD325E94901_1692344271
+[2022.11.15-14.27.13:459][781]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.15-14.27.13:490][781]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.15-14.27.13:490][781]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.15-14.27.13:490][781]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.15-14.27.13:490][781]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.15-14.27.13:490][781]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.15-14.27.13:490][781]LogWorldPartition: Display: GetPartitionedActors took 37 us
+[2022.11.15-14.27.13:491][781]LogWorldPartition: Display: GenerateStreaming took 173 us
+[2022.11.15-14.27.13:494][781]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.15-14.27.13:494][781]PIE: New page: PIE session: ThirdPersonMap (15 Nov 2022, 14:27:13)
+[2022.11.15-14.27.13:494][781]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.15-14.27.13:497][781]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.15-14.27.13:497][781]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003008s)
+[2022.11.15-14.27.13:497][781]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003050s)
+[2022.11.15-14.27.13:497][781]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.15-14.27.13:498][781]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.15-14.27.13:498][781]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.15-14.27.13:498][781]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.15-14.27.13:499][781]LogWorldPartition: Display: WorldPartition initialize took 820 us
+[2022.11.15-14.27.13:499][781]LogPlayLevel: PIE: World Init took: (0.001754s)
+[2022.11.15-14.27.13:535][781]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2022.11.15-14.27.13:537][781]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2022.11.15-14.27.13:537][781]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.15-14.27.13:537][781]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.15-14.27.13:537][781]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.15-14.27.13:537][781]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.15-14.27.13:537][781]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.15-14.27.13:537][781]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.15-14.27.13:537][781]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.15-14.27.13:537][781]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.15-14.27.13:537][781]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.15-14.27.13:537][781]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.15-14.27.13:537][781]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.15-14.27.13:540][781]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.15-14.27.13:598][781]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.11.15-14.27.13:599][781]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.15-14.27.13:599][781]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.15-14.27.13:599][781]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.15-14.27.13:600][781]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2022.11.15-14.27.13:600][781]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2022.11.15-14.27.13:602][781]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2022.11.15-14.27.13:602][781]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2022.11.15-14.27.13:602][781]LogInit: FAudioDevice initialized.
+[2022.11.15-14.27.13:602][781]LogAudio: Display: Audio Device (ID: 19) registered with world 'ThirdPersonMap'.
+[2022.11.15-14.27.13:616][781]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.11.15-14.27.13:617][781]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2022.11.15-14.27.13
+[2022.11.15-14.27.13:618][781]LogWorld: Bringing up level for play took: 0.000905
+[2022.11.15-14.27.13:619][781]LogOnline: OSS: Created online subsystem instance for: :Context_72
+[2022.11.15-14.27.13:622][781]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2022.11.15-14.27.13:622][781]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.15-14.27.13:623][781]PIE: Server logged in
+[2022.11.15-14.27.13:623][781]PIE: Play in editor total start time 0.136 seconds.
+[2022.11.15-14.27.56:951][830]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.15-14.27.56:951][830]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.15-14.27.56:951][830]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.15-14.27.56:951][830]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-14.27.56:968][830]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.15-14.27.56:974][830]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-14.27.57:010][830]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.15-14.27.57:010][830]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2022.11.15-14.27.57:011][830]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2022.11.15-14.27.57:018][830]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.15-14.27.57:021][830]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2022.11.15-14.27.57:065][831]LogPlayLevel: Display: Destroying online subsystem :Context_72
+[2022.11.15-14.27.57:943][882]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.15-14.27.57:980][882]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.15-14.27.57:980][882]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.15-14.27.57:980][882]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.15-14.27.57:980][882]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.15-14.27.57:980][882]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.15-14.27.57:980][882]LogWorldPartition: Display: GetPartitionedActors took 34 us
+[2022.11.15-14.27.57:980][882]LogWorldPartition: Display: GenerateStreaming took 166 us
+[2022.11.15-14.27.57:980][882]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.15-14.27.57:980][882]PIE: New page: PIE session: ThirdPersonMap (15 Nov 2022, 14:27:57)
+[2022.11.15-14.27.57:980][882]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.15-14.27.57:984][882]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.15-14.27.57:984][882]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003594s)
+[2022.11.15-14.27.57:984][882]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003634s)
+[2022.11.15-14.27.57:984][882]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.15-14.27.57:985][882]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.15-14.27.57:986][882]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.15-14.27.57:986][882]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.15-14.27.57:986][882]LogWorldPartition: Display: WorldPartition initialize took 924 us
+[2022.11.15-14.27.57:987][882]LogPlayLevel: PIE: World Init took: (0.002369s)
+[2022.11.15-14.27.58:020][882]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2022.11.15-14.27.58:022][882]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2022.11.15-14.27.58:022][882]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.15-14.27.58:022][882]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.15-14.27.58:022][882]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.15-14.27.58:022][882]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.15-14.27.58:022][882]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.15-14.27.58:022][882]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.15-14.27.58:022][882]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.15-14.27.58:022][882]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.15-14.27.58:022][882]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.15-14.27.58:022][882]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.15-14.27.58:023][882]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.15-14.27.58:025][882]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.15-14.27.58:077][882]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.11.15-14.27.58:077][882]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.15-14.27.58:077][882]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.15-14.27.58:077][882]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.15-14.27.58:078][882]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2022.11.15-14.27.58:078][882]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2022.11.15-14.27.58:079][882]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2022.11.15-14.27.58:079][882]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2022.11.15-14.27.58:079][882]LogInit: FAudioDevice initialized.
+[2022.11.15-14.27.58:079][882]LogAudio: Display: Audio Device (ID: 20) registered with world 'ThirdPersonMap'.
+[2022.11.15-14.27.58:094][882]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.11.15-14.27.58:094][882]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2022.11.15-14.27.58
+[2022.11.15-14.27.58:095][882]LogWorld: Bringing up level for play took: 0.000919
+[2022.11.15-14.27.58:097][882]LogOnline: OSS: Created online subsystem instance for: :Context_73
+[2022.11.15-14.27.58:099][882]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2022.11.15-14.27.58:101][882]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.15-14.27.58:101][882]PIE: Server logged in
+[2022.11.15-14.27.58:102][882]PIE: Play in editor total start time 0.126 seconds.
+[2022.11.15-14.28.11:712][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.15-14.28.11:712][692]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.15-14.28.11:713][692]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.15-14.28.11:713][692]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-14.28.11:726][692]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.15-14.28.11:731][692]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-14.28.11:766][692]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.15-14.28.11:766][692]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2022.11.15-14.28.11:768][692]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2022.11.15-14.28.11:774][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.15-14.28.11:777][692]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2022.11.15-14.28.11:835][693]LogPlayLevel: Display: Destroying online subsystem :Context_73
+[2022.11.15-14.28.18:365][ 56]LogViewport: Scene viewport resized to 499x396, mode Windowed.
+[2022.11.15-14.28.19:432][112]Cmd: DELETE
+[2022.11.15-14.28.19:432][112]Cmd: ACTOR DELETE
+[2022.11.15-14.28.19:435][112]LogEditorActor: Deleted Actor: ButtonDoorBP_C
+[2022.11.15-14.28.19:501][112]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2022.11.15-14.28.19:503][112]LogEditorActor: Deleted 1 Actors (0.070 secs)
+[2022.11.15-14.28.23:154][314]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButtonDoorBP.ButtonDoorBP_C
+[2022.11.15-14.28.23:154][314]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButtonDoorBP.ButtonDoorBP_C
+[2022.11.15-14.28.23:156][314]LogActorFactory: Actor Factory spawned Blueprint /Game/ButtonDoorBP.ButtonDoorBP as actor: ButtonDoorBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ButtonDoorBP_C_1
+[2022.11.15-14.28.23:159][314]LogActorFactory: Actor Factory spawned Blueprint /Game/ButtonDoorBP.ButtonDoorBP as actor: ButtonDoorBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ButtonDoorBP_C_1
+[2022.11.15-14.28.23:706][345]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButtonDoorBP.ButtonDoorBP_C
+[2022.11.15-14.28.23:706][345]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButtonDoorBP.ButtonDoorBP_C
+[2022.11.15-14.28.23:710][345]LogActorFactory: Actor Factory spawned Blueprint /Game/ButtonDoorBP.ButtonDoorBP as actor: ButtonDoorBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ButtonDoorBP_C_UAID_3C7C3FEBD325E94901_1764218272
+[2022.11.15-14.28.23:711][345]LogActorFactory: Actor Factory spawned Blueprint /Game/ButtonDoorBP.ButtonDoorBP as actor: ButtonDoorBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ButtonDoorBP_C_UAID_3C7C3FEBD325E94901_1764218272
+[2022.11.15-14.28.23:759][346]LogViewport: Scene viewport resized to 499x396, mode Windowed.
+[2022.11.15-14.28.37:334][ 94]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.15-14.28.37:366][ 94]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.15-14.28.37:366][ 94]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.15-14.28.37:366][ 94]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.15-14.28.37:366][ 94]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.15-14.28.37:366][ 94]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.15-14.28.37:366][ 94]LogWorldPartition: Display: GetPartitionedActors took 39 us
+[2022.11.15-14.28.37:366][ 94]LogWorldPartition: Display: GenerateStreaming took 199 us
+[2022.11.15-14.28.37:366][ 94]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.15-14.28.37:366][ 94]PIE: New page: PIE session: ThirdPersonMap (15 Nov 2022, 14:28:37)
+[2022.11.15-14.28.37:366][ 94]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.15-14.28.37:370][ 94]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.15-14.28.37:370][ 94]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003956s)
+[2022.11.15-14.28.37:370][ 94]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004000s)
+[2022.11.15-14.28.37:370][ 94]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.15-14.28.37:371][ 94]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.15-14.28.37:371][ 94]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.15-14.28.37:371][ 94]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.15-14.28.37:372][ 94]LogWorldPartition: Display: WorldPartition initialize took 886 us
+[2022.11.15-14.28.37:372][ 94]LogPlayLevel: PIE: World Init took: (0.001913s)
+[2022.11.15-14.28.37:408][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2022.11.15-14.28.37:410][ 94]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2022.11.15-14.28.37:410][ 94]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.15-14.28.37:410][ 94]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.15-14.28.37:410][ 94]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.15-14.28.37:410][ 94]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.15-14.28.37:410][ 94]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.15-14.28.37:410][ 94]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.15-14.28.37:410][ 94]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.15-14.28.37:410][ 94]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.15-14.28.37:411][ 94]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.15-14.28.37:411][ 94]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.15-14.28.37:411][ 94]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.15-14.28.37:413][ 94]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.15-14.28.37:474][ 94]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.11.15-14.28.37:475][ 94]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.15-14.28.37:475][ 94]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.15-14.28.37:476][ 94]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.15-14.28.37:477][ 94]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2022.11.15-14.28.37:477][ 94]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2022.11.15-14.28.37:479][ 94]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2022.11.15-14.28.37:479][ 94]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2022.11.15-14.28.37:479][ 94]LogInit: FAudioDevice initialized.
+[2022.11.15-14.28.37:479][ 94]LogAudio: Display: Audio Device (ID: 21) registered with world 'ThirdPersonMap'.
+[2022.11.15-14.28.37:494][ 94]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.11.15-14.28.37:495][ 94]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2022.11.15-14.28.37
+[2022.11.15-14.28.37:495][ 94]LogWorld: Bringing up level for play took: 0.000893
+[2022.11.15-14.28.37:498][ 94]LogOnline: OSS: Created online subsystem instance for: :Context_74
+[2022.11.15-14.28.37:501][ 94]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2022.11.15-14.28.37:501][ 94]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.15-14.28.37:502][ 94]PIE: Server logged in
+[2022.11.15-14.28.37:502][ 94]PIE: Play in editor total start time 0.141 seconds.
+[2022.11.15-14.28.52:054][958]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.15-14.28.52:054][958]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.15-14.28.52:054][958]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.15-14.28.52:055][958]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-14.28.52:068][958]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.15-14.28.52:073][958]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-14.28.52:109][958]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.15-14.28.52:110][958]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2022.11.15-14.28.52:111][958]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2022.11.15-14.28.52:121][958]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2022.11.15-14.28.52:169][959]LogPlayLevel: Display: Destroying online subsystem :Context_74
+[2022.11.15-14.28.52:173][959]LogViewport: Scene viewport resized to 499x396, mode Windowed.
+[2022.11.15-14.28.58:413][261]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ButtonDoorBP.ButtonDoorBP
+[2022.11.15-14.28.58:414][261]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.15-14.29.44:969][273]LogViewport: Scene viewport resized to 1504x973, mode Windowed.
+[2022.11.15-14.30.42:207][214]BlueprintLog: New page: Compile ButtonDoorBP
+[2022.11.15-14.30.42:348][214]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2022.11.15-14.30.42:582][216]LogViewport: Scene viewport resized to 499x396, mode Windowed.
+[2022.11.15-14.30.43:133][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ButtonDoorBP" FILE="D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ButtonDoorBP.uasset" SILENT=true
+[2022.11.15-14.30.43:470][230]LogSavePackage: Moving output files for package: /Game/ButtonDoorBP
+[2022.11.15-14.30.43:472][230]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/ButtonDoorBPD8EC718740FB824A0122FF9C4C35D680.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ButtonDoorBP.uasset'
+[2022.11.15-14.30.43:494][230]AssetCheck: New page: Asset Save: ButtonDoorBP
+[2022.11.15-14.30.43:494][230]LogContentValidation: Display: Validating Blueprint /Game/ButtonDoorBP.ButtonDoorBP
+[2022.11.15-14.30.46:737][379]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.15-14.30.46:776][379]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.15-14.30.46:776][379]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.15-14.30.46:776][379]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.15-14.30.46:776][379]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.15-14.30.46:776][379]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.15-14.30.46:776][379]LogWorldPartition: Display: GetPartitionedActors took 36 us
+[2022.11.15-14.30.46:776][379]LogWorldPartition: Display: GenerateStreaming took 178 us
+[2022.11.15-14.30.46:776][379]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.15-14.30.46:776][379]PIE: New page: PIE session: ThirdPersonMap (15 Nov 2022, 14:30:46)
+[2022.11.15-14.30.46:776][379]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.15-14.30.46:779][379]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.15-14.30.46:779][379]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003117s)
+[2022.11.15-14.30.46:779][379]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003162s)
+[2022.11.15-14.30.46:779][379]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.15-14.30.46:780][379]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.15-14.30.46:780][379]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.15-14.30.46:780][379]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.15-14.30.46:781][379]LogWorldPartition: Display: WorldPartition initialize took 851 us
+[2022.11.15-14.30.46:781][379]LogPlayLevel: PIE: World Init took: (0.001816s)
+[2022.11.15-14.30.46:822][379]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2022.11.15-14.30.46:823][379]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2022.11.15-14.30.46:823][379]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.15-14.30.46:823][379]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.15-14.30.46:823][379]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.15-14.30.46:823][379]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.15-14.30.46:823][379]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.15-14.30.46:823][379]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.15-14.30.46:823][379]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.15-14.30.46:823][379]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.15-14.30.46:824][379]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.15-14.30.46:824][379]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.15-14.30.46:824][379]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.15-14.30.46:827][379]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.15-14.30.46:889][379]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.11.15-14.30.46:890][379]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.15-14.30.46:890][379]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.15-14.30.46:890][379]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.15-14.30.46:891][379]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2022.11.15-14.30.46:891][379]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2022.11.15-14.30.46:894][379]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2022.11.15-14.30.46:894][379]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2022.11.15-14.30.46:894][379]LogInit: FAudioDevice initialized.
+[2022.11.15-14.30.46:894][379]LogAudio: Display: Audio Device (ID: 22) registered with world 'ThirdPersonMap'.
+[2022.11.15-14.30.46:907][379]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.11.15-14.30.46:907][379]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2022.11.15-14.30.46
+[2022.11.15-14.30.46:908][379]LogWorld: Bringing up level for play took: 0.000959
+[2022.11.15-14.30.46:910][379]LogOnline: OSS: Created online subsystem instance for: :Context_76
+[2022.11.15-14.30.46:914][379]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2022.11.15-14.30.46:914][379]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.15-14.30.46:914][379]PIE: Server logged in
+[2022.11.15-14.30.46:915][379]PIE: Play in editor total start time 0.143 seconds.
+[2022.11.15-14.31.02:006][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.15-14.31.02:006][276]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.15-14.31.02:006][276]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.15-14.31.02:006][276]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-14.31.02:023][276]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.15-14.31.02:029][276]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-14.31.02:072][276]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.15-14.31.02:072][276]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2022.11.15-14.31.02:074][276]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2022.11.15-14.31.02:081][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.15-14.31.02:086][276]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2022.11.15-14.31.02:130][277]LogPlayLevel: Display: Destroying online subsystem :Context_76
+[2022.11.15-14.31.02:135][277]LogViewport: Scene viewport resized to 499x396, mode Windowed.
+[2022.11.15-14.31.27:281][573]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2022.11.15-14.31.27:308][573]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/3E/NU2KLU51M4LYWQE4NAK0FS_Auto7
+[2022.11.15-14.31.27:308][573]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/NU2KLU51M4LYWQE4NAK0FS_Auto752E539B94855CB070A06EE810F114BF5.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/3E/NU2KLU51M4LYWQE4NAK0FS_Auto7.uasset'
+[2022.11.15-14.31.27:423][573]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/6L/1S6QZRZALFJK0RUOKLAUN2_Auto7
+[2022.11.15-14.31.27:423][573]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/1S6QZRZALFJK0RUOKLAUN2_Auto72D4E43D641506484B72DF98FA368549B.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/6L/1S6QZRZALFJK0RUOKLAUN2_Auto7.uasset'
+[2022.11.15-14.31.27:426][573]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.190
+[2022.11.15-14.31.27:426][573]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.190
+[2022.11.15-14.33.00:837][459]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.15-14.33.00:879][459]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.15-14.33.00:879][459]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.15-14.33.00:879][459]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.15-14.33.00:879][459]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.15-14.33.00:879][459]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.15-14.33.00:879][459]LogWorldPartition: Display: GetPartitionedActors took 36 us
+[2022.11.15-14.33.00:879][459]LogWorldPartition: Display: GenerateStreaming took 186 us
+[2022.11.15-14.33.00:880][459]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.15-14.33.00:880][459]PIE: New page: PIE session: ThirdPersonMap (15 Nov 2022, 14:33:00)
+[2022.11.15-14.33.00:880][459]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.15-14.33.00:883][459]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.15-14.33.00:883][459]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003547s)
+[2022.11.15-14.33.00:883][459]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003594s)
+[2022.11.15-14.33.00:883][459]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.15-14.33.00:883][459]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.15-14.33.00:885][459]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.15-14.33.00:885][459]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.15-14.33.00:886][459]LogWorldPartition: Display: WorldPartition initialize took 878 us
+[2022.11.15-14.33.00:886][459]LogPlayLevel: PIE: World Init took: (0.001909s)
+[2022.11.15-14.33.00:930][459]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2022.11.15-14.33.00:931][459]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2022.11.15-14.33.00:931][459]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.15-14.33.00:931][459]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.15-14.33.00:931][459]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.15-14.33.00:931][459]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.15-14.33.00:931][459]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.15-14.33.00:931][459]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.15-14.33.00:931][459]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.15-14.33.00:931][459]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.15-14.33.00:931][459]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.15-14.33.00:931][459]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.15-14.33.00:931][459]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.15-14.33.00:934][459]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.15-14.33.00:999][459]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.11.15-14.33.00:999][459]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.15-14.33.00:999][459]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.15-14.33.00:999][459]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.15-14.33.01:000][459]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2022.11.15-14.33.01:000][459]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2022.11.15-14.33.01:002][459]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2022.11.15-14.33.01:003][459]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2022.11.15-14.33.01:003][459]LogInit: FAudioDevice initialized.
+[2022.11.15-14.33.01:003][459]LogAudio: Display: Audio Device (ID: 23) registered with world 'ThirdPersonMap'.
+[2022.11.15-14.33.01:016][459]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.11.15-14.33.01:018][459]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2022.11.15-14.33.01
+[2022.11.15-14.33.01:018][459]LogWorld: Bringing up level for play took: 0.001631
+[2022.11.15-14.33.01:020][459]LogOnline: OSS: Created online subsystem instance for: :Context_77
+[2022.11.15-14.33.01:024][459]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2022.11.15-14.33.01:024][459]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.15-14.33.01:025][459]PIE: Server logged in
+[2022.11.15-14.33.01:026][459]PIE: Play in editor total start time 0.15 seconds.
+[2022.11.15-14.33.16:321][369]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.15-14.33.16:321][369]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.15-14.33.16:322][369]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.15-14.33.16:322][369]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-14.33.16:337][369]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.15-14.33.16:342][369]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-14.33.16:387][369]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.15-14.33.16:387][369]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2022.11.15-14.33.16:389][369]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2022.11.15-14.33.16:397][369]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2022.11.15-14.33.16:456][370]LogPlayLevel: Display: Destroying online subsystem :Context_77
+[2022.11.15-14.33.16:462][370]LogViewport: Scene viewport resized to 499x396, mode Windowed.
+[2022.11.15-14.33.38:794][734]LogViewport: Scene viewport resized to 499x396, mode Windowed.
+[2022.11.15-14.33.39:765][786]Cmd: DELETE
+[2022.11.15-14.33.39:765][786]Cmd: ACTOR DELETE
+[2022.11.15-14.33.39:767][786]LogEditorActor: Deleted Actor: ButtonDoorBP_C
+[2022.11.15-14.33.39:842][786]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2022.11.15-14.33.39:844][786]LogEditorActor: Deleted 1 Actors (0.079 secs)
+[2022.11.15-14.33.41:443][877]Cmd: DELETE
+[2022.11.15-14.33.41:443][877]Cmd: ACTOR DELETE
+[2022.11.15-14.33.41:444][877]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.11.15-14.33.41:488][877]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2022.11.15-14.33.41:490][877]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2022.11.15-14.33.42:849][958]Cmd: TRANSACTION UNDO
+[2022.11.15-14.33.42:849][958]LogEditorTransaction: Undo Delete Elements
+[2022.11.15-14.33.46:312][141]Cmd: DELETE
+[2022.11.15-14.33.46:312][141]Cmd: ACTOR DELETE
+[2022.11.15-14.33.46:314][141]LogEditorActor: Deleted Actor: ButtonBP_C
+[2022.11.15-14.33.46:357][141]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2022.11.15-14.33.46:359][141]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2022.11.15-14.33.49:593][330]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2022.11.15-14.33.49:769][330]LogWorldPartition: Warning: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ButtonDoorBP_C_UAID_3C7C3FEBD325E94901_1764218272 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/6L/1S6QZRZALFJK0RUOKLAUN2.PackageMetaData in its package
+[2022.11.15-14.33.49:769][330]LogWorldPartition: Warning: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ButtonBP_C_UAID_3C7C3FEBD325E94901_1692344271 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/3E/NU2KLU51M4LYWQE4NAK0FS.PackageMetaData in its package
+[2022.11.15-14.33.49:771][330]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2022.11.15-14.33.49:814][330]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2022.11.15-14.33.49:857][330]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2022.11.15-14.33.49:912][330]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
