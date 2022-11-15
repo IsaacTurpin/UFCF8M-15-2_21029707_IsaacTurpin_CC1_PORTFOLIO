@@ -3222,3 +3222,323 @@ KeyBP_C.BndEvt__LockedDoorBP_Box_K2Node_ComponentBoundEvent_0_ComponentBeginOver
 [2022.11.15-14.33.49:814][330]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
 [2022.11.15-14.33.49:857][330]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
 [2022.11.15-14.33.49:912][330]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2022.11.15-14.41.43:205][157]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2022.11.15-14.41.43:206][157]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.045
+[2022.11.15-14.51.51:536][973]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2022.11.15-14.51.51:538][973]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.068
+[2022.11.15-14.56.18:125][771]LogDerivedDataCache: C:/Users/debsi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.571 and deleted 0 file(s) with total size 0 MiB.
+[2022.11.15-15.01.54:196][773]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2022.11.15-15.01.54:198][773]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.058
+[2022.11.15-15.05.46:962][664]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.11.15-15.05.46:976][664]LogContentBrowser: Creating deferred item: NewFolder
+[2022.11.15-15.05.46:991][665]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.11.15-15.05.59:998][444]LogContentBrowser: Attempting asset rename: NewFolder -> EnemyCharacter
+[2022.11.15-15.06.00:029][444]LogContentBrowser: End creating deferred item NewFolder
+[2022.11.15-15.07.05:318][455]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\debsi\Downloads\Ch30_nonPBR.fbx)
+[2022.11.15-15.07.05:533][455]LogFbx: Loading FBX Scene from C:\Users\debsi\Downloads\Ch30_nonPBR.fbx
+[2022.11.15-15.07.05:706][455]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.15-15.07.13:643][455]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.11.15-15.07.13:739][455]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node Ch30 : The relative matrices do not match
+[2022.11.15-15.07.13:739][455]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2022.11.15-15.07.13:739][455]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Ch30
+[2022.11.15-15.07.13:739][455]LogFbx: Warning: Recreating bind pose succeeded.
+[2022.11.15-15.07.13:747][455]LogMaterial: Display: Material /Game/EnemyCharacter/Ch30_Body1.Ch30_Body1 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.11.15-15.07.13:753][455]LogMaterial: Display: Missing cached shadermap for Ch30_Body1 in PCD3D_SM5, Default, SM5 (DDC key hash: 9DAB64E724F87674F0DA952A1BDDD25056919589), compiling. 
+[2022.11.15-15.07.14:428][455]LogTexture: Display: Building textures: /Game/EnemyCharacter/Ch30_1002_Diffuse.Ch30_1002_Diffuse (TFO_AutoDXT, 4096X4096 X1X1) (Required Memory Estimate: 320.000 MB), EncodeSpeed: Fast
+[2022.11.15-15.07.15:176][455]LogTexture: Display: Building textures: /Game/EnemyCharacter/Ch30_1002_Specular.Ch30_1002_Specular (TFO_AutoDXT, 4096X4096 X1X1) (Required Memory Estimate: 320.000 MB), EncodeSpeed: Fast
+[2022.11.15-15.07.15:176][455]LogTexture: Display: Building textures: /Game/EnemyCharacter/Ch30_1002_Glossiness.Ch30_1002_Glossiness (TFO_AutoDXT, 4096X4096 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.11.15-15.07.16:266][455]LogTexture: Display: Building textures: /Game/EnemyCharacter/Ch30_1002_Normal.Ch30_1002_Normal (TFO_BC5, 4096X4096 X1X1) (Required Memory Estimate: 320.000 MB), EncodeSpeed: Fast
+[2022.11.15-15.07.16:278][455]LogMaterial: Display: Missing cached shadermap for Ch30_Body1 in PCD3D_SM5, Default, SM5 (DDC key hash: B7F5125C0B88026106236ABFF9C191B908B721B4), compiling. 
+[2022.11.15-15.07.16:309][455]LogMaterial: Display: Material /Game/EnemyCharacter/Ch30_Body.Ch30_Body needed to have new flag set bUsedWithSkeletalMesh !
+[2022.11.15-15.07.16:333][455]LogMaterial: Display: Missing cached shadermap for Ch30_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 9672D56D4C0539A9947285A4A7E1E65F05800405), compiling. 
+[2022.11.15-15.07.17:219][455]LogTexture: Display: Building textures: /Game/EnemyCharacter/Ch30_1001_Diffuse.Ch30_1001_Diffuse (TFO_AutoDXT, 4096X4096 X1X1) (Required Memory Estimate: 320.000 MB), EncodeSpeed: Fast
+[2022.11.15-15.07.17:988][455]LogTexture: Display: Building textures: /Game/EnemyCharacter/Ch30_1001_Specular.Ch30_1001_Specular (TFO_AutoDXT, 4096X4096 X1X1) (Required Memory Estimate: 320.000 MB), EncodeSpeed: Fast
+[2022.11.15-15.07.17:988][455]LogTexture: Display: Building textures: /Game/EnemyCharacter/Ch30_1001_Glossiness.Ch30_1001_Glossiness (TFO_AutoDXT, 4096X4096 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.11.15-15.07.19:136][455]LogTexture: Display: Building textures: /Game/EnemyCharacter/Ch30_1001_Normal.Ch30_1001_Normal (TFO_BC5, 4096X4096 X1X1) (Required Memory Estimate: 320.000 MB), EncodeSpeed: Fast
+[2022.11.15-15.07.19:147][455]LogMaterial: Display: Missing cached shadermap for Ch30_Body in PCD3D_SM5, Default, SM5 (DDC key hash: B151E0FBB4EA6F52785578B321367E477C85930E), compiling. 
+[2022.11.15-15.07.19:156][455]LogFbx: Triangulating skeletal mesh Ch30
+[2022.11.15-15.07.21:225][455]LogFbx: Warning: Bones digested - 65  Depth of hierarchy - 12
+[2022.11.15-15.07.22:612][455]LogSkeletalMesh: Section 0: Material=0, 28458 triangles
+[2022.11.15-15.07.22:612][455]LogSkeletalMesh: Section 1: Material=1, 8444 triangles
+[2022.11.15-15.07.22:915][455]LogSkeletalMesh: Building Skeletal Mesh Ch30_nonPBR...
+[2022.11.15-15.07.22:915][455]LogSkeletalMesh: Display: Waiting for skeletal meshes to be ready 0/1 (Ch30_nonPBR) ...
+[2022.11.15-15.07.22:915][455]LogShaderCompilers: Display: ================================================
+[2022.11.15-15.07.22:916][455]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.11.15-15.07.22:916][455]LogShaderCompilers: Display: Total job queries 86, among them cache hits 4 (4.65%)
+[2022.11.15-15.07.22:916][455]LogShaderCompilers: Display: Tracking 8 distinct input hashes that result in 6 distinct outputs (75.00%)
+[2022.11.15-15.07.22:916][455]LogShaderCompilers: Display: RAM used: 0.01 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.11.15-15.07.22:916][455]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.11.15-15.07.22:916][455]LogShaderCompilers: Display: Shaders Compiled: 78
+[2022.11.15-15.07.22:916][455]LogShaderCompilers: Display: Jobs assigned 43, completed 8 (18.60%)
+[2022.11.15-15.07.22:916][455]LogShaderCompilers: Display: Average time worker was idle: 7458.81 s
+[2022.11.15-15.07.22:916][455]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 0.21 s
+[2022.11.15-15.07.22:916][455]LogShaderCompilers: Display: Job execution time: average 3.09 s, max 6.23 s
+[2022.11.15-15.07.22:916][455]LogShaderCompilers: Display: Job life time (pending + execution): average 3.21 s, max 6.31
+[2022.11.15-15.07.22:916][455]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 8.91 s
+[2022.11.15-15.07.22:916][455]LogShaderCompilers: Display: Jobs were issued in 14 batches (only local compilation was used), average 3.07 jobs/batch
+[2022.11.15-15.07.22:916][455]LogShaderCompilers: Display: Average processing rate: 0.90 jobs/sec
+[2022.11.15-15.07.22:916][455]LogShaderCompilers: Display: Effective parallelization: 1.59 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.11.15-15.07.22:916][455]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.11.15-15.07.22:916][455]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 4.21 sec, max 4.21 sec, min 4.21 sec)
+[2022.11.15-15.07.22:916][455]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 1.66 sec, max 1.66 sec, min 1.65 sec)
+[2022.11.15-15.07.22:916][455]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 1.55 sec, max 1.55 sec, min 1.55 sec)
+[2022.11.15-15.07.22:916][455]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 1.48 sec, max 1.58 sec, min 1.37 sec)
+[2022.11.15-15.07.22:916][455]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    2 times, average 1.06 sec, max 1.58 sec, min 0.54 sec)
+[2022.11.15-15.07.22:916][455]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.11.15-15.07.22:916][455]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 29.77% of total time (compiled    1 times, average 4.21 sec, max 4.21 sec, min 4.21 sec)
+[2022.11.15-15.07.22:916][455]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 23.44% of total time (compiled    2 times, average 1.66 sec, max 1.66 sec, min 1.65 sec)
+[2022.11.15-15.07.22:916][455]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 20.87% of total time (compiled    2 times, average 1.48 sec, max 1.58 sec, min 1.37 sec)
+[2022.11.15-15.07.22:916][455]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 14.97% of total time (compiled    2 times, average 1.06 sec, max 1.58 sec, min 0.54 sec)
+[2022.11.15-15.07.22:916][455]LogShaderCompilers: Display:                                                 FLumenCardVS - 10.95% of total time (compiled    1 times, average 1.55 sec, max 1.55 sec, min 1.55 sec)
+[2022.11.15-15.07.22:916][455]LogShaderCompilers: Display: ================================================
+[2022.11.15-15.07.24:334][455]LogSkeletalMesh: Built Skeletal Mesh [1.41s] /Game/EnemyCharacter/Ch30_nonPBR.Ch30_nonPBR
+[2022.11.15-15.07.24:335][455]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.15-15.07.24:370][455]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
+[2022.11.15-15.07.24:370][455]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-15.07.24:428][455]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.11.15-15.07.24:428][455]FBXImport: Warning: The following bones are missing from the bind pose:
+mixamorig:HeadTop_End  
+mixamorig:LeftHandThumb4  
+mixamorig:LeftHandIndex4  
+mixamorig:LeftHandMiddle4  
+mixamorig:LeftHandRing4  
+mixamorig:LeftHandPinky4  
+mixamorig:RightHandThumb4  
+mixamorig:RightHandIndex4  
+mixamorig:RightHandMiddle4  
+mixamorig:RightHandRing4  
+mixamorig:RightHandPinky4  
+mixamorig:LeftToe_End  
+mixamorig:RightToe_End  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2022.11.15-15.07.38:682][649]LogSlate: Window 'Message Log' being destroyed
+[2022.11.15-15.07.38:691][649]LogSlate: Window 'Message Log' being destroyed
+[2022.11.15-15.08.51:513][168]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.11.15-15.08.51:528][168]LogContentBrowser: Creating deferred item: NewFolder
+[2022.11.15-15.08.51:540][169]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.11.15-15.08.59:002][615]LogContentBrowser: Attempting asset rename: NewFolder -> EnemyAnimations
+[2022.11.15-15.08.59:032][615]LogContentBrowser: End creating deferred item NewFolder
+[2022.11.15-15.09.09:371][ 53]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\debsi\Downloads\Running Crawl.fbx)
+[2022.11.15-15.09.09:380][ 53]LogFbx: Loading FBX Scene from C:\Users\debsi\Downloads\Running Crawl.fbx
+[2022.11.15-15.09.09:398][ 53]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.15-15.09.44:288][ 53]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(0) Hips
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(1) Spine
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(2) Spine1
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(3) Spine2
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(4) Neck
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(5) Head
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(6) HeadTop_End
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(7) LeftShoulder
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(8) LeftArm
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(9) LeftForeArm
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(10) LeftHand
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(23) LeftHandRing1
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(24) LeftHandRing2
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(25) LeftHandRing3
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(26) LeftHandRing4
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(31) RightShoulder
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(32) RightArm
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(33) RightForeArm
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(34) RightHand
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(35) RightHandThumb1
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(36) RightHandThumb2
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(37) RightHandThumb3
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(38) RightHandThumb4
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(39) RightHandIndex1
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(40) RightHandIndex2
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(41) RightHandIndex3
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(42) RightHandIndex4
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(47) RightHandRing1
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(48) RightHandRing2
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(49) RightHandRing3
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(50) RightHandRing4
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(51) RightHandPinky1
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(52) RightHandPinky2
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(53) RightHandPinky3
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(54) RightHandPinky4
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(55) LeftUpLeg
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(56) LeftLeg
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(57) LeftFoot
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(58) LeftToeBase
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(59) LeftToe_End
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(60) RightUpLeg
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(61) RightLeg
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(62) RightFoot
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(63) RightToeBase
+[2022.11.15-15.09.44:357][ 53]LogFbx: SortedLinks :(64) RightToe_End
+[2022.11.15-15.09.44:358][ 53]LogFbx: Parsing AnimStack mixamo.com
+[2022.11.15-15.09.44:455][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/EnemyCharacter/EnemyAnimations/Running_Crawl.Running_Crawl
+[2022.11.15-15.09.44:455][ 53]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SLevelEditor [LevelEditor.cpp(210)].
+[2022.11.15-15.10.07:985][322]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/EnemyCharacter/EnemyAnimations/Running_Crawl.Running_Crawl
+[2022.11.15-15.10.07:986][322]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/EnemyCharacter/EnemyAnimations/Running_Crawl.Running_Crawl
+[2022.11.15-15.10.07:986][322]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/EnemyCharacter/Ch30_nonPBR.Ch30_nonPBR as actor: SkeletalMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkeletalMeshActor_0
+[2022.11.15-15.10.07:987][322]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/EnemyCharacter/Ch30_nonPBR.Ch30_nonPBR as actor: SkeletalMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkeletalMeshActor_0
+[2022.11.15-15.10.08:537][352]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/EnemyCharacter/EnemyAnimations/Running_Crawl.Running_Crawl
+[2022.11.15-15.10.08:537][352]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/EnemyCharacter/EnemyAnimations/Running_Crawl.Running_Crawl
+[2022.11.15-15.10.08:539][352]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/EnemyCharacter/Ch30_nonPBR.Ch30_nonPBR as actor: SkeletalMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkeletalMeshActor_UAID_3C7C3FEBD325EB4901_2121565625
+[2022.11.15-15.10.08:540][352]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/EnemyCharacter/Ch30_nonPBR.Ch30_nonPBR as actor: SkeletalMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkeletalMeshActor_UAID_3C7C3FEBD325EB4901_2121565625
+[2022.11.15-15.10.08:598][352]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.15-15.10.16:362][809]LogTurnkeySupport: Display: Adding device menu item for LAPTOP-NFM61RH3
+[2022.11.15-15.10.16:362][809]LogTurnkeySupport: Running Turnkey device detection: ' -ScriptsForProject="D:/Year 2/Game Level Design/LevelDesignProject/Level/Level.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="D:/Year 2/Game Level Design/LevelDesignProject/Level/Intermediate/TurnkeyReport_1.log" -log="D:/Year 2/Game Level Design/LevelDesignProject/Level/Intermediate/TurnkeyLog_1.log" -project="D:/Year 2/Game Level Design/LevelDesignProject/Level/Level.uproject"  -Device=Win64@LAPTOP-NFM61RH3'
+[2022.11.15-15.10.16:362][809]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.0/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="D:/Year 2/Game Level Design/LevelDesignProject/Level/Level.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="D:/Year 2/Game Level Design/LevelDesignProject/Level/Intermediate/TurnkeyReport_1.log" -log="D:/Year 2/Game Level Design/LevelDesignProject/Level/Intermediate/TurnkeyLog_1.log" -project="D:/Year 2/Game Level Design/LevelDesignProject/Level/Level.uproject"  -Device=Win64@LAPTOP-NFM61RH3" -nocompile ]
+[2022.11.15-15.10.17:401][863]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.15-15.10.17:401][863]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.15-15.10.17:401][863]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.15-15.10.17:401][863]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.15-15.10.17:401][863]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.15-15.10.17:401][863]LogWorldPartition: Display: GetPartitionedActors took 82 us
+[2022.11.15-15.10.17:402][863]LogWorldPartition: Display: GenerateStreaming took 220 us
+[2022.11.15-15.10.17:402][863]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.15-15.10.17:402][863]PIE: New page: SIE session: ThirdPersonMap (15 Nov 2022, 15:10:17)
+[2022.11.15-15.10.17:402][863]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.15-15.10.17:405][863]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.15-15.10.17:405][863]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003261s)
+[2022.11.15-15.10.17:405][863]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003325s)
+[2022.11.15-15.10.17:406][863]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.15-15.10.17:406][863]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.15-15.10.17:407][863]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.15-15.10.17:407][863]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.15-15.10.17:407][863]LogWorldPartition: Display: WorldPartition initialize took 844 us
+[2022.11.15-15.10.17:407][863]LogPlayLevel: PIE: World Init took: (0.002377s)
+[2022.11.15-15.10.17:451][863]LogTurnkeySupport: Completed device detection: Code = 0
+[2022.11.15-15.10.17:459][863]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2022.11.15-15.10.17:462][863]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2022.11.15-15.10.17:462][863]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.15-15.10.17:462][863]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.15-15.10.17:462][863]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.15-15.10.17:462][863]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.15-15.10.17:462][863]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.15-15.10.17:462][863]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.15-15.10.17:462][863]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.15-15.10.17:462][863]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.15-15.10.17:463][863]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.15-15.10.17:463][863]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.15-15.10.17:463][863]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.15-15.10.17:465][863]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.15-15.10.17:524][863]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.11.15-15.10.17:524][863]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.15-15.10.17:524][863]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.15-15.10.17:524][863]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.15-15.10.17:525][863]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2022.11.15-15.10.17:525][863]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2022.11.15-15.10.17:527][863]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2022.11.15-15.10.17:527][863]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2022.11.15-15.10.17:527][863]LogInit: FAudioDevice initialized.
+[2022.11.15-15.10.17:527][863]LogAudio: Display: Audio Device (ID: 24) registered with world 'ThirdPersonMap'.
+[2022.11.15-15.10.17:537][863]LogTurnkeySupport: Turnkey Device: Win64@LAPTOP-NFM61RH3: (Name=LAPTOP-NFM61RH3, Status=Valid, Installed=10.0.22621.0, MinAllowed=10.0.18362.0, MaxAllowed=, Flags="Device_InstallSoftwareValid")
+[2022.11.15-15.10.17:546][863]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.11.15-15.10.17:547][863]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2022.11.15-15.10.17
+[2022.11.15-15.10.17:547][863]LogWorld: Bringing up level for play took: 0.002005
+[2022.11.15-15.10.17:551][863]LogOnline: OSS: Created online subsystem instance for: :Context_84
+[2022.11.15-15.10.17:555][863]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2022.11.15-15.10.17:555][863]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.15-15.10.17:556][863]PIE: Server logged in
+[2022.11.15-15.10.17:557][863]PIE: Play in editor total start time 0.159 seconds.
+[2022.11.15-15.10.17:586][863]LogWorldPartition: New Streaming Source: SIE -> Position: X=-16.032 Y=2386.222 Z=979.835
+[2022.11.15-15.10.17:617][863]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.15-15.10.21:485][ 58]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.15-15.10.21:485][ 58]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.15-15.10.21:486][ 58]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.15-15.10.21:486][ 58]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-15.10.21:504][ 58]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.15-15.10.21:510][ 58]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-15.10.21:553][ 58]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.15-15.10.21:553][ 58]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2022.11.15-15.10.21:555][ 58]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2022.11.15-15.10.21:562][ 58]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.15-15.10.21:565][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2022.11.15-15.10.21:628][ 59]LogPlayLevel: Display: Destroying online subsystem :Context_84
+[2022.11.15-15.10.21:652][ 59]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.15-15.10.22:376][102]LogTurnkeySupport: Display: Adding device menu item for LAPTOP-NFM61RH3
+[2022.11.15-15.10.24:017][196]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.15-15.10.24:017][196]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.15-15.10.24:017][196]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.15-15.10.24:017][196]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.15-15.10.24:017][196]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.15-15.10.24:017][196]LogWorldPartition: Display: GetPartitionedActors took 41 us
+[2022.11.15-15.10.24:017][196]LogWorldPartition: Display: GenerateStreaming took 191 us
+[2022.11.15-15.10.24:017][196]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.15-15.10.24:017][196]PIE: New page: PIE session: ThirdPersonMap (15 Nov 2022, 15:10:24)
+[2022.11.15-15.10.24:018][196]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.15-15.10.24:020][196]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.15-15.10.24:020][196]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002966s)
+[2022.11.15-15.10.24:020][196]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003019s)
+[2022.11.15-15.10.24:020][196]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.15-15.10.24:021][196]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.15-15.10.24:021][196]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.15-15.10.24:021][196]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.15-15.10.24:022][196]LogWorldPartition: Display: WorldPartition initialize took 791 us
+[2022.11.15-15.10.24:022][196]LogPlayLevel: PIE: World Init took: (0.001770s)
+[2022.11.15-15.10.24:064][196]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2022.11.15-15.10.24:067][196]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2022.11.15-15.10.24:067][196]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.15-15.10.24:067][196]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.15-15.10.24:067][196]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.15-15.10.24:067][196]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.15-15.10.24:067][196]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.15-15.10.24:067][196]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.15-15.10.24:067][196]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.15-15.10.24:067][196]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.15-15.10.24:067][196]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.15-15.10.24:067][196]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.15-15.10.24:067][196]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.15-15.10.24:070][196]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.15-15.10.24:127][196]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.11.15-15.10.24:128][196]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.15-15.10.24:128][196]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.15-15.10.24:128][196]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.15-15.10.24:128][196]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2022.11.15-15.10.24:128][196]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2022.11.15-15.10.24:132][196]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2022.11.15-15.10.24:132][196]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2022.11.15-15.10.24:132][196]LogInit: FAudioDevice initialized.
+[2022.11.15-15.10.24:132][196]LogAudio: Display: Audio Device (ID: 25) registered with world 'ThirdPersonMap'.
+[2022.11.15-15.10.24:144][196]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.11.15-15.10.24:145][196]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2022.11.15-15.10.24
+[2022.11.15-15.10.24:145][196]LogWorld: Bringing up level for play took: 0.001475
+[2022.11.15-15.10.24:148][196]LogOnline: OSS: Created online subsystem instance for: :Context_85
+[2022.11.15-15.10.24:152][196]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2022.11.15-15.10.24:152][196]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.15-15.10.24:153][196]PIE: Server logged in
+[2022.11.15-15.10.24:154][196]PIE: Play in editor total start time 0.14 seconds.
+[2022.11.15-15.10.29:517][510]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.15-15.10.29:517][510]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.15-15.10.29:517][510]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.15-15.10.29:518][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-15.10.29:533][510]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.15-15.10.29:540][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.15-15.10.29:585][510]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.15-15.10.29:585][510]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2022.11.15-15.10.29:587][510]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2022.11.15-15.10.29:593][510]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.15-15.10.29:596][510]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2022.11.15-15.10.29:659][511]LogPlayLevel: Display: Destroying online subsystem :Context_85
+[2022.11.15-15.10.29:682][511]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.15-15.10.32:649][675]Cmd: DELETE
+[2022.11.15-15.10.32:649][675]Cmd: ACTOR DELETE
+[2022.11.15-15.10.32:653][675]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2022.11.15-15.10.32:698][675]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2022.11.15-15.10.32:701][675]LogEditorActor: Deleted 1 Actors (0.052 secs)
