@@ -5480,3 +5480,1681 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.11.29-17.10.39:567][711]LogContentValidation: Display: Validating Blueprint /Game/FloorRiseBP.FloorRiseBP
 [2022.11.29-17.10.39:567][711]LogContentValidation: Display: Validating StaticMesh /Game/ThirdPerson/Maps/_GENERATED/debsi/CubeGridToolOutput_82D2BD75.CubeGridToolOutput_82D2BD75
 [2022.11.29-17.10.39:567][711]LogContentValidation: Display: Validating StaticMesh /Game/ThirdPerson/Maps/_GENERATED/debsi/Box_7F088665.Box_7F088665
+[2022.11.29-17.11.03:889][937]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2022.11.29-17.11.03:892][937]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.059
+[2022.11.29-17.14.24:090][912]Cmd: TRANSACTION UNDO
+[2022.11.29-17.14.24:090][912]LogEditorTransaction: Undo Move Elements
+[2022.11.29-17.14.41:055][895]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.29-17.14.41:071][895]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.29-17.14.41:071][895]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.29-17.14.41:071][895]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-17.14.41:071][895]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.29-17.14.41:071][895]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.29-17.14.41:071][895]LogWorldPartition: Display: GetPartitionedActors took 46 us
+[2022.11.29-17.14.41:071][895]LogWorldPartition: Display: GenerateStreaming took 315 us
+[2022.11.29-17.14.41:071][895]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.29-17.14.41:071][895]PIE: New page: PIE session: ThirdPersonMap (29 Nov 2022, 17:14:41)
+[2022.11.29-17.14.41:072][895]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-17.14.41:079][895]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.29-17.14.41:080][895]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007132s)
+[2022.11.29-17.14.41:080][895]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.007218s)
+[2022.11.29-17.14.41:080][895]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-17.14.41:080][895]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.29-17.14.41:081][895]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.29-17.14.41:081][895]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.29-17.14.41:082][895]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.11.29-17.14.41:082][895]LogPlayLevel: PIE: World Init took: (0.002760s)
+[2022.11.29-17.14.41:133][895]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2022.11.29-17.14.41:137][895]LogAudio: Display: Creating Audio Device:                 Id: 58, Scope: Unique, Realtime: True
+[2022.11.29-17.14.41:137][895]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.29-17.14.41:137][895]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.29-17.14.41:137][895]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.29-17.14.41:137][895]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.29-17.14.41:137][895]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.29-17.14.41:137][895]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.29-17.14.41:137][895]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.29-17.14.41:137][895]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.29-17.14.41:137][895]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.29-17.14.41:137][895]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.29-17.14.41:137][895]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.29-17.14.41:139][895]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.29-17.14.41:199][895]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.11.29-17.14.41:199][895]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.29-17.14.41:199][895]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.29-17.14.41:199][895]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.29-17.14.41:200][895]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=58
+[2022.11.29-17.14.41:200][895]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=58
+[2022.11.29-17.14.41:202][895]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=58
+[2022.11.29-17.14.41:202][895]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=58
+[2022.11.29-17.14.41:202][895]LogInit: FAudioDevice initialized.
+[2022.11.29-17.14.41:202][895]LogAudio: Display: Audio Device (ID: 58) registered with world 'ThirdPersonMap'.
+[2022.11.29-17.14.41:216][895]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.11.29-17.14.41:220][895]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2022.11.29-17.14.41
+[2022.11.29-17.14.41:220][895]LogWorld: Bringing up level for play took: 0.002941
+[2022.11.29-17.14.41:222][895]LogOnline: OSS: Created online subsystem instance for: :Context_87
+[2022.11.29-17.14.41:226][895]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1560.000 Y=220.000 Z=92.013
+[2022.11.29-17.14.41:226][895]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-17.14.41:226][895]PIE: Server logged in
+[2022.11.29-17.14.41:228][895]PIE: Play in editor total start time 0.16 seconds.
+[2022.11.29-17.15.36:392][196]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-17.15.36:392][196]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-17.15.36:392][196]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-17.15.36:393][196]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-17.15.36:407][196]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.29-17.15.36:413][196]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-17.15.36:466][196]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-17.15.36:466][196]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=58
+[2022.11.29-17.15.36:468][196]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=58
+[2022.11.29-17.15.36:478][196]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2022.11.29-17.15.36:538][197]LogPlayLevel: Display: Destroying online subsystem :Context_87
+[2022.11.29-17.17.40:891][626]LogStaticMesh: Display: Building static mesh CubeGridToolOutput_82D2BD75...
+[2022.11.29-17.17.40:891][626]LogStaticMesh: Built static mesh [0.00s] /Game/ThirdPerson/Maps/_GENERATED/debsi/CubeGridToolOutput_82D2BD75.CubeGridToolOutput_82D2BD75
+[2022.11.29-17.17.40:891][626]LogStaticMesh: Warning: CubeGridToolOutput_82D2BD75 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2022.11.29-17.17.40:891][626]LogStaticMesh: Warning: CubeGridToolOutput_82D2BD75 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.11.29-17.17.42:557][723]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.29-17.17.42:580][723]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.29-17.17.42:580][723]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.29-17.17.42:580][723]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-17.17.42:580][723]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.29-17.17.42:580][723]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.29-17.17.42:580][723]LogWorldPartition: Display: GetPartitionedActors took 45 us
+[2022.11.29-17.17.42:580][723]LogWorldPartition: Display: GenerateStreaming took 328 us
+[2022.11.29-17.17.42:580][723]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.29-17.17.42:580][723]PIE: New page: PIE session: ThirdPersonMap (29 Nov 2022, 17:17:42)
+[2022.11.29-17.17.42:580][723]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-17.17.42:587][723]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.29-17.17.42:587][723]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006835s)
+[2022.11.29-17.17.42:587][723]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.006907s)
+[2022.11.29-17.17.42:587][723]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-17.17.42:587][723]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.29-17.17.42:588][723]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.29-17.17.42:588][723]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.29-17.17.42:590][723]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.11.29-17.17.42:590][723]LogPlayLevel: PIE: World Init took: (0.002865s)
+[2022.11.29-17.17.42:640][723]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2022.11.29-17.17.42:644][723]LogAudio: Display: Creating Audio Device:                 Id: 59, Scope: Unique, Realtime: True
+[2022.11.29-17.17.42:644][723]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.29-17.17.42:644][723]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.29-17.17.42:644][723]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.29-17.17.42:644][723]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.29-17.17.42:644][723]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.29-17.17.42:644][723]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.29-17.17.42:644][723]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.29-17.17.42:644][723]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.29-17.17.42:645][723]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.29-17.17.42:645][723]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.29-17.17.42:645][723]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.29-17.17.42:647][723]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.29-17.17.42:704][723]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.11.29-17.17.42:705][723]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.29-17.17.42:705][723]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.29-17.17.42:705][723]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.29-17.17.42:705][723]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=59
+[2022.11.29-17.17.42:705][723]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=59
+[2022.11.29-17.17.42:708][723]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=59
+[2022.11.29-17.17.42:708][723]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=59
+[2022.11.29-17.17.42:708][723]LogInit: FAudioDevice initialized.
+[2022.11.29-17.17.42:708][723]LogAudio: Display: Audio Device (ID: 59) registered with world 'ThirdPersonMap'.
+[2022.11.29-17.17.42:725][723]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.11.29-17.17.42:728][723]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2022.11.29-17.17.42
+[2022.11.29-17.17.42:729][723]LogWorld: Bringing up level for play took: 0.002887
+[2022.11.29-17.17.42:731][723]LogOnline: OSS: Created online subsystem instance for: :Context_88
+[2022.11.29-17.17.42:733][723]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1560.000 Y=220.000 Z=92.013
+[2022.11.29-17.17.42:733][723]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-17.17.42:734][723]PIE: Server logged in
+[2022.11.29-17.17.42:736][723]PIE: Play in editor total start time 0.16 seconds.
+[2022.11.29-17.18.25:234][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-17.18.25:235][263]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-17.18.25:235][263]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-17.18.25:235][263]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-17.18.25:253][263]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.29-17.18.25:257][263]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-17.18.25:308][263]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.29-17.18.25:309][263]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=59
+[2022.11.29-17.18.25:311][263]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=59
+[2022.11.29-17.18.25:316][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-17.18.25:319][263]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2022.11.29-17.18.25:382][264]LogPlayLevel: Display: Destroying online subsystem :Context_88
+[2022.11.29-17.20.19:918][ 61]LogStaticMesh: Display: Building static mesh CubeGridToolOutput_82D2BD75...
+[2022.11.29-17.20.19:918][ 61]LogStaticMesh: Built static mesh [0.01s] /Game/ThirdPerson/Maps/_GENERATED/debsi/CubeGridToolOutput_82D2BD75.CubeGridToolOutput_82D2BD75
+[2022.11.29-17.20.19:918][ 61]LogStaticMesh: Warning: CubeGridToolOutput_82D2BD75 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2022.11.29-17.20.19:918][ 61]LogStaticMesh: Warning: CubeGridToolOutput_82D2BD75 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.11.29-17.20.21:666][163]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.29-17.20.21:688][163]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.29-17.20.21:688][163]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.29-17.20.21:688][163]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-17.20.21:688][163]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.29-17.20.21:688][163]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.29-17.20.21:688][163]LogWorldPartition: Display: GetPartitionedActors took 44 us
+[2022.11.29-17.20.21:688][163]LogWorldPartition: Display: GenerateStreaming took 320 us
+[2022.11.29-17.20.21:688][163]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.29-17.20.21:688][163]PIE: New page: PIE session: ThirdPersonMap (29 Nov 2022, 17:20:21)
+[2022.11.29-17.20.21:688][163]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-17.20.21:695][163]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.29-17.20.21:695][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006716s)
+[2022.11.29-17.20.21:695][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.006765s)
+[2022.11.29-17.20.21:695][163]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-17.20.21:695][163]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.29-17.20.21:696][163]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.29-17.20.21:696][163]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.29-17.20.21:698][163]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.11.29-17.20.21:698][163]LogPlayLevel: PIE: World Init took: (0.003329s)
+[2022.11.29-17.20.21:750][163]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2022.11.29-17.20.21:755][163]LogAudio: Display: Creating Audio Device:                 Id: 60, Scope: Unique, Realtime: True
+[2022.11.29-17.20.21:755][163]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.29-17.20.21:755][163]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.29-17.20.21:755][163]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.29-17.20.21:755][163]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.29-17.20.21:755][163]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.29-17.20.21:755][163]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.29-17.20.21:755][163]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.29-17.20.21:755][163]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.29-17.20.21:755][163]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.29-17.20.21:755][163]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.29-17.20.21:755][163]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.29-17.20.21:758][163]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.29-17.20.21:816][163]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.11.29-17.20.21:816][163]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.29-17.20.21:816][163]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.29-17.20.21:816][163]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.29-17.20.21:816][163]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=60
+[2022.11.29-17.20.21:816][163]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=60
+[2022.11.29-17.20.21:818][163]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=60
+[2022.11.29-17.20.21:818][163]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=60
+[2022.11.29-17.20.21:818][163]LogInit: FAudioDevice initialized.
+[2022.11.29-17.20.21:818][163]LogAudio: Display: Audio Device (ID: 60) registered with world 'ThirdPersonMap'.
+[2022.11.29-17.20.21:835][163]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.11.29-17.20.21:837][163]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2022.11.29-17.20.21
+[2022.11.29-17.20.21:838][163]LogWorld: Bringing up level for play took: 0.002690
+[2022.11.29-17.20.21:840][163]LogOnline: OSS: Created online subsystem instance for: :Context_89
+[2022.11.29-17.20.21:844][163]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1560.000 Y=220.000 Z=92.013
+[2022.11.29-17.20.21:844][163]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-17.20.21:845][163]PIE: Server logged in
+[2022.11.29-17.20.21:846][163]PIE: Play in editor total start time 0.162 seconds.
+[2022.11.29-17.20.27:326][484]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-17.20.27:326][484]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-17.20.27:326][484]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-17.20.27:327][484]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-17.20.27:342][484]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.29-17.20.27:348][484]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-17.20.27:400][484]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.29-17.20.27:400][484]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=60
+[2022.11.29-17.20.27:402][484]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=60
+[2022.11.29-17.20.27:408][484]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-17.20.27:413][484]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2022.11.29-17.20.27:473][485]LogPlayLevel: Display: Destroying online subsystem :Context_89
+[2022.11.29-17.20.34:730][905]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.29-17.20.34:753][905]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.29-17.20.34:753][905]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.29-17.20.34:753][905]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-17.20.34:753][905]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.29-17.20.34:753][905]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.29-17.20.34:753][905]LogWorldPartition: Display: GetPartitionedActors took 43 us
+[2022.11.29-17.20.34:753][905]LogWorldPartition: Display: GenerateStreaming took 314 us
+[2022.11.29-17.20.34:753][905]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.29-17.20.34:753][905]PIE: New page: PIE session: ThirdPersonMap (29 Nov 2022, 17:20:34)
+[2022.11.29-17.20.34:753][905]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-17.20.34:760][905]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.29-17.20.34:760][905]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006389s)
+[2022.11.29-17.20.34:760][905]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.006440s)
+[2022.11.29-17.20.34:760][905]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-17.20.34:761][905]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.29-17.20.34:761][905]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.29-17.20.34:761][905]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.29-17.20.34:763][905]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.11.29-17.20.34:763][905]LogPlayLevel: PIE: World Init took: (0.002674s)
+[2022.11.29-17.20.34:813][905]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2022.11.29-17.20.34:818][905]LogAudio: Display: Creating Audio Device:                 Id: 61, Scope: Unique, Realtime: True
+[2022.11.29-17.20.34:818][905]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.29-17.20.34:819][905]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.29-17.20.34:819][905]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.29-17.20.34:819][905]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.29-17.20.34:819][905]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.29-17.20.34:819][905]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.29-17.20.34:819][905]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.29-17.20.34:819][905]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.29-17.20.34:819][905]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.29-17.20.34:819][905]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.29-17.20.34:819][905]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.29-17.20.34:821][905]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.29-17.20.34:884][905]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.11.29-17.20.34:884][905]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.29-17.20.34:884][905]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.29-17.20.34:884][905]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.29-17.20.34:885][905]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=61
+[2022.11.29-17.20.34:885][905]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=61
+[2022.11.29-17.20.34:887][905]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=61
+[2022.11.29-17.20.34:888][905]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=61
+[2022.11.29-17.20.34:888][905]LogInit: FAudioDevice initialized.
+[2022.11.29-17.20.34:888][905]LogAudio: Display: Audio Device (ID: 61) registered with world 'ThirdPersonMap'.
+[2022.11.29-17.20.34:903][905]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.11.29-17.20.34:907][905]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2022.11.29-17.20.34
+[2022.11.29-17.20.34:907][905]LogWorld: Bringing up level for play took: 0.004422
+[2022.11.29-17.20.34:910][905]LogOnline: OSS: Created online subsystem instance for: :Context_90
+[2022.11.29-17.20.34:914][905]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1560.000 Y=220.000 Z=92.013
+[2022.11.29-17.20.34:914][905]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-17.20.34:915][905]PIE: Server logged in
+[2022.11.29-17.20.34:917][905]PIE: Play in editor total start time 0.168 seconds.
+[2022.11.29-17.21.05:331][720]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-17.21.05:331][720]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-17.21.05:331][720]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-17.21.05:332][720]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-17.21.05:351][720]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.29-17.21.05:356][720]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-17.21.05:407][720]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.29-17.21.05:407][720]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=61
+[2022.11.29-17.21.05:410][720]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=61
+[2022.11.29-17.21.05:417][720]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-17.21.05:420][720]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2022.11.29-17.21.05:467][721]LogPlayLevel: Display: Destroying online subsystem :Context_90
+[2022.11.29-17.21.11:142][ 54]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.29-17.21.11:164][ 54]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.29-17.21.11:164][ 54]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.29-17.21.11:164][ 54]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-17.21.11:164][ 54]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.29-17.21.11:165][ 54]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.29-17.21.11:165][ 54]LogWorldPartition: Display: GetPartitionedActors took 43 us
+[2022.11.29-17.21.11:165][ 54]LogWorldPartition: Display: GenerateStreaming took 311 us
+[2022.11.29-17.21.11:165][ 54]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.29-17.21.11:165][ 54]PIE: New page: PIE session: ThirdPersonMap (29 Nov 2022, 17:21:11)
+[2022.11.29-17.21.11:165][ 54]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-17.21.11:171][ 54]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.29-17.21.11:171][ 54]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006613s)
+[2022.11.29-17.21.11:171][ 54]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.006664s)
+[2022.11.29-17.21.11:173][ 54]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-17.21.11:173][ 54]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.29-17.21.11:173][ 54]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.29-17.21.11:174][ 54]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.29-17.21.11:175][ 54]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.11.29-17.21.11:175][ 54]LogPlayLevel: PIE: World Init took: (0.002927s)
+[2022.11.29-17.21.11:226][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2022.11.29-17.21.11:230][ 54]LogAudio: Display: Creating Audio Device:                 Id: 62, Scope: Unique, Realtime: True
+[2022.11.29-17.21.11:230][ 54]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.29-17.21.11:230][ 54]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.29-17.21.11:230][ 54]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.29-17.21.11:230][ 54]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.29-17.21.11:230][ 54]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.29-17.21.11:230][ 54]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.29-17.21.11:230][ 54]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.29-17.21.11:230][ 54]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.29-17.21.11:230][ 54]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.29-17.21.11:230][ 54]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.29-17.21.11:231][ 54]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.29-17.21.11:233][ 54]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.29-17.21.11:291][ 54]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.11.29-17.21.11:291][ 54]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.29-17.21.11:291][ 54]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.29-17.21.11:291][ 54]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.29-17.21.11:291][ 54]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=62
+[2022.11.29-17.21.11:292][ 54]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=62
+[2022.11.29-17.21.11:293][ 54]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=62
+[2022.11.29-17.21.11:294][ 54]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=62
+[2022.11.29-17.21.11:294][ 54]LogInit: FAudioDevice initialized.
+[2022.11.29-17.21.11:294][ 54]LogAudio: Display: Audio Device (ID: 62) registered with world 'ThirdPersonMap'.
+[2022.11.29-17.21.11:311][ 54]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.11.29-17.21.11:314][ 54]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2022.11.29-17.21.11
+[2022.11.29-17.21.11:314][ 54]LogWorld: Bringing up level for play took: 0.002704
+[2022.11.29-17.21.11:317][ 54]LogOnline: OSS: Created online subsystem instance for: :Context_91
+[2022.11.29-17.21.11:320][ 54]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1560.000 Y=220.000 Z=92.013
+[2022.11.29-17.21.11:320][ 54]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-17.21.11:321][ 54]PIE: Server logged in
+[2022.11.29-17.21.11:322][ 54]PIE: Play in editor total start time 0.161 seconds.
+[2022.11.29-17.21.50:536][399]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-17.21.50:536][399]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-17.21.50:536][399]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-17.21.50:537][399]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-17.21.50:555][399]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.29-17.21.50:561][399]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-17.21.50:611][399]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.29-17.21.50:612][399]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=62
+[2022.11.29-17.21.50:613][399]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=62
+[2022.11.29-17.21.50:619][399]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-17.21.50:623][399]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2022.11.29-17.21.50:678][400]LogPlayLevel: Display: Destroying online subsystem :Context_91
+[2022.11.29-17.21.55:742][687]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/RW/OR5HMM54RD02KYBK3MQ70S
+[2022.11.29-17.21.55:744][687]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/OR5HMM54RD02KYBK3MQ70SBA2C43F746C7D34B028AB9AD277AA698.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/RW/OR5HMM54RD02KYBK3MQ70S.uasset'
+[2022.11.29-17.21.55:807][687]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/3I/ONZDGO83AH6CPPJIHTT073
+[2022.11.29-17.21.55:809][687]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/ONZDGO83AH6CPPJIHTT07305A0A61542BA7CCE3B02D185DB7FF825.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/3I/ONZDGO83AH6CPPJIHTT073.uasset'
+[2022.11.29-17.21.55:816][687]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/V3/305RY4HQGVN0PM2MCMEZWZ
+[2022.11.29-17.21.55:818][687]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/305RY4HQGVN0PM2MCMEZWZ0D73DA9F4BADD5DEAF64DFB61BFD5F91.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/V3/305RY4HQGVN0PM2MCMEZWZ.uasset'
+[2022.11.29-17.21.55:837][687]AssetCheck: New page: Asset Save: multiple assets
+[2022.11.29-17.21.55:837][687]LogContentValidation: Display: Validating FloorRiseBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.FloorRiseBP_C_UAID_3C7C3FEBD325574E01_1997862843
+[2022.11.29-17.21.55:837][687]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_3C7C3FEBD325594E01_1158749197
+[2022.11.29-17.21.55:837][687]LogContentValidation: Display: Validating FloorRiseBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.FloorRiseBP_C_UAID_3C7C3FEBD325514E01_1598489784
+[2022.11.29-17.22.47:648][785]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.29-17.22.47:671][785]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.29-17.22.47:671][785]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.29-17.22.47:671][785]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-17.22.47:671][785]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.29-17.22.47:671][785]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.29-17.22.47:671][785]LogWorldPartition: Display: GetPartitionedActors took 45 us
+[2022.11.29-17.22.47:672][785]LogWorldPartition: Display: GenerateStreaming took 323 us
+[2022.11.29-17.22.47:672][785]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.29-17.22.47:672][785]PIE: New page: PIE session: ThirdPersonMap (29 Nov 2022, 17:22:47)
+[2022.11.29-17.22.47:672][785]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-17.22.47:678][785]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.29-17.22.47:678][785]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006621s)
+[2022.11.29-17.22.47:678][785]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.006671s)
+[2022.11.29-17.22.47:679][785]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-17.22.47:679][785]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.29-17.22.47:679][785]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.29-17.22.47:679][785]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.29-17.22.47:682][785]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.11.29-17.22.47:682][785]LogPlayLevel: PIE: World Init took: (0.002800s)
+[2022.11.29-17.22.47:733][785]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2022.11.29-17.22.47:737][785]LogAudio: Display: Creating Audio Device:                 Id: 63, Scope: Unique, Realtime: True
+[2022.11.29-17.22.47:737][785]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.29-17.22.47:737][785]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.29-17.22.47:737][785]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.29-17.22.47:737][785]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.29-17.22.47:737][785]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.29-17.22.47:737][785]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.29-17.22.47:737][785]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.29-17.22.47:737][785]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.29-17.22.47:738][785]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.29-17.22.47:738][785]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.29-17.22.47:738][785]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.29-17.22.47:740][785]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.29-17.22.47:803][785]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.11.29-17.22.47:803][785]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.29-17.22.47:803][785]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.29-17.22.47:803][785]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.29-17.22.47:805][785]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=63
+[2022.11.29-17.22.47:805][785]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=63
+[2022.11.29-17.22.47:807][785]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=63
+[2022.11.29-17.22.47:807][785]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=63
+[2022.11.29-17.22.47:807][785]LogInit: FAudioDevice initialized.
+[2022.11.29-17.22.47:807][785]LogAudio: Display: Audio Device (ID: 63) registered with world 'ThirdPersonMap'.
+[2022.11.29-17.22.47:824][785]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.11.29-17.22.47:826][785]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2022.11.29-17.22.47
+[2022.11.29-17.22.47:827][785]LogWorld: Bringing up level for play took: 0.003378
+[2022.11.29-17.22.47:829][785]LogOnline: OSS: Created online subsystem instance for: :Context_92
+[2022.11.29-17.22.47:833][785]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1560.000 Y=220.000 Z=92.013
+[2022.11.29-17.22.47:833][785]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-17.22.47:834][785]PIE: Server logged in
+[2022.11.29-17.22.47:835][785]PIE: Play in editor total start time 0.168 seconds.
+[2022.11.29-17.23.49:342][465]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-17.23.49:342][465]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-17.23.49:342][465]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-17.23.49:343][465]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-17.23.49:360][465]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.29-17.23.49:366][465]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-17.23.49:417][465]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.29-17.23.49:418][465]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=63
+[2022.11.29-17.23.49:420][465]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=63
+[2022.11.29-17.23.49:426][465]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-17.23.49:429][465]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2022.11.29-17.23.49:484][466]LogPlayLevel: Display: Destroying online subsystem :Context_92
+[2022.11.29-17.23.56:833][898]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.29-17.23.56:855][898]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.29-17.23.56:856][898]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.29-17.23.56:856][898]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-17.23.56:856][898]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.29-17.23.56:856][898]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.29-17.23.56:856][898]LogWorldPartition: Display: GetPartitionedActors took 47 us
+[2022.11.29-17.23.56:856][898]LogWorldPartition: Display: GenerateStreaming took 312 us
+[2022.11.29-17.23.56:856][898]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.29-17.23.56:856][898]PIE: New page: PIE session: ThirdPersonMap (29 Nov 2022, 17:23:56)
+[2022.11.29-17.23.56:856][898]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-17.23.56:863][898]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.29-17.23.56:863][898]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006574s)
+[2022.11.29-17.23.56:863][898]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.006626s)
+[2022.11.29-17.23.56:863][898]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-17.23.56:864][898]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.29-17.23.56:864][898]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.29-17.23.56:864][898]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.29-17.23.56:866][898]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.11.29-17.23.56:866][898]LogPlayLevel: PIE: World Init took: (0.002838s)
+[2022.11.29-17.23.56:917][898]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2022.11.29-17.23.56:920][898]LogAudio: Display: Creating Audio Device:                 Id: 64, Scope: Unique, Realtime: True
+[2022.11.29-17.23.56:920][898]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.29-17.23.56:920][898]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.29-17.23.56:920][898]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.29-17.23.56:920][898]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.29-17.23.56:920][898]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.29-17.23.56:920][898]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.29-17.23.56:920][898]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.29-17.23.56:920][898]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.29-17.23.56:920][898]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.29-17.23.56:920][898]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.29-17.23.56:920][898]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.29-17.23.56:922][898]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.29-17.23.56:983][898]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.11.29-17.23.56:984][898]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.29-17.23.56:984][898]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.29-17.23.56:984][898]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.29-17.23.56:984][898]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=64
+[2022.11.29-17.23.56:984][898]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=64
+[2022.11.29-17.23.56:986][898]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=64
+[2022.11.29-17.23.56:986][898]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=64
+[2022.11.29-17.23.56:986][898]LogInit: FAudioDevice initialized.
+[2022.11.29-17.23.56:986][898]LogAudio: Display: Audio Device (ID: 64) registered with world 'ThirdPersonMap'.
+[2022.11.29-17.23.57:000][898]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.11.29-17.23.57:003][898]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2022.11.29-17.23.57
+[2022.11.29-17.23.57:004][898]LogWorld: Bringing up level for play took: 0.003601
+[2022.11.29-17.23.57:007][898]LogOnline: OSS: Created online subsystem instance for: :Context_93
+[2022.11.29-17.23.57:012][898]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1560.000 Y=220.000 Z=92.013
+[2022.11.29-17.23.57:012][898]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-17.23.57:013][898]PIE: Server logged in
+[2022.11.29-17.23.57:015][898]PIE: Play in editor total start time 0.162 seconds.
+[2022.11.29-17.24.03:966][307]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-17.24.03:967][307]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-17.24.03:967][307]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-17.24.03:967][307]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-17.24.03:980][307]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.29-17.24.03:986][307]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-17.24.04:038][307]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.29-17.24.04:038][307]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=64
+[2022.11.29-17.24.04:040][307]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=64
+[2022.11.29-17.24.04:046][307]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-17.24.04:050][307]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2022.11.29-17.24.04:102][308]LogPlayLevel: Display: Destroying online subsystem :Context_93
+[2022.11.29-17.24.13:051][830]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.29-17.24.13:072][830]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.29-17.24.13:072][830]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.29-17.24.13:072][830]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-17.24.13:072][830]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.29-17.24.13:072][830]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.29-17.24.13:072][830]LogWorldPartition: Display: GetPartitionedActors took 43 us
+[2022.11.29-17.24.13:072][830]LogWorldPartition: Display: GenerateStreaming took 317 us
+[2022.11.29-17.24.13:072][830]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.29-17.24.13:072][830]PIE: New page: PIE session: ThirdPersonMap (29 Nov 2022, 17:24:13)
+[2022.11.29-17.24.13:074][830]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-17.24.13:080][830]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.29-17.24.13:080][830]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006471s)
+[2022.11.29-17.24.13:080][830]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.006528s)
+[2022.11.29-17.24.13:080][830]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-17.24.13:081][830]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.29-17.24.13:081][830]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.29-17.24.13:081][830]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.29-17.24.13:083][830]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.11.29-17.24.13:083][830]LogPlayLevel: PIE: World Init took: (0.002646s)
+[2022.11.29-17.24.13:134][830]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2022.11.29-17.24.13:138][830]LogAudio: Display: Creating Audio Device:                 Id: 65, Scope: Unique, Realtime: True
+[2022.11.29-17.24.13:138][830]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.29-17.24.13:138][830]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.29-17.24.13:138][830]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.29-17.24.13:138][830]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.29-17.24.13:138][830]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.29-17.24.13:138][830]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.29-17.24.13:138][830]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.29-17.24.13:138][830]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.29-17.24.13:138][830]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.29-17.24.13:138][830]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.29-17.24.13:138][830]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.29-17.24.13:141][830]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.29-17.24.13:202][830]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.11.29-17.24.13:202][830]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.29-17.24.13:202][830]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.29-17.24.13:202][830]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.29-17.24.13:202][830]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=65
+[2022.11.29-17.24.13:202][830]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=65
+[2022.11.29-17.24.13:205][830]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=65
+[2022.11.29-17.24.13:205][830]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=65
+[2022.11.29-17.24.13:205][830]LogInit: FAudioDevice initialized.
+[2022.11.29-17.24.13:205][830]LogAudio: Display: Audio Device (ID: 65) registered with world 'ThirdPersonMap'.
+[2022.11.29-17.24.13:219][830]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.11.29-17.24.13:221][830]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2022.11.29-17.24.13
+[2022.11.29-17.24.13:223][830]LogWorld: Bringing up level for play took: 0.002910
+[2022.11.29-17.24.13:225][830]LogOnline: OSS: Created online subsystem instance for: :Context_94
+[2022.11.29-17.24.13:229][830]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1560.000 Y=220.000 Z=92.013
+[2022.11.29-17.24.13:229][830]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-17.24.13:230][830]PIE: Server logged in
+[2022.11.29-17.24.13:231][830]PIE: Play in editor total start time 0.163 seconds.
+[2022.11.29-17.24.18:206][118]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-17.24.18:206][118]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-17.24.18:206][118]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-17.24.18:207][118]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-17.24.18:222][118]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.29-17.24.18:228][118]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-17.24.18:280][118]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.29-17.24.18:280][118]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=65
+[2022.11.29-17.24.18:282][118]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=65
+[2022.11.29-17.24.18:288][118]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-17.24.18:292][118]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2022.11.29-17.24.18:360][119]LogPlayLevel: Display: Destroying online subsystem :Context_94
+[2022.11.29-17.24.30:549][833]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.29-17.24.30:573][833]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.29-17.24.30:573][833]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.29-17.24.30:573][833]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-17.24.30:573][833]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.29-17.24.30:573][833]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.29-17.24.30:573][833]LogWorldPartition: Display: GetPartitionedActors took 43 us
+[2022.11.29-17.24.30:573][833]LogWorldPartition: Display: GenerateStreaming took 315 us
+[2022.11.29-17.24.30:573][833]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.29-17.24.30:573][833]PIE: New page: PIE session: ThirdPersonMap (29 Nov 2022, 17:24:30)
+[2022.11.29-17.24.30:573][833]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-17.24.30:579][833]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.29-17.24.30:579][833]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006616s)
+[2022.11.29-17.24.30:579][833]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.006665s)
+[2022.11.29-17.24.30:580][833]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-17.24.30:580][833]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.29-17.24.30:580][833]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.29-17.24.30:580][833]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.29-17.24.30:582][833]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.11.29-17.24.30:582][833]LogPlayLevel: PIE: World Init took: (0.002634s)
+[2022.11.29-17.24.30:635][833]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2022.11.29-17.24.30:638][833]LogAudio: Display: Creating Audio Device:                 Id: 66, Scope: Unique, Realtime: True
+[2022.11.29-17.24.30:638][833]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.29-17.24.30:638][833]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.29-17.24.30:638][833]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.29-17.24.30:638][833]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.29-17.24.30:638][833]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.29-17.24.30:638][833]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.29-17.24.30:638][833]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.29-17.24.30:638][833]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.29-17.24.30:638][833]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.29-17.24.30:638][833]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.29-17.24.30:638][833]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.29-17.24.30:640][833]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.29-17.24.30:704][833]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.11.29-17.24.30:704][833]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.29-17.24.30:704][833]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.29-17.24.30:704][833]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.29-17.24.30:705][833]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=66
+[2022.11.29-17.24.30:705][833]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=66
+[2022.11.29-17.24.30:707][833]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=66
+[2022.11.29-17.24.30:707][833]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=66
+[2022.11.29-17.24.30:707][833]LogInit: FAudioDevice initialized.
+[2022.11.29-17.24.30:707][833]LogAudio: Display: Audio Device (ID: 66) registered with world 'ThirdPersonMap'.
+[2022.11.29-17.24.30:727][833]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.11.29-17.24.30:729][833]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2022.11.29-17.24.30
+[2022.11.29-17.24.30:729][833]LogWorld: Bringing up level for play took: 0.002661
+[2022.11.29-17.24.30:732][833]LogOnline: OSS: Created online subsystem instance for: :Context_95
+[2022.11.29-17.24.30:736][833]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1560.000 Y=220.000 Z=92.013
+[2022.11.29-17.24.30:736][833]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-17.24.30:737][833]PIE: Server logged in
+[2022.11.29-17.24.30:738][833]PIE: Play in editor total start time 0.169 seconds.
+[2022.11.29-17.24.37:183][212]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-17.24.37:183][212]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-17.24.37:183][212]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-17.24.37:184][212]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-17.24.37:201][212]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.29-17.24.37:206][212]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-17.24.37:258][212]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.29-17.24.37:258][212]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=66
+[2022.11.29-17.24.37:260][212]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=66
+[2022.11.29-17.24.37:267][212]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-17.24.37:270][212]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2022.11.29-17.24.37:319][213]LogPlayLevel: Display: Destroying online subsystem :Context_95
+[2022.11.29-17.24.52:495][112]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.29-17.24.52:517][112]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.29-17.24.52:517][112]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.29-17.24.52:517][112]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-17.24.52:517][112]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.29-17.24.52:517][112]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.29-17.24.52:517][112]LogWorldPartition: Display: GetPartitionedActors took 43 us
+[2022.11.29-17.24.52:519][112]LogWorldPartition: Display: GenerateStreaming took 308 us
+[2022.11.29-17.24.52:519][112]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.29-17.24.52:519][112]PIE: New page: PIE session: ThirdPersonMap (29 Nov 2022, 17:24:52)
+[2022.11.29-17.24.52:519][112]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-17.24.52:525][112]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.29-17.24.52:525][112]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006432s)
+[2022.11.29-17.24.52:525][112]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.006483s)
+[2022.11.29-17.24.52:525][112]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-17.24.52:526][112]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.29-17.24.52:526][112]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.29-17.24.52:526][112]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.29-17.24.52:528][112]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.11.29-17.24.52:528][112]LogPlayLevel: PIE: World Init took: (0.002647s)
+[2022.11.29-17.24.52:578][112]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2022.11.29-17.24.52:581][112]LogAudio: Display: Creating Audio Device:                 Id: 67, Scope: Unique, Realtime: True
+[2022.11.29-17.24.52:581][112]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.29-17.24.52:581][112]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.29-17.24.52:581][112]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.29-17.24.52:581][112]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.29-17.24.52:581][112]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.29-17.24.52:581][112]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.29-17.24.52:581][112]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.29-17.24.52:581][112]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.29-17.24.52:582][112]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.29-17.24.52:582][112]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.29-17.24.52:582][112]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.29-17.24.52:584][112]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.29-17.24.52:641][112]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.11.29-17.24.52:641][112]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.29-17.24.52:641][112]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.29-17.24.52:641][112]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.29-17.24.52:642][112]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=67
+[2022.11.29-17.24.52:642][112]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=67
+[2022.11.29-17.24.52:644][112]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=67
+[2022.11.29-17.24.52:644][112]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=67
+[2022.11.29-17.24.52:644][112]LogInit: FAudioDevice initialized.
+[2022.11.29-17.24.52:644][112]LogAudio: Display: Audio Device (ID: 67) registered with world 'ThirdPersonMap'.
+[2022.11.29-17.24.52:661][112]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.11.29-17.24.52:664][112]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2022.11.29-17.24.52
+[2022.11.29-17.24.52:664][112]LogWorld: Bringing up level for play took: 0.002667
+[2022.11.29-17.24.52:667][112]LogOnline: OSS: Created online subsystem instance for: :Context_96
+[2022.11.29-17.24.52:670][112]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1560.000 Y=220.000 Z=92.013
+[2022.11.29-17.24.52:670][112]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-17.24.52:670][112]PIE: Server logged in
+[2022.11.29-17.24.52:672][112]PIE: Play in editor total start time 0.158 seconds.
+[2022.11.29-17.25.03:892][778]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-17.25.03:893][778]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-17.25.03:893][778]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-17.25.03:893][778]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-17.25.03:910][778]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.29-17.25.03:916][778]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-17.25.03:968][778]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.29-17.25.03:969][778]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=67
+[2022.11.29-17.25.03:971][778]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=67
+[2022.11.29-17.25.03:976][778]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-17.25.03:980][778]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2022.11.29-17.25.04:034][779]LogPlayLevel: Display: Destroying online subsystem :Context_96
+[2022.11.29-17.25.12:932][299]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.29-17.25.12:962][299]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.29-17.25.12:962][299]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.29-17.25.12:962][299]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-17.25.12:962][299]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.29-17.25.12:962][299]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.29-17.25.12:962][299]LogWorldPartition: Display: GetPartitionedActors took 46 us
+[2022.11.29-17.25.12:962][299]LogWorldPartition: Display: GenerateStreaming took 322 us
+[2022.11.29-17.25.12:962][299]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.29-17.25.12:962][299]PIE: New page: PIE session: ThirdPersonMap (29 Nov 2022, 17:25:12)
+[2022.11.29-17.25.12:962][299]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-17.25.12:969][299]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.29-17.25.12:969][299]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006445s)
+[2022.11.29-17.25.12:969][299]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.006498s)
+[2022.11.29-17.25.12:969][299]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-17.25.12:970][299]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.29-17.25.12:970][299]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.29-17.25.12:970][299]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.29-17.25.12:972][299]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.11.29-17.25.12:972][299]LogPlayLevel: PIE: World Init took: (0.002667s)
+[2022.11.29-17.25.13:022][299]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2022.11.29-17.25.13:025][299]LogAudio: Display: Creating Audio Device:                 Id: 68, Scope: Unique, Realtime: True
+[2022.11.29-17.25.13:025][299]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.29-17.25.13:025][299]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.29-17.25.13:025][299]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.29-17.25.13:025][299]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.29-17.25.13:025][299]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.29-17.25.13:025][299]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.29-17.25.13:025][299]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.29-17.25.13:025][299]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.29-17.25.13:026][299]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.29-17.25.13:026][299]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.29-17.25.13:026][299]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.29-17.25.13:028][299]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.29-17.25.13:093][299]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.11.29-17.25.13:093][299]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.29-17.25.13:093][299]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.29-17.25.13:093][299]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.29-17.25.13:094][299]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=68
+[2022.11.29-17.25.13:094][299]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=68
+[2022.11.29-17.25.13:096][299]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=68
+[2022.11.29-17.25.13:096][299]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=68
+[2022.11.29-17.25.13:096][299]LogInit: FAudioDevice initialized.
+[2022.11.29-17.25.13:096][299]LogAudio: Display: Audio Device (ID: 68) registered with world 'ThirdPersonMap'.
+[2022.11.29-17.25.13:109][299]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.11.29-17.25.13:111][299]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2022.11.29-17.25.13
+[2022.11.29-17.25.13:111][299]LogWorld: Bringing up level for play took: 0.002485
+[2022.11.29-17.25.13:114][299]LogOnline: OSS: Created online subsystem instance for: :Context_97
+[2022.11.29-17.25.13:116][299]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1560.000 Y=220.000 Z=92.013
+[2022.11.29-17.25.13:116][299]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-17.25.13:116][299]PIE: Server logged in
+[2022.11.29-17.25.13:119][299]PIE: Play in editor total start time 0.162 seconds.
+[2022.11.29-17.25.35:613][641]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-17.25.35:614][641]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-17.25.35:614][641]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-17.25.35:614][641]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-17.25.35:632][641]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.29-17.25.35:638][641]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-17.25.35:690][641]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.29-17.25.35:690][641]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=68
+[2022.11.29-17.25.35:692][641]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=68
+[2022.11.29-17.25.35:700][641]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-17.25.35:704][641]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2022.11.29-17.25.35:754][642]LogPlayLevel: Display: Destroying online subsystem :Context_97
+[2022.11.29-17.25.40:293][909]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.29-17.25.40:317][909]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.29-17.25.40:317][909]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.29-17.25.40:317][909]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-17.25.40:317][909]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.29-17.25.40:317][909]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.29-17.25.40:317][909]LogWorldPartition: Display: GetPartitionedActors took 46 us
+[2022.11.29-17.25.40:317][909]LogWorldPartition: Display: GenerateStreaming took 323 us
+[2022.11.29-17.25.40:317][909]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.29-17.25.40:317][909]PIE: New page: PIE session: ThirdPersonMap (29 Nov 2022, 17:25:40)
+[2022.11.29-17.25.40:317][909]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-17.25.40:323][909]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.29-17.25.40:323][909]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006792s)
+[2022.11.29-17.25.40:323][909]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.006869s)
+[2022.11.29-17.25.40:325][909]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-17.25.40:325][909]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.29-17.25.40:326][909]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.29-17.25.40:326][909]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.29-17.25.40:327][909]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.11.29-17.25.40:327][909]LogPlayLevel: PIE: World Init took: (0.003237s)
+[2022.11.29-17.25.40:384][909]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2022.11.29-17.25.40:387][909]LogAudio: Display: Creating Audio Device:                 Id: 69, Scope: Unique, Realtime: True
+[2022.11.29-17.25.40:387][909]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.29-17.25.40:387][909]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.29-17.25.40:387][909]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.29-17.25.40:387][909]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.29-17.25.40:387][909]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.29-17.25.40:387][909]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.29-17.25.40:387][909]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.29-17.25.40:387][909]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.29-17.25.40:388][909]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.29-17.25.40:388][909]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.29-17.25.40:388][909]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.29-17.25.40:391][909]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.29-17.25.40:448][909]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.11.29-17.25.40:448][909]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.29-17.25.40:448][909]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.29-17.25.40:448][909]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.29-17.25.40:448][909]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=69
+[2022.11.29-17.25.40:449][909]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=69
+[2022.11.29-17.25.40:451][909]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=69
+[2022.11.29-17.25.40:451][909]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=69
+[2022.11.29-17.25.40:451][909]LogInit: FAudioDevice initialized.
+[2022.11.29-17.25.40:451][909]LogAudio: Display: Audio Device (ID: 69) registered with world 'ThirdPersonMap'.
+[2022.11.29-17.25.40:464][909]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.11.29-17.25.40:467][909]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2022.11.29-17.25.40
+[2022.11.29-17.25.40:468][909]LogWorld: Bringing up level for play took: 0.002590
+[2022.11.29-17.25.40:470][909]LogOnline: OSS: Created online subsystem instance for: :Context_98
+[2022.11.29-17.25.40:473][909]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1560.000 Y=220.000 Z=92.013
+[2022.11.29-17.25.40:473][909]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-17.25.40:474][909]PIE: Server logged in
+[2022.11.29-17.25.40:476][909]PIE: Play in editor total start time 0.163 seconds.
+[2022.11.29-17.27.41:225][141]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-17.27.41:225][141]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-17.27.41:226][141]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-17.27.41:226][141]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-17.27.41:243][141]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.29-17.27.41:249][141]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-17.27.41:300][141]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.29-17.27.41:300][141]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=69
+[2022.11.29-17.27.41:302][141]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=69
+[2022.11.29-17.27.41:310][141]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-17.27.41:313][141]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2022.11.29-17.27.41:364][142]LogPlayLevel: Display: Destroying online subsystem :Context_98
+[2022.11.29-17.28.05:437][571]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.29-17.28.05:461][571]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.29-17.28.05:461][571]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.29-17.28.05:461][571]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-17.28.05:461][571]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.29-17.28.05:461][571]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.11.29-17.28.05:461][571]LogWorldPartition: Display: GetPartitionedActors took 43 us
+[2022.11.29-17.28.05:461][571]LogWorldPartition: Display: GenerateStreaming took 327 us
+[2022.11.29-17.28.05:461][571]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.29-17.28.05:461][571]PIE: New page: PIE session: ThirdPersonMap (29 Nov 2022, 17:28:05)
+[2022.11.29-17.28.05:462][571]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-17.28.05:467][571]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.29-17.28.05:467][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006766s)
+[2022.11.29-17.28.05:467][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.006824s)
+[2022.11.29-17.28.05:467][571]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-17.28.05:469][571]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.29-17.28.05:469][571]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.29-17.28.05:469][571]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.29-17.28.05:471][571]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.11.29-17.28.05:471][571]LogPlayLevel: PIE: World Init took: (0.002877s)
+[2022.11.29-17.28.05:522][571]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2022.11.29-17.28.05:525][571]LogAudio: Display: Creating Audio Device:                 Id: 70, Scope: Unique, Realtime: True
+[2022.11.29-17.28.05:525][571]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.29-17.28.05:525][571]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.29-17.28.05:525][571]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.29-17.28.05:525][571]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.29-17.28.05:525][571]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.29-17.28.05:525][571]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.29-17.28.05:525][571]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.29-17.28.05:525][571]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.29-17.28.05:526][571]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.29-17.28.05:526][571]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.29-17.28.05:526][571]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.29-17.28.05:527][571]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.29-17.28.05:593][571]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.11.29-17.28.05:593][571]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.29-17.28.05:593][571]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.29-17.28.05:593][571]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.29-17.28.05:593][571]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=70
+[2022.11.29-17.28.05:593][571]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=70
+[2022.11.29-17.28.05:596][571]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=70
+[2022.11.29-17.28.05:596][571]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=70
+[2022.11.29-17.28.05:596][571]LogInit: FAudioDevice initialized.
+[2022.11.29-17.28.05:596][571]LogAudio: Display: Audio Device (ID: 70) registered with world 'ThirdPersonMap'.
+[2022.11.29-17.28.05:611][571]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.11.29-17.28.05:614][571]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2022.11.29-17.28.05
+[2022.11.29-17.28.05:615][571]LogWorld: Bringing up level for play took: 0.002965
+[2022.11.29-17.28.05:618][571]LogOnline: OSS: Created online subsystem instance for: :Context_99
+[2022.11.29-17.28.05:621][571]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1560.000 Y=220.000 Z=92.013
+[2022.11.29-17.28.05:621][571]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.11.29-17.28.05:623][571]PIE: Server logged in
+[2022.11.29-17.28.05:624][571]PIE: Play in editor total start time 0.168 seconds.
+[2022.11.29-17.28.24:031][668]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-17.28.24:031][668]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.29-17.28.24:031][668]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-17.28.24:032][668]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-17.28.24:043][668]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.29-17.28.24:049][668]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-17.28.24:102][668]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-17.28.24:102][668]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=70
+[2022.11.29-17.28.24:103][668]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=70
+[2022.11.29-17.28.24:114][668]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2022.11.29-17.28.24:184][669]LogPlayLevel: Display: Destroying online subsystem :Context_99
+[2022.11.29-17.28.49:429][151]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2022.11.29-17.28.49:491][151]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/RW/OR5HMM54RD02KYBK3MQ70S_Auto9
+[2022.11.29-17.28.49:491][151]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/OR5HMM54RD02KYBK3MQ70S_Auto9049A0B034ACDE1460837EF8EC5854D8C.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/RW/OR5HMM54RD02KYBK3MQ70S_Auto9.uasset'
+[2022.11.29-17.28.49:546][151]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/FU/5C49B71ZG0LMKMYJ9CYWPI_Auto9
+[2022.11.29-17.28.49:546][151]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/5C49B71ZG0LMKMYJ9CYWPI_Auto9B6F8496A43066AF3856BD5909ABBED6D.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/FU/5C49B71ZG0LMKMYJ9CYWPI_Auto9.uasset'
+[2022.11.29-17.28.49:614][151]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/3I/ONZDGO83AH6CPPJIHTT073_Auto9
+[2022.11.29-17.28.49:614][151]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/ONZDGO83AH6CPPJIHTT073_Auto9FBAF43904C16AB90C2F367BA754A6F18.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/3I/ONZDGO83AH6CPPJIHTT073_Auto9.uasset'
+[2022.11.29-17.28.49:617][151]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.241
+[2022.11.29-17.28.49:617][151]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.241
+[2022.11.29-17.28.49:617][151]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Maps/_GENERATED/debsi/CubeGridToolOutput_82D2BD75] ([1] browsable assets)...
+[2022.11.29-17.28.49:641][151]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ThirdPerson/Maps/_GENERATED/debsi/CubeGridToolOutput_82D2BD75.CubeGridToolOutput_82D2BD75]
+[2022.11.29-17.28.49:641][151]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Maps/_GENERATED/debsi/CubeGridToolOutput_82D2BD75]
+[2022.11.29-17.28.49:729][151]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Maps/_GENERATED/debsi/CubeGridToolOutput_82D2BD75_Auto9
+[2022.11.29-17.28.49:729][151]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/CubeGridToolOutput_82D2BD75_Auto3CF6A18E454399CE88B0E6B9DE9D5766.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/Autosaves/Game/ThirdPerson/Maps/_GENERATED/debsi/CubeGridToolOutput_82D2BD75_Auto9.uasset'
+[2022.11.29-17.28.49:731][151]LogFileHelpers: Auto-saving content packages took 0.114
+[2022.11.29-17.29.41:467][249]LogViewport: Scene viewport resized to 1583x1254, mode Windowed.
+[2022.11.29-17.29.42:443][294]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/RW/OR5HMM54RD02KYBK3MQ70S
+[2022.11.29-17.29.42:444][294]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/OR5HMM54RD02KYBK3MQ70S6CC65CE04885AAFEA0740DADF66A506A.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/RW/OR5HMM54RD02KYBK3MQ70S.uasset'
+[2022.11.29-17.29.42:501][294]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/FU/5C49B71ZG0LMKMYJ9CYWPI
+[2022.11.29-17.29.42:504][294]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/5C49B71ZG0LMKMYJ9CYWPIA871EFFD40DF806AA9BF4F929759593B.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/FU/5C49B71ZG0LMKMYJ9CYWPI.uasset'
+[2022.11.29-17.29.42:567][294]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/3I/ONZDGO83AH6CPPJIHTT073
+[2022.11.29-17.29.42:570][294]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/ONZDGO83AH6CPPJIHTT073F5E5191B4D9514BBFEBDD2B401D08414.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/3I/ONZDGO83AH6CPPJIHTT073.uasset'
+[2022.11.29-17.29.42:590][294]AssetCheck: New page: Asset Save: multiple assets
+[2022.11.29-17.29.42:590][294]LogContentValidation: Display: Validating FloorRiseBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.FloorRiseBP_C_UAID_3C7C3FEBD325574E01_1997862843
+[2022.11.29-17.29.42:590][294]LogContentValidation: Display: Validating RiseCoinBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.RiseCoinBP_C_UAID_3C7C3FEBD325514E01_2000701785
+[2022.11.29-17.29.42:590][294]LogContentValidation: Display: Validating FloorRiseBP_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.FloorRiseBP_C_UAID_3C7C3FEBD325514E01_1598489784
+[2022.11.29-17.29.44:463][397]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2022.11.29-17.29.44:680][397]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/_GENERATED/debsi/CubeGridToolOutput_82D2BD75
+[2022.11.29-17.29.44:682][397]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/CubeGridToolOutput_82D2BD754A8621DC4AA87029BF501E91968A4F03.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ThirdPerson/Maps/_GENERATED/debsi/CubeGridToolOutput_82D2BD75.uasset'
+[2022.11.29-17.29.44:700][397]AssetCheck: New page: Asset Save: CubeGridToolOutput_82D2BD75
+[2022.11.29-17.29.44:700][397]LogContentValidation: Display: Validating StaticMesh /Game/ThirdPerson/Maps/_GENERATED/debsi/CubeGridToolOutput_82D2BD75.CubeGridToolOutput_82D2BD75
+[2022.11.29-17.29.46:789][512]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2022.11.29-17.29.48:549][606]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2022.11.29-17.29.51:123][752]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2022.11.29-17.29.51:125][752]LogStall: Shutdown...
+[2022.11.29-17.29.51:132][752]LogStall: Shutdown complete.
+[2022.11.29-17.29.51:177][752]LogWorld: UWorld::CleanupWorld for World_54, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-17.29.51:177][752]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-17.29.51:326][752]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.11.29-17.29.51:326][752]LogWorld: UWorld::CleanupWorld for World_53, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-17.29.51:326][752]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-17.29.51:486][752]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.11.29-17.29.51:486][752]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-17.29.51:486][752]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-17.29.51:626][752]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.11.29-17.29.51:626][752]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-17.29.51:626][752]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-17.29.51:772][752]LogSlate: Window 'Coin' being destroyed
+[2022.11.29-17.29.51:808][752]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.11.29-17.29.51:808][752]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-17.29.51:808][752]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-17.29.51:997][752]LogSlate: Window 'Level - Unreal Editor' being destroyed
+[2022.11.29-17.29.52:251][753]Cmd: QUIT_EDITOR
+[2022.11.29-17.29.52:251][753]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.11.29-17.29.52:265][753]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.11.29-17.29.52:265][753]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2022.11.29-17.29.52:265][753]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2022.11.29-17.29.53:034][753]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.11.29-17.29.53:034][753]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.11.29-17.29.53:034][753]LogAudio: Display: Audio Device unregistered from world 'ThirdPersonMap'.
+[2022.11.29-17.29.53:034][753]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2022.11.29-17.29.53:036][753]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2022.11.29-17.29.53:048][753]LogAudio: Display: Audio Device Manager Shutdown
+[2022.11.29-17.29.53:060][753]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.11.29-17.29.53:060][753]LogExit: Preparing to exit.
+[2022.11.29-17.29.53:100][753]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2022.11.29-17.29.53:131][753]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.11.29-17.29.53:131][753]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.11.29-17.29.53:134][753]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.11.29-17.29.53:135][753]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.11.29-17.29.53:135][753]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.11.29-17.29.53:135][753]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.11.29-17.29.53:135][753]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.11.29-17.29.53:135][753]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.11.29-17.29.53:135][753]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.11.29-17.29.53:135][753]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.11.29-17.29.53:135][753]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.11.29-17.29.54:048][753]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-17.29.54:052][753]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-17.29.54:053][753]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-17.29.54:055][753]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-17.29.54:056][753]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-17.29.54:057][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2022.11.29-17.29.54:057][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2022.11.29-17.29.54:057][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2022.11.29-17.29.54:057][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2022.11.29-17.29.54:057][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2022.11.29-17.29.54:057][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2022.11.29-17.29.54:057][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2022.11.29-17.29.54:057][753]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-17.29.54:060][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2022.11.29-17.29.54:060][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2022.11.29-17.29.54:060][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2022.11.29-17.29.54:060][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2022.11.29-17.29.54:060][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2022.11.29-17.29.54:060][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2022.11.29-17.29.54:060][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2022.11.29-17.29.54:060][753]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-17.29.54:061][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2022.11.29-17.29.54:061][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2022.11.29-17.29.54:061][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2022.11.29-17.29.54:061][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2022.11.29-17.29.54:061][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2022.11.29-17.29.54:061][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2022.11.29-17.29.54:061][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2022.11.29-17.29.54:061][753]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-17.29.54:063][753]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-17.29.54:066][753]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-17.29.54:072][753]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-17.29.54:116][753]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.11.29-17.29.54:142][753]LogStylusInput: Shutting down StylusInput subsystem.
+[2022.11.29-17.29.54:142][753]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2022.11.29-17.29.54:164][753]LogExit: Editor shut down
+[2022.11.29-17.29.54:168][753]LogExit: Transaction tracking system shut down
+[2022.11.29-17.29.54:720][753]LogExit: Object subsystem successfully closed.
+[2022.11.29-17.29.54:734][753]LogShaderCompilers: Display: ================================================
+[2022.11.29-17.29.54:734][753]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.11.29-17.29.54:734][753]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2022.11.29-17.29.54:734][753]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2022.11.29-17.29.54:734][753]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.11.29-17.29.54:734][753]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.11.29-17.29.54:734][753]LogShaderCompilers: Display: Shaders Compiled: 0
+[2022.11.29-17.29.54:734][753]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2022.11.29-17.29.54:734][753]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2022.11.29-17.29.54:734][753]LogShaderCompilers: Display: ================================================
+[2022.11.29-17.29.54:780][753]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.11.29-17.29.54:824][753]LogModuleManager: Shutting down and abandoning module SequencerWidgets (890)
+[2022.11.29-17.29.54:824][753]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (888)
+[2022.11.29-17.29.54:824][753]LogModuleManager: Shutting down and abandoning module BlueprintGraph (886)
+[2022.11.29-17.29.54:824][753]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (884)
+[2022.11.29-17.29.54:824][753]LogModuleManager: Shutting down and abandoning module Voice (882)
+[2022.11.29-17.29.54:824][753]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (880)
+[2022.11.29-17.29.54:824][753]LogModuleManager: Shutting down and abandoning module AddContentDialog (878)
+[2022.11.29-17.29.54:825][753]LogModuleManager: Shutting down and abandoning module WidgetCarousel (877)
+[2022.11.29-17.29.54:825][753]LogModuleManager: Shutting down and abandoning module SubobjectEditor (874)
+[2022.11.29-17.29.54:825][753]LogModuleManager: Shutting down and abandoning module SceneOutliner (872)
+[2022.11.29-17.29.54:825][753]LogModuleManager: Shutting down and abandoning module StatusBar (870)
+[2022.11.29-17.29.54:825][753]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (868)
+[2022.11.29-17.29.54:825][753]LogModuleManager: Shutting down and abandoning module DataLayerEditor (866)
+[2022.11.29-17.29.54:825][753]LogModuleManager: Shutting down and abandoning module StatsViewer (864)
+[2022.11.29-17.29.54:825][753]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (862)
+[2022.11.29-17.29.54:825][753]LogModuleManager: Shutting down and abandoning module AutomationWorker (860)
+[2022.11.29-17.29.54:825][753]LogModuleManager: Shutting down and abandoning module ResonanceAudioEditor (858)
+[2022.11.29-17.29.54:825][753]LogModuleManager: Shutting down and abandoning module GooglePADEditor (856)
+[2022.11.29-17.29.54:825][753]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (854)
+[2022.11.29-17.29.54:826][753]LogModuleManager: Shutting down and abandoning module AndroidFileServerEditor (852)
+[2022.11.29-17.29.54:826][753]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (850)
+[2022.11.29-17.29.54:826][753]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (848)
+[2022.11.29-17.29.54:826][753]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (846)
+[2022.11.29-17.29.54:826][753]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (844)
+[2022.11.29-17.29.54:826][753]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (842)
+[2022.11.29-17.29.54:826][753]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (840)
+[2022.11.29-17.29.54:826][753]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (838)
+[2022.11.29-17.29.54:826][753]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (836)
+[2022.11.29-17.29.54:826][753]LogModuleManager: Shutting down and abandoning module WebMMedia (834)
+[2022.11.29-17.29.54:826][753]LogModuleManager: Shutting down and abandoning module TextureAlignMode (832)
+[2022.11.29-17.29.54:826][753]LogModuleManager: Shutting down and abandoning module BspMode (830)
+[2022.11.29-17.29.54:826][753]LogModuleManager: Shutting down and abandoning module GeometryMode (828)
+[2022.11.29-17.29.54:826][753]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (826)
+[2022.11.29-17.29.54:826][753]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (824)
+[2022.11.29-17.29.54:826][753]LogModuleManager: Shutting down and abandoning module SequenceRecorder (823)
+[2022.11.29-17.29.54:826][753]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (820)
+[2022.11.29-17.29.54:826][753]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (818)
+[2022.11.29-17.29.54:826][753]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (816)
+[2022.11.29-17.29.54:826][753]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (814)
+[2022.11.29-17.29.54:826][753]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (812)
+[2022.11.29-17.29.54:826][753]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (810)
+[2022.11.29-17.29.54:826][753]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (808)
+[2022.11.29-17.29.54:826][753]LogModuleManager: Shutting down and abandoning module PlanarCut (806)
+[2022.11.29-17.29.54:826][753]LogModuleManager: Shutting down and abandoning module CharacterAI (804)
+[2022.11.29-17.29.54:826][753]LogModuleManager: Shutting down and abandoning module ControlRigEditor (802)
+[2022.11.29-17.29.54:826][753]LogModuleManager: Shutting down and abandoning module AnimationEditor (801)
+[2022.11.29-17.29.54:826][753]LogModuleManager: Shutting down and abandoning module ControlRigSplineEditor (798)
+[2022.11.29-17.29.54:826][753]LogModuleManager: Shutting down and abandoning module IKRigEditor (796)
+[2022.11.29-17.29.54:826][753]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (794)
+[2022.11.29-17.29.54:826][753]LogModuleManager: Shutting down and abandoning module SmartSnapping (792)
+[2022.11.29-17.29.54:826][753]LogModuleManager: Shutting down and abandoning module SessionServices (790)
+[2022.11.29-17.29.54:830][753]LogModuleManager: Shutting down and abandoning module MeshPaint (788)
+[2022.11.29-17.29.54:830][753]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (786)
+[2022.11.29-17.29.54:830][753]LogModuleManager: Shutting down and abandoning module PlacementMode (785)
+[2022.11.29-17.29.54:830][753]LogModuleManager: Shutting down and abandoning module FoliageEdit (782)
+[2022.11.29-17.29.54:830][753]LogModuleManager: Shutting down and abandoning module LandscapeEditor (780)
+[2022.11.29-17.29.54:830][753]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (778)
+[2022.11.29-17.29.54:830][753]LogModuleManager: Shutting down and abandoning module ActorPickerMode (776)
+[2022.11.29-17.29.54:830][753]LogModuleManager: Shutting down and abandoning module ViewportSnapping (774)
+[2022.11.29-17.29.54:830][753]LogModuleManager: Shutting down and abandoning module EditorWidgets (772)
+[2022.11.29-17.29.54:830][753]LogModuleManager: Shutting down and abandoning module ViewportInteraction (770)
+[2022.11.29-17.29.54:830][753]LogModuleManager: Shutting down and abandoning module ClothPainter (768)
+[2022.11.29-17.29.54:830][753]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (767)
+[2022.11.29-17.29.54:830][753]LogModuleManager: Shutting down and abandoning module LogVisualizer (764)
+[2022.11.29-17.29.54:830][753]LogModuleManager: Shutting down and abandoning module IntroTutorials (762)
+[2022.11.29-17.29.54:830][753]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (760)
+[2022.11.29-17.29.54:830][753]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (758)
+[2022.11.29-17.29.54:830][753]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (757)
+[2022.11.29-17.29.54:830][753]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (755)
+[2022.11.29-17.29.55:365][753]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (752)
+[2022.11.29-17.29.55:365][753]LogModuleManager: Shutting down and abandoning module HoloLensPlatformEditor (750)
+[2022.11.29-17.29.55:365][753]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (748)
+[2022.11.29-17.29.55:365][753]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (746)
+[2022.11.29-17.29.55:365][753]LogModuleManager: Shutting down and abandoning module CSVtoSVG (744)
+[2022.11.29-17.29.55:365][753]LogModuleManager: Shutting down and abandoning module DerivedDataEditor (742)
+[2022.11.29-17.29.55:365][753]LogModuleManager: Shutting down and abandoning module EditorConfig (740)
+[2022.11.29-17.29.55:365][753]LogModuleManager: Shutting down and abandoning module WorldPartitionEditor (738)
+[2022.11.29-17.29.55:365][753]LogModuleManager: Shutting down and abandoning module EditorFramework (736)
+[2022.11.29-17.29.55:365][753]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (734)
+[2022.11.29-17.29.55:365][753]LogModuleManager: Shutting down and abandoning module TraceInsights (732)
+[2022.11.29-17.29.55:365][753]MemoryProfiler: Shutdown
+[2022.11.29-17.29.55:365][753]NetworkingProfiler: Shutdown
+[2022.11.29-17.29.55:365][753]LoadingProfiler: Shutdown
+[2022.11.29-17.29.55:365][753]TimingProfiler: Shutdown
+[2022.11.29-17.29.55:366][753]LogModuleManager: Shutting down and abandoning module TraceServices (731)
+[2022.11.29-17.29.55:366][753]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (728)
+[2022.11.29-17.29.55:366][753]LogModuleManager: Shutting down and abandoning module InteractiveToolsFramework (727)
+[2022.11.29-17.29.55:366][753]LogModuleManager: Shutting down and abandoning module InputBindingEditor (724)
+[2022.11.29-17.29.55:366][753]LogModuleManager: Shutting down and abandoning module MergeActors (722)
+[2022.11.29-17.29.55:366][753]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (720)
+[2022.11.29-17.29.55:366][753]LogModuleManager: Shutting down and abandoning module LocalizationService (719)
+[2022.11.29-17.29.55:366][753]LogModuleManager: Shutting down and abandoning module HardwareTargeting (716)
+[2022.11.29-17.29.55:366][753]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (714)
+[2022.11.29-17.29.55:366][753]LogModuleManager: Shutting down and abandoning module UndoHistory (712)
+[2022.11.29-17.29.55:366][753]LogModuleManager: Shutting down and abandoning module XmlParser (710)
+[2022.11.29-17.29.55:366][753]LogModuleManager: Shutting down and abandoning module Blutility (708)
+[2022.11.29-17.29.55:366][753]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (706)
+[2022.11.29-17.29.55:366][753]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (705)
+[2022.11.29-17.29.55:366][753]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (702)
+[2022.11.29-17.29.55:366][753]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (701)
+[2022.11.29-17.29.55:366][753]LogModuleManager: Shutting down and abandoning module SettingsEditor (698)
+[2022.11.29-17.29.55:366][753]LogModuleManager: Shutting down and abandoning module ProjectLauncher (696)
+[2022.11.29-17.29.55:366][753]LogModuleManager: Shutting down and abandoning module SessionFrontend (694)
+[2022.11.29-17.29.55:366][753]LogModuleManager: Shutting down and abandoning module ProfilerClient (692)
+[2022.11.29-17.29.55:366][753]LogModuleManager: Shutting down and abandoning module DeviceManager (690)
+[2022.11.29-17.29.55:366][753]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (689)
+[2022.11.29-17.29.55:377][753]LogModuleManager: Shutting down and abandoning module AutomationController (686)
+[2022.11.29-17.29.55:377][753]LogModuleManager: Shutting down and abandoning module AutomationWindow (684)
+[2022.11.29-17.29.55:377][753]LogModuleManager: Shutting down and abandoning module Layers (682)
+[2022.11.29-17.29.55:377][753]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (680)
+[2022.11.29-17.29.55:377][753]LogModuleManager: Shutting down and abandoning module DetailCustomizations (678)
+[2022.11.29-17.29.55:377][753]LogModuleManager: Shutting down and abandoning module PackagesDialog (676)
+[2022.11.29-17.29.55:377][753]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (674)
+[2022.11.29-17.29.55:377][753]LogModuleManager: Shutting down and abandoning module Persona (672)
+[2022.11.29-17.29.55:378][753]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (671)
+[2022.11.29-17.29.55:378][753]LogModuleManager: Shutting down and abandoning module AnimGraph (669)
+[2022.11.29-17.29.55:378][753]LogModuleManager: Shutting down and abandoning module Kismet (666)
+[2022.11.29-17.29.55:387][753]LogModuleManager: Shutting down and abandoning module KismetWidgets (665)
+[2022.11.29-17.29.55:387][753]LogModuleManager: Shutting down and abandoning module GraphEditor (662)
+[2022.11.29-17.29.55:387][753]LogModuleManager: Shutting down and abandoning module StructViewer (660)
+[2022.11.29-17.29.55:387][753]LogModuleManager: Shutting down and abandoning module ClassViewer (658)
+[2022.11.29-17.29.55:390][753]LogModuleManager: Shutting down and abandoning module NaniteTools (656)
+[2022.11.29-17.29.55:390][753]LogModuleManager: Shutting down and abandoning module UncontrolledChangelists (654)
+[2022.11.29-17.29.55:390][753]LogModuleManager: Shutting down and abandoning module SourceControlWindows (652)
+[2022.11.29-17.29.55:390][753]LogModuleManager: Shutting down and abandoning module OutputLog (650)
+[2022.11.29-17.29.55:392][753]LogModuleManager: Shutting down and abandoning module Documentation (648)
+[2022.11.29-17.29.55:393][753]LogModuleManager: Shutting down and abandoning module LiveCoding (646)
+[2022.11.29-17.29.55:406][753]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (644)
+[2022.11.29-17.29.55:406][753]LogModuleManager: Shutting down and abandoning module MovieScene (642)
+[2022.11.29-17.29.55:406][753]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (640)
+[2022.11.29-17.29.55:406][753]LogModuleManager: Shutting down and abandoning module LauncherPlatform (638)
+[2022.11.29-17.29.55:406][753]LogModuleManager: Shutting down and abandoning module AnalyticsET (636)
+[2022.11.29-17.29.55:406][753]LogModuleManager: Shutting down and abandoning module PortalServices (634)
+[2022.11.29-17.29.55:406][753]LogModuleManager: Shutting down and abandoning module PortalRpc (632)
+[2022.11.29-17.29.55:406][753]LogModuleManager: Shutting down and abandoning module MessagingRpc (630)
+[2022.11.29-17.29.55:406][753]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (628)
+[2022.11.29-17.29.55:406][753]LogModuleManager: Shutting down and abandoning module AudioMixer (627)
+[2022.11.29-17.29.55:406][753]LogModuleManager: Shutting down and abandoning module AudioMixerCore (626)
+[2022.11.29-17.29.55:406][753]LogModuleManager: Shutting down and abandoning module AIModule (622)
+[2022.11.29-17.29.55:406][753]LogModuleManager: Shutting down and abandoning module GameplayDebugger (621)
+[2022.11.29-17.29.55:406][753]LogModuleManager: Shutting down and abandoning module AITestSuite (619)
+[2022.11.29-17.29.55:406][753]LogModuleManager: Shutting down and abandoning module NavigationSystem (617)
+[2022.11.29-17.29.55:406][753]LogModuleManager: Shutting down and abandoning module LevelInstanceEditor (614)
+[2022.11.29-17.29.55:406][753]LogModuleManager: Shutting down and abandoning module TypedElementRuntime (612)
+[2022.11.29-17.29.55:406][753]LogModuleManager: Shutting down and abandoning module TypedElementFramework (610)
+[2022.11.29-17.29.55:406][753]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (608)
+[2022.11.29-17.29.55:406][753]LogModuleManager: Shutting down and abandoning module ProfilerService (606)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module TaskGraph (604)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (602)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module MegascansPlugin (600)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module Bridge (598)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (596)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (594)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (592)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module CollectionManager (591)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module InterchangeResultsBrowser (588)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module InterchangeEditorPipelines (586)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module InterchangeEditor (584)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module InterchangeFbxParser (582)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module InterchangeDispatcher (580)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module InterchangePipelines (578)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module InterchangeExport (576)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module InterchangeMessages (574)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module InterchangeImport (572)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module InterchangeNodes (570)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module SynthesisEditor (568)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module Synthesis (566)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module ResonanceAudio (564)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (562)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (560)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (558)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (556)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module ModelingOperatorsEditorOnly (554)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module ModelingOperators (552)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module ModelingComponentsEditorOnly (550)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module ModelingComponents (548)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnly (546)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module MeshModelingTools (544)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module HairStrandsEditor (542)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module GooglePAD (540)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (538)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (536)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (534)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module DynamicMesh (532)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (530)
+[2022.11.29-17.29.55:611][753]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (528)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (526)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (524)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module AudioCapture (522)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (521)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module CableComponent (518)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module AssetTags (516)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (514)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module AppleImageUtils (512)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module AndroidPermission (510)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module SequencerScriptingEditor (508)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module SequencerScripting (506)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (504)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (502)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module TemplateSequence (500)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module WorldPartitionHLODUtilities (496)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module StylusInput (494)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module SequencerAnimTools (492)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module PluginBrowser (490)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module ModelingToolsEditorMode (488)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (486)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (484)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (482)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module EditorDebugTools (480)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (478)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module CryptoKeys (476)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module CurveEditorTools (474)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (472)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (470)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (468)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module MediaCompositing (466)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module ImgMedia (464)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module UObjectPlugin (462)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (460)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module UnrealInsightsInterface (458)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (456)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (454)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module PluginUtils (452)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (450)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module GitSourceControl (448)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module ModelingEditorUI (446)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module GeometryProcessingAdapters (444)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnlyExp (442)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module MeshModelingToolsExp (440)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (438)
+[2022.11.29-17.29.55:612][753]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (436)
+[2022.11.29-17.29.55:613][753]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (434)
+[2022.11.29-17.29.55:613][753]LogOpenImageDenoise: OIDN shutting down
+[2022.11.29-17.29.55:613][753]LogModuleManager: Shutting down and abandoning module AlembicImporter (432)
+[2022.11.29-17.29.55:613][753]LogModuleManager: Shutting down and abandoning module AlembicLibrary (431)
+[2022.11.29-17.29.55:613][753]LogModuleManager: Shutting down and abandoning module GeometryCache (430)
+[2022.11.29-17.29.55:613][753]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (429)
+[2022.11.29-17.29.55:613][753]LogModuleManager: Shutting down and abandoning module MeshLODToolset (424)
+[2022.11.29-17.29.55:613][753]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessingEditor (422)
+[2022.11.29-17.29.55:615][753]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessing (420)
+[2022.11.29-17.29.55:615][753]LogModuleManager: Shutting down and abandoning module GeometryFlowCore (418)
+[2022.11.29-17.29.55:615][753]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (416)
+[2022.11.29-17.29.55:615][753]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (415)
+[2022.11.29-17.29.55:615][753]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (412)
+[2022.11.29-17.29.55:615][753]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (410)
+[2022.11.29-17.29.55:615][753]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (408)
+[2022.11.29-17.29.55:615][753]LogModuleManager: Shutting down and abandoning module ChaosNiagara (406)
+[2022.11.29-17.29.55:615][753]LogModuleManager: Shutting down and abandoning module FractureEditor (404)
+[2022.11.29-17.29.55:615][753]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (402)
+[2022.11.29-17.29.55:615][753]LogModuleManager: Shutting down and abandoning module BackChannel (400)
+[2022.11.29-17.29.55:615][753]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (398)
+[2022.11.29-17.29.55:615][753]LogModuleManager: Shutting down and abandoning module AutomationUtils (396)
+[2022.11.29-17.29.55:615][753]LogModuleManager: Shutting down and abandoning module ControlRigSpline (394)
+[2022.11.29-17.29.55:615][753]LogModuleManager: Shutting down and abandoning module BlendSpaceMotionAnalysis (392)
+[2022.11.29-17.29.55:615][753]LogModuleManager: Shutting down and abandoning module AnimationModifierLibrary (390)
+[2022.11.29-17.29.55:615][753]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (388)
+[2022.11.29-17.29.55:615][753]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (386)
+[2022.11.29-17.29.55:615][753]LogModuleManager: Shutting down and abandoning module Paper2DEditor (384)
+[2022.11.29-17.29.55:615][753]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (382)
+[2022.11.29-17.29.55:615][753]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (380)
+[2022.11.29-17.29.55:615][753]LogModuleManager: Shutting down and abandoning module SoundFields (378)
+[2022.11.29-17.29.55:615][753]LogModuleManager: Shutting down and abandoning module SignificanceManager (376)
+[2022.11.29-17.29.55:615][753]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (374)
+[2022.11.29-17.29.55:615][753]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (372)
+[2022.11.29-17.29.55:615][753]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (370)
+[2022.11.29-17.29.55:615][753]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (368)
+[2022.11.29-17.29.55:615][753]LogModuleManager: Shutting down and abandoning module AudioAnalyzer (367)
+[2022.11.29-17.29.55:615][753]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (364)
+[2022.11.29-17.29.55:615][753]LogModuleManager: Shutting down and abandoning module ActorSequence (362)
+[2022.11.29-17.29.55:615][753]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (360)
+[2022.11.29-17.29.55:615][753]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (358)
+[2022.11.29-17.29.55:616][753]LogModuleManager: Shutting down and abandoning module FacialAnimation (356)
+[2022.11.29-17.29.55:616][753]LogModuleManager: Shutting down and abandoning module DataValidation (354)
+[2022.11.29-17.29.55:616][753]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (352)
+[2022.11.29-17.29.55:616][753]LogModuleManager: Shutting down and abandoning module LevelEditor (351)
+[2022.11.29-17.29.55:630][753]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (350)
+[2022.11.29-17.29.55:630][753]LogModuleManager: Shutting down and abandoning module LevelAssetEditor (348)
+[2022.11.29-17.29.55:630][753]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (346)
+[2022.11.29-17.29.55:630][753]LogModuleManager: Shutting down and abandoning module MainFrame (344)
+[2022.11.29-17.29.55:630][753]LogModuleManager: Shutting down and abandoning module HotReload (343)
+[2022.11.29-17.29.55:631][753]LogModuleManager: Shutting down and abandoning module TreeMap (339)
+[2022.11.29-17.29.55:631][753]LogModuleManager: Shutting down and abandoning module UdpMessaging (336)
+[2022.11.29-17.29.55:732][753]LogModuleManager: Shutting down and abandoning module TcpMessaging (334)
+[2022.11.29-17.29.55:833][753]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (332)
+[2022.11.29-17.29.55:833][753]LogModuleManager: Shutting down and abandoning module TraceDataFiltering (330)
+[2022.11.29-17.29.55:833][753]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (328)
+[2022.11.29-17.29.55:833][753]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (326)
+[2022.11.29-17.29.55:844][753]LogModuleManager: Shutting down and abandoning module AnimationSharing (324)
+[2022.11.29-17.29.55:844][753]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (322)
+[2022.11.29-17.29.55:844][753]LogModuleManager: Shutting down and abandoning module Niagara (320)
+[2022.11.29-17.29.55:844][753]LogModuleManager: Shutting down and abandoning module SignalProcessing (319)
+[2022.11.29-17.29.55:845][753]LogModuleManager: Shutting down and abandoning module NiagaraEditor (317)
+[2022.11.29-17.29.55:845][753]LogModuleManager: Shutting down and abandoning module ContentBrowser (316)
+[2022.11.29-17.29.55:845][753]LogModuleManager: Shutting down and abandoning module ToolMenus (315)
+[2022.11.29-17.29.55:845][753]LogModuleManager: Shutting down and abandoning module ContentBrowserData (313)
+[2022.11.29-17.29.55:845][753]LogModuleManager: Shutting down and abandoning module NiagaraCore (308)
+[2022.11.29-17.29.55:845][753]LogModuleManager: Shutting down and abandoning module PBIK (306)
+[2022.11.29-17.29.55:845][753]LogModuleManager: Shutting down and abandoning module FullBodyIK (304)
+[2022.11.29-17.29.55:845][753]LogModuleManager: Shutting down and abandoning module ControlRigDeveloper (302)
+[2022.11.29-17.29.55:845][753]LogModuleManager: Shutting down and abandoning module ControlRig (300)
+[2022.11.29-17.29.55:845][753]LogModuleManager: Shutting down and abandoning module LevelSequence (299)
+[2022.11.29-17.29.55:845][753]LogModuleManager: Shutting down and abandoning module IKRigDeveloper (296)
+[2022.11.29-17.29.55:845][753]LogModuleManager: Shutting down and abandoning module IKRig (294)
+[2022.11.29-17.29.55:845][753]LogModuleManager: Shutting down and abandoning module GameplayCameras (292)
+[2022.11.29-17.29.55:846][753]LogModuleManager: Shutting down and abandoning module Paper2D (290)
+[2022.11.29-17.29.55:846][753]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (288)
+[2022.11.29-17.29.55:846][753]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (286)
+[2022.11.29-17.29.55:846][753]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (284)
+[2022.11.29-17.29.55:846][753]LogModuleManager: Shutting down and abandoning module AndroidFileServer (282)
+[2022.11.29-17.29.55:846][753]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (280)
+[2022.11.29-17.29.55:846][753]LogModuleManager: Shutting down and abandoning module PacketHandler (278)
+[2022.11.29-17.29.55:846][753]LogModuleManager: Shutting down and abandoning module AnimationDataController (276)
+[2022.11.29-17.29.55:846][753]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (274)
+[2022.11.29-17.29.55:846][753]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (272)
+[2022.11.29-17.29.55:846][753]LogModuleManager: Shutting down and abandoning module MediaAssets (270)
+[2022.11.29-17.29.55:846][753]LogModuleManager: Shutting down and abandoning module Overlay (268)
+[2022.11.29-17.29.55:846][753]LogModuleManager: Shutting down and abandoning module OverlayEditor (267)
+[2022.11.29-17.29.55:846][753]LogModuleManager: Shutting down and abandoning module VREditor (264)
+[2022.11.29-17.29.55:846][753]LogModuleManager: Shutting down and abandoning module StringTableEditor (262)
+[2022.11.29-17.29.55:846][753]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (260)
+[2022.11.29-17.29.55:846][753]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (258)
+[2022.11.29-17.29.55:846][753]LogModuleManager: Shutting down and abandoning module FunctionalTesting (256)
+[2022.11.29-17.29.55:846][753]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (254)
+[2022.11.29-17.29.55:846][753]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (253)
+[2022.11.29-17.29.55:846][753]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2022.11.29-17.29.55:846][753]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2022.11.29-17.29.55:846][753]LogModuleManager: Shutting down and abandoning module SlateReflector (244)
+[2022.11.29-17.29.55:846][753]LogModuleManager: Shutting down and abandoning module Slate (242)
+[2022.11.29-17.29.55:846][753]LogModuleManager: Shutting down and abandoning module SlateCore (240)
+[2022.11.29-17.29.55:848][753]LogModuleManager: Shutting down and abandoning module SubobjectDataInterface (238)
+[2022.11.29-17.29.55:848][753]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (236)
+[2022.11.29-17.29.55:848][753]LogModuleManager: Shutting down and abandoning module UnrealEd (234)
+[2022.11.29-17.29.55:848][753]LogModuleManager: Shutting down and abandoning module MRMesh (232)
+[2022.11.29-17.29.55:848][753]LogModuleManager: Shutting down and abandoning module Messaging (230)
+[2022.11.29-17.29.55:848][753]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (228)
+[2022.11.29-17.29.55:848][753]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (226)
+[2022.11.29-17.29.55:848][753]LogModuleManager: Shutting down and abandoning module Networking (224)
+[2022.11.29-17.29.55:848][753]LogModuleManager: Shutting down and abandoning module Core (222)
+[2022.11.29-17.29.55:848][753]LogModuleManager: Shutting down and abandoning module MaterialEditor (220)
+[2022.11.29-17.29.55:848][753]LogModuleManager: Shutting down and abandoning module MovieSceneTools (218)
+[2022.11.29-17.29.55:848][753]LogModuleManager: Shutting down and abandoning module CurveEditor (217)
+[2022.11.29-17.29.55:848][753]LogModuleManager: Shutting down and abandoning module Sequencer (215)
+[2022.11.29-17.29.55:848][753]LogModuleManager: Shutting down and abandoning module EditorStyle (214)
+[2022.11.29-17.29.55:848][753]LogModuleManager: Shutting down and abandoning module KismetCompiler (210)
+[2022.11.29-17.29.55:848][753]LogModuleManager: Shutting down and abandoning module MeshBuilder (208)
+[2022.11.29-17.29.55:848][753]LogModuleManager: Shutting down and abandoning module NaniteBuilder (206)
+[2022.11.29-17.29.55:848][753]LogModuleManager: Shutting down and abandoning module MeshUtilities (204)
+[2022.11.29-17.29.55:848][753]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (203)
+[2022.11.29-17.29.55:848][753]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (202)
+[2022.11.29-17.29.55:848][753]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (201)
+[2022.11.29-17.29.55:848][753]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (199)
+[2022.11.29-17.29.55:848][753]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (197)
+[2022.11.29-17.29.55:848][753]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (195)
+[2022.11.29-17.29.55:848][753]LogModuleManager: Shutting down and abandoning module MaterialBaking (191)
+[2022.11.29-17.29.55:848][753]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (186)
+[2022.11.29-17.29.55:849][753]LogModuleManager: Shutting down and abandoning module DerivedDataCache (184)
+[2022.11.29-17.29.55:858][753]LogModuleManager: Shutting down and abandoning module TargetPlatform (182)
+[2022.11.29-17.29.55:859][753]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (181)
+[2022.11.29-17.29.55:859][753]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (179)
+[2022.11.29-17.29.55:859][753]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2022.11.29-17.29.55:859][753]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (175)
+[2022.11.29-17.29.55:859][753]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (173)
+[2022.11.29-17.29.55:859][753]LogModuleManager: Shutting down and abandoning module AudioFormatBink (171)
+[2022.11.29-17.29.55:859][753]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (169)
+[2022.11.29-17.29.55:859][753]LogModuleManager: Shutting down and abandoning module AudioFormatOGG (167)
+[2022.11.29-17.29.55:859][753]LogModuleManager: Shutting down and abandoning module AudioFormatOPUS (165)
+[2022.11.29-17.29.55:859][753]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (163)
+[2022.11.29-17.29.55:859][753]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (161)
+[2022.11.29-17.29.55:859][753]LogModuleManager: Shutting down and abandoning module LinuxArm64TargetPlatform (159)
+[2022.11.29-17.29.55:859][753]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (157)
+[2022.11.29-17.29.55:859][753]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (155)
+[2022.11.29-17.29.55:859][753]LogModuleManager: Shutting down and abandoning module HoloLensTargetPlatform (153)
+[2022.11.29-17.29.55:859][753]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (151)
+[2022.11.29-17.29.55:860][753]LogModuleManager: Shutting down and abandoning module TextureFormat (149)
+[2022.11.29-17.29.55:860][753]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (148)
+[2022.11.29-17.29.55:860][753]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (146)
+[2022.11.29-17.29.55:860][753]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (144)
+[2022.11.29-17.29.55:860][753]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (142)
+[2022.11.29-17.29.55:860][753]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (140)
+[2022.11.29-17.29.55:860][753]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (138)
+[2022.11.29-17.29.55:860][753]LogModuleManager: Shutting down and abandoning module ImageWrapper (137)
+[2022.11.29-17.29.55:860][753]LogModuleManager: Shutting down and abandoning module TurnkeySupport (133)
+[2022.11.29-17.29.55:860][753]LogModuleManager: Shutting down and abandoning module InputCore (130)
+[2022.11.29-17.29.55:860][753]LogModuleManager: Shutting down and abandoning module Settings (128)
+[2022.11.29-17.29.55:860][753]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (126)
+[2022.11.29-17.29.55:861][753]LogModuleManager: Shutting down and abandoning module ChaosSolverEngine (124)
+[2022.11.29-17.29.55:861][753]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (123)
+[2022.11.29-17.29.55:861][753]LogModuleManager: Shutting down and abandoning module Chaos (120)
+[2022.11.29-17.29.55:861][753]LogModuleManager: Shutting down and abandoning module GeometryCore (119)
+[2022.11.29-17.29.55:861][753]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (116)
+[2022.11.29-17.29.55:861][753]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (115)
+[2022.11.29-17.29.55:861][753]LogModuleManager: Shutting down and abandoning module AVEncoder (114)
+[2022.11.29-17.29.55:861][753]LogModuleManager: Shutting down and abandoning module D3D12RHI (110)
+[2022.11.29-17.29.55:861][753]LogModuleManager: Shutting down and abandoning module OnlineServicesCommon (108)
+[2022.11.29-17.29.55:861][753]LogModuleManager: Shutting down and abandoning module OnlineServicesInterface (106)
+[2022.11.29-17.29.55:861][753]LogModuleManager: Shutting down and abandoning module WindowsDeviceProfileSelector (104)
+[2022.11.29-17.29.55:861][753]LogModuleManager: Shutting down and abandoning module VariantManagerContent (102)
+[2022.11.29-17.29.55:861][753]LogModuleManager: Shutting down and abandoning module HairStrandsCore (100)
+[2022.11.29-17.29.55:861][753]LogModuleManager: Shutting down and abandoning module DatasmithContent (98)
+[2022.11.29-17.29.55:865][753]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (96)
+[2022.11.29-17.29.55:865][753]LogModuleManager: Shutting down and abandoning module ChunkDownloader (94)
+[2022.11.29-17.29.55:865][753]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
+[2022.11.29-17.29.55:865][753]LogModuleManager: Shutting down and abandoning module OnlineSubsystemUtils (90)
+[2022.11.29-17.29.55:865][753]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (88)
+[2022.11.29-17.29.55:867][753]LogModuleManager: Shutting down and abandoning module XMPP (83)
+[2022.11.29-17.29.55:867][753]LogModuleManager: Shutting down and abandoning module WebSockets (82)
+[2022.11.29-17.29.55:877][753]LogModuleManager: Shutting down and abandoning module HTTP (79)
+[2022.11.29-17.29.55:877][753]LogHttp: Warning: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.11.29-17.29.55:877][753]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B658602A7-4243-66C2-EF70-21A10E228649%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=dcbda12d475fba513e5eb4afbf386d3b%7C0c9c30c06a7644e291da7c06857625a0%7C8609e13b-c038-49d9-b59a-4b01570150fa&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2022.11.29-17.29.55:877][753]LogHttp: Warning: Cleaning up 1 outstanding Http requests.
+[2022.11.29-17.29.55:904][753]LogModuleManager: Shutting down and abandoning module SSL (78)
+[2022.11.29-17.29.55:907][753]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2022.11.29-17.29.55:907][753]LogModuleManager: Shutting down and abandoning module WmfMedia (72)
+[2022.11.29-17.29.55:910][753]LogModuleManager: Shutting down and abandoning module Media (71)
+[2022.11.29-17.29.55:912][753]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (68)
+[2022.11.29-17.29.55:912][753]LogModuleManager: Shutting down and abandoning module PixWinPlugin (66)
+[2022.11.29-17.29.55:912][753]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (64)
+[2022.11.29-17.29.55:912][753]LogModuleManager: Shutting down and abandoning module NiagaraShader (62)
+[2022.11.29-17.29.55:912][753]LogModuleManager: Shutting down and abandoning module ChaosCloth (60)
+[2022.11.29-17.29.55:912][753]LogModuleManager: Shutting down and abandoning module AISupportModule (58)
+[2022.11.29-17.29.55:912][753]LogModuleManager: Shutting down and abandoning module DesktopPlatform (56)
+[2022.11.29-17.29.55:912][753]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (54)
+[2022.11.29-17.29.55:912][753]LogModuleManager: Shutting down and abandoning module SourceControl (53)
+[2022.11.29-17.29.55:912][753]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (50)
+[2022.11.29-17.29.55:912][753]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (48)
+[2022.11.29-17.29.55:912][753]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (46)
+[2022.11.29-17.29.55:912][753]LogModuleManager: Shutting down and abandoning module PlatformCrypto (44)
+[2022.11.29-17.29.55:912][753]LogModuleManager: Shutting down and abandoning module XGEController (42)
+[2022.11.29-17.29.55:912][753]LogModuleManager: Shutting down and abandoning module FastBuildController (40)
+[2022.11.29-17.29.55:912][753]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2022.11.29-17.29.55:912][753]LogModuleManager: Shutting down and abandoning module AudioEditor (36)
+[2022.11.29-17.29.55:913][753]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2022.11.29-17.29.55:913][753]LogModuleManager: Shutting down and abandoning module Virtualization (32)
+[2022.11.29-17.29.55:913][753]LogModuleManager: Shutting down and abandoning module MessageLog (31)
+[2022.11.29-17.29.55:913][753]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2022.11.29-17.29.55:913][753]LogModuleManager: Shutting down and abandoning module RenderCore (26)
+[2022.11.29-17.29.55:913][753]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2022.11.29-17.29.55:913][753]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2022.11.29-17.29.55:917][753]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2022.11.29-17.29.55:917][753]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2022.11.29-17.29.55:917][753]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2022.11.29-17.29.55:917][753]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2022.11.29-17.29.55:917][753]LogModuleManager: Shutting down and abandoning module SandboxFile (12)
+[2022.11.29-17.29.55:917][753]LogModuleManager: Shutting down and abandoning module PakFile (10)
+[2022.11.29-17.29.55:917][753]LogModuleManager: Shutting down and abandoning module RSA (9)
+[2022.11.29-17.29.55:917][753]LogModuleManager: Shutting down and abandoning module NetworkFile (6)
+[2022.11.29-17.29.55:917][753]LogModuleManager: Shutting down and abandoning module StreamingFile (4)
+[2022.11.29-17.29.55:917][753]LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
+[2022.11.29-17.29.55:996][753]LogD3D12RHI: Display: D3D12 ReleaseResources: 248 items to release
+[2022.11.29-17.29.55:996][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "BufferedRT", 1583 x 1254 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.11.29-17.29.55:996][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "EyeAdaptation", 1 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x5
+[2022.11.29-17.29.55:997][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "CombineLUTs", 32 x 32 x 32, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.11.29-17.29.55:997][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "EyeAdaptation", 1 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x5
+[2022.11.29-17.29.55:997][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.VoxelVisBuffer", 25165824 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.11.29-17.29.55:997][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "BackBuffer0", 724 x 256 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.11.29-17.29.55:997][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "BackBuffer1", 724 x 256 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.11.29-17.29.55:997][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "BackBuffer2", 724 x 256 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.11.29-17.29.56:037][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_0", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.29-17.29.56:037][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_0", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.29-17.29.56:037][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_1", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.29-17.29.56:037][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_1", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.29-17.29.56:038][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:038][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:038][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_0", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.29-17.29.56:039][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_0", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.29-17.29.56:039][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_1", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.29-17.29.56:040][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_1", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.29-17.29.56:040][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:041][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:041][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_0", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.29-17.29.56:041][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_0", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.29-17.29.56:042][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_1", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.29-17.29.56:043][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_1", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.29-17.29.56:043][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:043][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:044][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_0", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.29-17.29.56:044][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_0", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.29-17.29.56:044][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_1", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.29-17.29.56:044][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_1", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.29-17.29.56:045][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:045][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:045][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_0", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.29-17.29.56:046][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_0", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.29-17.29.56:046][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_1", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.29-17.29.56:046][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_1", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.29-17.29.56:046][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:047][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:047][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_0", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.29-17.29.56:047][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_0", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.29-17.29.56:047][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_1", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.29-17.29.56:047][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_1", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.29-17.29.56:048][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:048][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:048][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_0", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.29-17.29.56:049][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_0", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.29-17.29.56:049][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_1", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.29-17.29.56:049][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_1", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.29-17.29.56:050][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:050][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:051][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_0", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.29-17.29.56:051][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_0", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.29-17.29.56:051][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_1", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.29-17.29.56:052][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_1", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.29-17.29.56:052][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:052][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:052][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_0", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.29-17.29.56:053][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_0", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.29-17.29.56:053][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_1", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.29-17.29.56:053][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_1", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.29-17.29.56:053][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:054][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:054][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_0", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.29-17.29.56:054][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_0", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.29-17.29.56:054][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_1", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.29-17.29.56:055][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_1", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.29-17.29.56:055][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:055][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:055][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_0", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.29-17.29.56:056][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_0", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.29-17.29.56:056][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_1", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.11.29-17.29.56:056][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_1", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.29-17.29.56:056][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:057][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:057][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyAtmosphere.SkyViewLut", 192 x 104 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.29-17.29.56:057][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "TextureRenderTarget2D_0", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:057][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:057][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:058][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:058][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:058][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:058][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:058][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:058][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:058][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:059][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:059][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:059][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:059][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:059][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:059][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:061][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:061][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:061][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:061][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:061][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:061][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:062][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:062][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:062][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:062][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:062][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 134 x 134 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:062][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 134 x 134 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:063][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 134 x 134 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:063][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 134 x 134 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:063][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 134 x 134 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:063][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 134 x 134 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:063][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 134 x 134 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:063][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 134 x 134 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:064][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 134 x 134 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:064][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 134 x 134 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:064][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 134 x 134 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:064][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 134 x 134 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:064][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 134 x 134 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:064][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 134 x 134 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:065][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 134 x 134 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:065][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 134 x 134 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:065][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 134 x 134 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:065][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 134 x 134 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:065][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 134 x 134 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:065][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 134 x 134 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:065][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 134 x 134 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:065][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 134 x 134 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:066][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 134 x 134 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:066][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:066][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:066][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 32 x 32 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:066][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 32 x 32 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:066][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 64 x 64 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:067][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 48 x 48 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:067][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 48 x 48 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:067][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 48 x 48 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:067][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 48 x 48 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:068][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 48 x 48 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:068][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 48 x 48 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:068][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "PrimitiveSceneDataTexture", 40 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x4
+[2022.11.29-17.29.56:068][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "PrimitiveSceneDataTexture", 40 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x4
+[2022.11.29-17.29.56:068][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleCurveTexture", 512 x 512 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:069][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:069][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:069][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricRenderTarget.Reconstruct", 586 x 465 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.29-17.29.56:069][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyAtmosphere.CameraAPVolume0", 32 x 32 x 16, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.11.29-17.29.56:069][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.VoxelLighting", 64 x 256 x 384, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.11.29-17.29.56:070][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.DepthProbeAtlasTexture", 1024 x 1024 x 1, Mips: 1, Format: 0x36, Flags: 0x4
+[2022.11.29-17.29.56:070][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.RadianceProbeAtlasTextureSource", 1024 x 1024 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.29-17.29.56:070][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.FinalRadianceAtlas", 2048 x 2048 x 1, Mips: 3, Format: 0x1A, Flags: 0x4
+[2022.11.29-17.29.56:070][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "OctahedralSolidAngleTexture", 16 x 16 x 1, Mips: 1, Format: 0x36, Flags: 0x4
+[2022.11.29-17.29.56:071][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.DepthProbeAtlasTexture", 4096 x 4096 x 1, Mips: 1, Format: 0x36, Flags: 0x4
+[2022.11.29-17.29.56:071][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.RadianceProbeAtlasTextureSource", 4096 x 4096 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.29-17.29.56:072][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.FinalRadianceAtlas", 4352 x 4352 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.29-17.29.56:072][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Editor.PrimitivesDepthHistory", 3168 x 2512 x 1, Mips: 1, Format: 0x29, Flags: 0x1
+[2022.11.29-17.29.56:073][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "EyeAdaptation", 1 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x5
+[2022.11.29-17.29.56:073][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "CombineLUTs", 32 x 32 x 32, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.11.29-17.29.56:073][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricRenderTarget.ReconstructDepth", 586 x 465 x 1, Mips: 1, Format: 0x22, Flags: 0x1
+[2022.11.29-17.29.56:074][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "SceneColor", 1248 x 968 x 1, Mips: 1, Format: 0xA, Flags: 0x5
+[2022.11.29-17.29.56:074][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.LowFrequencies", 1584 x 1256 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.29-17.29.56:074][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.Output", 1584 x 1256 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.29-17.29.56:074][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricRenderTarget.Tracing", 293 x 233 x 1, Mips: 1, Format: 0xA, Flags: 0x5
+[2022.11.29-17.29.56:074][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.TranslucencyAlpha", 1584 x 1256 x 1, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.29-17.29.56:075][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.HighFrequencies", 1584 x 1256 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.29-17.29.56:075][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricRenderTarget.TracingDepth", 293 x 233 x 1, Mips: 1, Format: 0x22, Flags: 0x5
+[2022.11.29-17.29.56:075][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.SubpixelInfo", 1584 x 1256 x 1, Mips: 1, Format: 0x39, Flags: 0x4
+[2022.11.29-17.29.56:075][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "EyeAdaptation", 1 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x5
+[2022.11.29-17.29.56:075][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricRenderTarget.Reconstruct", 586 x 465 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.29-17.29.56:076][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricRenderTarget.ReconstructDepth", 586 x 465 x 1, Mips: 1, Format: 0x22, Flags: 0x1
+[2022.11.29-17.29.56:076][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "GlobalDistanceFieldPageAtlas", 512 x 512 x 256, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.29-17.29.56:076][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "GlobalDistanceFieldCoverageAtlas", 256 x 256 x 128, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.29-17.29.56:077][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFieldPageTableCombined", 16 x 16 x 64, Mips: 1, Format: 0x39, Flags: 0x4
+[2022.11.29-17.29.56:077][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "GlobalSDFMipTexture", 56 x 56 x 224, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.29-17.29.56:077][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "GlobalDistanceFieldPageTableStationaryLayer", 16 x 16 x 64, Mips: 1, Format: 0x39, Flags: 0x4
+[2022.11.29-17.29.56:077][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "GlobalDistanceFieldPageTableMovableLayer", 16 x 16 x 64, Mips: 1, Format: 0x39, Flags: 0x4
+[2022.11.29-17.29.56:077][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.Metadata", 1584 x 1256 x 1, Mips: 1, Format: 0x31, Flags: 0x4
+[2022.11.29-17.29.56:078][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.Translucency", 1584 x 1256 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.29-17.29.56:078][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Reflections.SpecularIndirect", 1248 x 968 x 1, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.11.29-17.29.56:078][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Reflections.AccumulatedResolveVariance", 1248 x 968 x 1, Mips: 1, Format: 0x36, Flags: 0x4
+[2022.11.29-17.29.56:078][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "LightShaft.TemporalAA", 624 x 484 x 1, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.11.29-17.29.56:079][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.DepthHistory", 1248 x 968 x 1, Mips: 1, Format: 0x29, Flags: 0x4
+[2022.11.29-17.29.56:079][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Reflections.NumHistoryFramesAccumulated", 1248 x 968 x 1, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.29-17.29.56:079][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.NumHistoryFramesAccumulated", 1248 x 968 x 1, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.29-17.29.56:079][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.FastUpdateMode", 1248 x 968 x 1, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.29-17.29.56:080][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.RoughSpecularIndirect", 1248 x 968 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.29-17.29.56:080][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.DiffuseIndirect", 1248 x 968 x 1, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.11.29-17.29.56:080][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFields.DistanceFieldBrickTexture", 1024 x 1024 x 8, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.29-17.29.56:080][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "GBufferA", 1248 x 968 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.11.29-17.29.56:080][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.ScreenProbeTranslatedWorldPosition", 78 x 91 x 1, Mips: 1, Format: 0x2, Flags: 0x4
+[2022.11.29-17.29.56:081][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.ScreenProbeSceneDepth", 78 x 91 x 1, Mips: 1, Format: 0x2A, Flags: 0x4
+[2022.11.29-17.29.56:081][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.ScreenProbeFilteredRadiance", 624 x 728 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.29-17.29.56:081][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.RadianceProbeIndirectionTexture", 192 x 48 x 48, Mips: 1, Format: 0x2A, Flags: 0x4
+[2022.11.29-17.29.56:081][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.TranslucencyVolume.SHLightingNewHistory0", 37 x 30 x 26, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.11.29-17.29.56:081][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.TranslucencyVolume.SHLightingNewHistory0", 37 x 30 x 26, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.29-17.29.56:081][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.RadianceProbeIndirectionTexture", 72 x 24 x 24, Mips: 1, Format: 0x2A, Flags: 0x4
+[2022.11.29-17.29.56:081][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyAtmosphere.TransmittanceLut", 256 x 64 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.29-17.29.56:082][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyAtmosphere.MultiScatteredLuminanceLut", 32 x 32 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.29-17.29.56:082][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyAtmosphere.DistantSkyLightLut", 1 x 1 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.29-17.29.56:082][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Shadow.Virtual.PhysicalPagePool", 16384 x 4096 x 1, Mips: 1, Format: 0x2A, Flags: 0x4
+[2022.11.29-17.29.56:086][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFields.DistanceFieldBrickTexture", 1024 x 1024 x 8, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.29-17.29.56:087][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneAlbedo", 4096 x 4096 x 1, Mips: 1, Format: 0x61, Flags: 0x0
+[2022.11.29-17.29.56:087][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneOpacity", 4096 x 4096 x 1, Mips: 1, Format: 0x50, Flags: 0x0
+[2022.11.29-17.29.56:088][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneDepth", 4096 x 4096 x 1, Mips: 1, Format: 0x23, Flags: 0x1
+[2022.11.29-17.29.56:088][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneNormal", 4096 x 4096 x 1, Mips: 1, Format: 0x53, Flags: 0x0
+[2022.11.29-17.29.56:088][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneEmissive", 4096 x 4096 x 1, Mips: 1, Format: 0x5F, Flags: 0x0
+[2022.11.29-17.29.56:089][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneDirectLighting", 4096 x 4096 x 1, Mips: 1, Format: 0x1A, Flags: 0x5
+[2022.11.29-17.29.56:089][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneIndirectLighting", 4096 x 4096 x 1, Mips: 1, Format: 0x1A, Flags: 0x5
+[2022.11.29-17.29.56:090][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneNumFramesAccumulatedAtlas", 4096 x 4096 x 1, Mips: 1, Format: 0x3D, Flags: 0x5
+[2022.11.29-17.29.56:090][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneFinalLighting", 4096 x 4096 x 1, Mips: 1, Format: 0x1A, Flags: 0x5
+[2022.11.29-17.29.56:091][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFields.DistanceFieldBrickTexture", 1024 x 1024 x 8, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.29-17.29.56:091][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFields.DistanceFieldBrickTexture", 1024 x 1024 x 8, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.29-17.29.56:091][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyLight.ConvolvedSkyRenderTarget0", 128 x 128 x 6, Mips: 8, Format: 0x1A, Flags: 0x5
+[2022.11.29-17.29.56:092][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyLight.CapturedSkyRenderTarget", 128 x 128 x 6, Mips: 8, Format: 0x1A, Flags: 0x5
+[2022.11.29-17.29.56:092][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyLight.ConvolvedSkyRenderTarget1", 128 x 128 x 6, Mips: 8, Format: 0x1A, Flags: 0x5
+[2022.11.29-17.29.56:092][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFields.DistanceFieldBrickTexture", 1024 x 1024 x 8, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.29-17.29.56:094][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFields.DistanceFieldBrickTexture", 1024 x 1024 x 8, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.29-17.29.56:094][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFields.DistanceFieldBrickTexture", 1024 x 1024 x 8, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.29-17.29.56:095][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyAtmosphere.RealTimeSkyCapViewLut", 192 x 104 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.29-17.29.56:095][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Radiosity.ProbeSHBlueAtlas", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.11.29-17.29.56:096][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFields.DistanceFieldBrickTexture", 1024 x 1024 x 8, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.29-17.29.56:096][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Radiosity.ProbeSHGreenAtlas", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.11.29-17.29.56:096][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Radiosity.ProbeSHRedAtlas", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.11.29-17.29.56:096][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Radiosity.TraceRadianceAtlas", 4096 x 4096 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.11.29-17.29.56:097][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFields.DistanceFieldBrickTexture", 1024 x 1024 x 8, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.29-17.29.56:097][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFields.DistanceFieldBrickTexture", 1024 x 1024 x 8, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.29-17.29.56:098][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyAtmosphere.RealTimeSkyCapCamera360APLut", 32 x 32 x 16, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.11.29-17.29.56:098][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFields.DistanceFieldBrickTexture", 1024 x 1024 x 8, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.29-17.29.56:098][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFields.DistanceFieldBrickTexture", 1024 x 1024 x 8, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.11.29-17.29.56:098][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Dummy", 1 x 1 x 1, Mips: 1, Format: 0x36, Flags: 0x4
+[2022.11.29-17.29.56:098][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "HairLUT0", 1 x 1 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.11.29-17.29.56:099][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Hair.LUT(DualScattering)", 64 x 64 x 16, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.11.29-17.29.56:099][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "DiffuseIrradianceScratchCubemap1", 32 x 32 x 6, Mips: 6, Format: 0xA, Flags: 0x1
+[2022.11.29-17.29.56:099][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "DiffuseIrradianceScratchCubemap0", 32 x 32 x 6, Mips: 6, Format: 0xA, Flags: 0x1
+[2022.11.29-17.29.56:099][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ReflectionColorScratchCubemap1", 128 x 128 x 6, Mips: 8, Format: 0xA, Flags: 0x1
+[2022.11.29-17.29.56:100][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ReflectionColorScratchCubemap0", 128 x 128 x 6, Mips: 8, Format: 0xA, Flags: 0x1
+[2022.11.29-17.29.56:100][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkySHIrradiance", 9 x 1 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.11.29-17.29.56:100][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.FixupProbeBordersIndirectArgs", 65532 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.11.29-17.29.56:100][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "ShaderDraw.IndirectBuffer", 65536 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.11.29-17.29.56:100][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Shadow.Virtual.DrawIndirectArgsBuffer", 65536 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.11.29-17.29.56:101][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Reflections.ReflectionResolveTileIndirectArgs", 65532 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.11.29-17.29.56:101][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Reflections.CompactTracingIndirectArgs", 65532 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.11.29-17.29.56:101][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Reflections.CompactRayTraceDispatchIndirectArgs", 65532 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.11.29-17.29.56:101][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.FilterProbesIndirectArgs", 65532 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.11.29-17.29.56:101][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.RadianceCacheHardwareRayTracingIndirectArgs", 65532 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.11.29-17.29.56:101][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Nanite.MainAndPostNodesAndClusterBatchesBuffer", 44040192 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.11.29-17.29.56:102][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "Shadow.Virtual.ProcessGPUInstanceInvalidationsIndirectArgs", 65536 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.11.29-17.29.56:102][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "InstanceCulling.DrawIndirectArgsBuffer", 65536 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.11.29-17.29.56:102][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "InstanceCulling.DrawIndirectArgsBuffer", 65536 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.11.29-17.29.56:103][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.11.29-17.29.56:103][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.11.29-17.29.56:103][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.11.29-17.29.56:104][753]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.11.29-17.29.56:333][753]LogD3D12RHI: ~FD3D12DynamicRHI
+[2022.11.29-17.29.56:333][753]LogExit: Exiting.
+[2022.11.29-17.29.56:347][753]Log file closed, 11/29/22 17:29:56
