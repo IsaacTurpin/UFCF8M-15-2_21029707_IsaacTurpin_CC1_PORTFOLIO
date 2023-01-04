@@ -764,3 +764,40 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.01.04-13.57.52:095][373]AssetCheck: New page: Asset Save: multiple assets
 [2023.01.04-13.57.52:095][373]LogContentValidation: Display: Validating SoundWave /Game/143915__scotchio__flickeringlight.143915__scotchio__flickeringlight
 [2023.01.04-13.57.52:096][373]LogContentValidation: Display: Validating Blueprint /Game/FlickeringLightBP.FlickeringLightBP
+[2023.01.04-13.58.19:386][866]LogViewport: Scene viewport resized to 1504x974, mode Windowed.
+[2023.01.04-13.58.33:759][592]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/LightBP.LightBP
+[2023.01.04-13.58.33:760][592]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.04-13.58.34:196][592]LogSlate: Took 0.000328 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.01.04-13.58.36:007][694]LogViewport: Scene viewport resized to 1504x974, mode Windowed.
+[2023.01.04-14.02.15:797][954]BlueprintLog: New page: Compile FlickeringLightBP
+[2023.01.04-14.02.15:901][954]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.01.04-14.02.17:053][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlickeringLightBP" FILE="D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/FlickeringLightBP.uasset" SILENT=true
+[2023.01.04-14.02.17:178][996]LogSavePackage: Moving output files for package: /Game/FlickeringLightBP
+[2023.01.04-14.02.17:179][996]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/FlickeringLightBP8B81B21642736A3C605B048B3CDC4C0A.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/FlickeringLightBP.uasset'
+[2023.01.04-14.02.17:196][996]AssetCheck: New page: Asset Save: FlickeringLightBP
+[2023.01.04-14.02.17:196][996]LogContentValidation: Display: Validating Blueprint /Game/FlickeringLightBP.FlickeringLightBP
+[2023.01.04-14.02.26:833][384]LogEditorTransaction: Undo Delete current selection
+[2023.01.04-14.02.57:730][701]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.01.04-14.06.40:954][586]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.01.04-14.06.40:956][586]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.037
+[2023.01.04-14.06.40:957][586]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FlickeringLightBP] ([2] browsable assets)...
+[2023.01.04-14.06.40:981][586]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FlickeringLightBP.FlickeringLightBP]
+[2023.01.04-14.06.40:981][586]OBJ SavePackage: Finished generating thumbnails for package [/Game/FlickeringLightBP]
+[2023.01.04-14.06.40:981][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlickeringLightBP" FILE="D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/Autosaves/Game/FlickeringLightBP_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2023.01.04-14.06.41:143][586]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FlickeringLightBP_Auto2
+[2023.01.04-14.06.41:143][586]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/FlickeringLightBP_Auto2D997A0CA487ACAA94DE5169329D18FFA.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/Autosaves/Game/FlickeringLightBP_Auto2.uasset'
+[2023.01.04-14.06.41:145][586]LogFileHelpers: Auto-saving content packages took 0.188
+[2023.01.04-14.12.06:693][239]BlueprintLog: New page: Compile FlickeringLightBP
+[2023.01.04-14.12.06:745][239]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.01.04-14.12.07:719][281]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlickeringLightBP" FILE="D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/FlickeringLightBP.uasset" SILENT=true
+[2023.01.04-14.12.07:956][281]LogSavePackage: Moving output files for package: /Game/FlickeringLightBP
+[2023.01.04-14.12.07:958][281]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/FlickeringLightBP913B14CD44C9CC4413F8969B1DCAE8BA.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/FlickeringLightBP.uasset'
+[2023.01.04-14.12.07:975][281]AssetCheck: New page: Asset Save: FlickeringLightBP
+[2023.01.04-14.12.07:975][281]LogContentValidation: Display: Validating Blueprint /Game/FlickeringLightBP.FlickeringLightBP
+[2023.01.04-14.12.08:809][321]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlickeringLightBP" FILE="D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/FlickeringLightBP.uasset" SILENT=true
+[2023.01.04-14.12.09:048][321]LogSavePackage: Moving output files for package: /Game/FlickeringLightBP
+[2023.01.04-14.12.09:050][321]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/FlickeringLightBP8FD536CF40860261FA19599DBEEDB11D.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/FlickeringLightBP.uasset'
+[2023.01.04-14.12.09:068][321]AssetCheck: New page: Asset Save: FlickeringLightBP
+[2023.01.04-14.12.09:068][321]LogContentValidation: Display: Validating Blueprint /Game/FlickeringLightBP.FlickeringLightBP
+[2023.01.04-14.12.11:217][438]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2023.01.04-14.12.13:516][561]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
