@@ -2581,3 +2581,144 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.01.06-13.49.47:035][ 17]LogContentValidation: Display: Validating StaticMesh /Game/ThirdPerson/Maps/_GENERATED/debsi/Box_C34C942B.Box_C34C942B
 [2023.01.06-13.49.47:036][ 17]LogContentValidation: Display: Validating StaticMesh /Game/ThirdPerson/Maps/_GENERATED/debsi/Box_089D1A49.Box_089D1A49
 [2023.01.06-13.49.49:557][149]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2023.01.06-13.51.44:258][652]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.01.06-13.51.55:103][240]LogContentBrowser: Deferred new asset file creation: NewSoundCue
+[2023.01.06-13.51.55:117][240]LogContentBrowser: Creating deferred item: NewSoundCue
+[2023.01.06-13.51.55:134][241]LogContentBrowser: Renaming the item being created (Deferred Item: NewSoundCue).
+[2023.01.06-13.52.02:120][654]LogContentBrowser: Attempting asset rename: NewSoundCue -> ExplosionCUE
+[2023.01.06-13.52.02:121][654]LogContentBrowser: End creating deferred item NewSoundCue
+[2023.01.06-13.52.04:325][775]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/ExplosionCUE.ExplosionCUE
+[2023.01.06-13.52.51:085][ 18]LogAudio: Display: Cached duration for Sound Cue SoundCue /Game/ExplosionCUE.ExplosionCUE was zero and has changed. Consider manually Re-saving the asset
+[2023.01.06-13.53.06:869][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ExplosionCUE" FILE="D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ExplosionCUE.uasset" SILENT=true
+[2023.01.06-13.53.06:931][791]LogSavePackage: Moving output files for package: /Game/ExplosionCUE
+[2023.01.06-13.53.06:931][791]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/ExplosionCUE4FF9F4594CCAAF8ED836C89011335710.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ExplosionCUE.uasset'
+[2023.01.06-13.53.06:949][791]AssetCheck: New page: Asset Save: ExplosionCUE
+[2023.01.06-13.53.06:949][791]LogContentValidation: Display: Validating SoundCue /Game/ExplosionCUE.ExplosionCUE
+[2023.01.06-13.53.07:617][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ExplosionCUE" FILE="D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ExplosionCUE.uasset" SILENT=true
+[2023.01.06-13.53.07:679][818]LogSavePackage: Moving output files for package: /Game/ExplosionCUE
+[2023.01.06-13.53.07:681][818]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/ExplosionCUE7A8B98F0453665200C2292ACFCC08490.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ExplosionCUE.uasset'
+[2023.01.06-13.53.07:702][818]AssetCheck: New page: Asset Save: ExplosionCUE
+[2023.01.06-13.53.07:702][818]LogContentValidation: Display: Validating SoundCue /Game/ExplosionCUE.ExplosionCUE
+[2023.01.06-13.53.08:506][853]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ExplosionCUE" FILE="D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ExplosionCUE.uasset" SILENT=true
+[2023.01.06-13.53.08:567][853]LogSavePackage: Moving output files for package: /Game/ExplosionCUE
+[2023.01.06-13.53.08:570][853]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/ExplosionCUE24B0A551431454F926B5EDAEF516E11A.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ExplosionCUE.uasset'
+[2023.01.06-13.53.08:591][853]AssetCheck: New page: Asset Save: ExplosionCUE
+[2023.01.06-13.53.08:591][853]LogContentValidation: Display: Validating SoundCue /Game/ExplosionCUE.ExplosionCUE
+[2023.01.06-13.53.47:895][909]BlueprintLog: New page: Compile ExplosionMarker
+[2023.01.06-13.53.48:026][909]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2023.01.06-13.53.49:159][956]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ExplosionMarker" FILE="D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ExplosionMarker.uasset" SILENT=true
+[2023.01.06-13.53.49:263][956]LogSavePackage: Moving output files for package: /Game/ExplosionMarker
+[2023.01.06-13.53.49:265][956]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/ExplosionMarkerD2E6D0E04FE416B679A1DF9A8CA9AC99.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ExplosionMarker.uasset'
+[2023.01.06-13.53.49:286][956]AssetCheck: New page: Asset Save: ExplosionMarker
+[2023.01.06-13.53.49:286][956]LogContentValidation: Display: Validating Blueprint /Game/ExplosionMarker.ExplosionMarker
+[2023.01.06-13.54.02:918][725]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.06-13.54.02:918][725]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.06-13.54.02:918][725]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.06-13.54.02:918][725]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.01.06-13.54.02:918][725]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.01.06-13.54.02:918][725]LogWorldPartition: Display: GetPartitionedActors took 49 us
+[2023.01.06-13.54.02:919][725]LogWorldPartition: Display: GenerateStreaming took 706 us
+[2023.01.06-13.54.02:919][725]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.06-13.54.02:919][725]PIE: New page: PIE session: ThirdPersonMap (6 Jan 2023, 13:54:02)
+[2023.01.06-13.54.02:946][725]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.01.06-13.54.02:961][725]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.01.06-13.54.02:961][725]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014487s)
+[2023.01.06-13.54.02:961][725]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.014634s)
+[2023.01.06-13.54.02:961][725]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.06-13.54.02:962][725]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.01.06-13.54.02:962][725]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.06-13.54.02:962][725]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.01.06-13.54.02:966][725]LogWorldPartition: Display: WorldPartition initialize took 3 ms
+[2023.01.06-13.54.02:966][725]LogPlayLevel: PIE: World Init took: (0.004877s)
+[2023.01.06-13.54.03:049][725]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2023.01.06-13.54.03:052][725]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.01.06-13.54.03:052][725]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.06-13.54.03:052][725]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.06-13.54.03:052][725]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.06-13.54.03:052][725]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.06-13.54.03:052][725]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.06-13.54.03:052][725]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.06-13.54.03:052][725]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.06-13.54.03:052][725]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.06-13.54.03:052][725]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.06-13.54.03:052][725]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.06-13.54.03:052][725]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.06-13.54.03:054][725]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.06-13.54.03:118][725]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.01.06-13.54.03:118][725]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.06-13.54.03:118][725]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.06-13.54.03:118][725]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.06-13.54.03:120][725]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2023.01.06-13.54.03:120][725]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2023.01.06-13.54.03:122][725]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2023.01.06-13.54.03:122][725]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2023.01.06-13.54.03:122][725]LogInit: FAudioDevice initialized.
+[2023.01.06-13.54.03:122][725]LogAudio: Display: Audio Device (ID: 20) registered with world 'ThirdPersonMap'.
+[2023.01.06-13.54.03:139][725]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.01.06-13.54.03:143][725]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2023.01.06-13.54.03
+[2023.01.06-13.54.03:144][725]LogWorld: Bringing up level for play took: 0.005489
+[2023.01.06-13.54.03:146][725]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2023.01.06-13.54.03:149][725]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=6054.992 Y=5616.718 Z=214.048
+[2023.01.06-13.54.03:149][725]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.06-13.54.03:151][725]PIE: Warning: The widget 'HealthWidget_C' was already added to the screen.
+[2023.01.06-13.54.03:151][725]PIE: Server logged in
+[2023.01.06-13.54.03:153][725]PIE: Play in editor total start time 0.242 seconds.
+[2023.01.06-13.54.03:158][725]LogAudio: Warning: Detected orphaned looping sound '143915__scotchio__flickeringlight_Cue'.
+[2023.01.06-13.54.04:274][783]LogAudio: Warning: Detected orphaned looping sound '143915__scotchio__flickeringlight_Cue'.
+[2023.01.06-13.54.08:741][ 51]LogAudio: Warning: Detected orphaned looping sound '388878__deleted-user-7313090__base-alarm_Cue'.
+[2023.01.06-13.54.09:095][ 72]LogAudio: Warning: Detected orphaned looping sound 'ExplosionCUE'.
+[2023.01.06-13.54.09:097][ 72]LogAudio: Warning: Detected orphaned looping sound 'ExplosionCUE'.
+[2023.01.06-13.54.09:097][ 72]LogAudio: Warning: Detected orphaned looping sound 'ExplosionCUE'.
+[2023.01.06-13.54.22:924][902]LogNet: Browse: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2023.01.06-13.54.22:924][902]LogLoad: LoadMap: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2023.01.06-13.54.22:924][902]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.01.06-13.54.22:924][902]LogSpawn: Warning: SpawnActor failed because we are in the process of tearing down the world
+[2023.01.06-13.54.22:925][902]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.06-13.54.22:926][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.06-13.54.23:037][902]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.06-13.54.23:043][902]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2023.01.06-13.54.23:047][902]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.01.06-13.54.23:061][902]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.01.06-13.54.23:061][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014320s)
+[2023.01.06-13.54.23:061][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.014442s)
+[2023.01.06-13.54.23:061][902]LogAudio: Display: Audio Device (ID: 20) registered with world 'ThirdPersonMap'.
+[2023.01.06-13.54.23:061][902]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.06-13.54.23:061][902]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.01.06-13.54.23:062][902]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.06-13.54.23:062][902]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.01.06-13.54.23:066][902]LogWorldPartition: Display: WorldPartition initialize took 3 ms
+[2023.01.06-13.54.23:066][902]LogPlayLevel: PIE: World Init took: (0.004793s)
+[2023.01.06-13.54.23:066][902]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.01.06-13.54.23:070][902]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2023.01.06-13.54.23
+[2023.01.06-13.54.23:071][902]LogWorld: Bringing up level for play took: 0.004876
+[2023.01.06-13.54.23:076][902]PIE: Warning: The widget 'HealthWidget_C' was already added to the screen.
+[2023.01.06-13.54.23:076][902]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1560.000 Y=220.000 Z=92.013
+[2023.01.06-13.54.23:076][902]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.06-13.54.23:076][902]LogLoad: Took 0.152151 seconds to LoadMap(/Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap)
+[2023.01.06-13.54.23:081][902]LogAudio: Warning: Detected orphaned looping sound '388878__deleted-user-7313090__base-alarm_Cue'.
+[2023.01.06-13.54.26:554][107]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.06-13.54.26:554][107]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.01.06-13.54.26:554][107]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.06-13.54.26:555][107]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.06-13.54.26:573][107]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.06-13.54.26:581][107]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.06-13.54.26:659][107]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.06-13.54.26:659][107]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.01.06-13.54.26:661][107]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.01.06-13.54.26:672][107]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2023.01.06-13.54.26:987][108]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2023.01.06-13.54.29:092][211]LogSlate: Window 'Message Log' being destroyed
+[2023.01.06-13.54.29:106][211]LogSlate: Window 'Message Log' being destroyed
+[2023.01.06-13.54.30:562][277]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/K0/Z9J8B60IAL1M4KSXALB7OO
+[2023.01.06-13.54.30:564][277]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/Z9J8B60IAL1M4KSXALB7OO3A777BEF4DE53F6DF6259B9C45B0998A.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/K0/Z9J8B60IAL1M4KSXALB7OO.uasset'
+[2023.01.06-13.54.30:572][277]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/OS/488UNKFF1BI6RXRWHXX520
+[2023.01.06-13.54.30:574][277]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/488UNKFF1BI6RXRWHXX52065B150EB4C5565C1B7EA52824761BFEE.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/OS/488UNKFF1BI6RXRWHXX520.uasset'
+[2023.01.06-13.54.30:581][277]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/20/NQTAPYRDSWFREII3ZPASXW
+[2023.01.06-13.54.30:584][277]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/NQTAPYRDSWFREII3ZPASXWF791F7E14DE60A4633F10A867B79D25F.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/20/NQTAPYRDSWFREII3ZPASXW.uasset'
+[2023.01.06-13.54.30:608][277]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.06-13.54.30:608][277]LogContentValidation: Display: Validating ExplosionMarker_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ExplosionMarker_C_UAID_3C7C3FEBD3253B5A01_1644623586
+[2023.01.06-13.54.30:608][277]LogContentValidation: Display: Validating ExplosionMarker_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ExplosionMarker_C_UAID_3C7C3FEBD3253B5A01_1600720585
+[2023.01.06-13.54.30:608][277]LogContentValidation: Display: Validating ExplosionMarker_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ExplosionMarker_C_UAID_3C7C3FEBD3253B5A01_1686239587
+[2023.01.06-13.54.32:547][375]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2023.01.06-13.54.34:433][465]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2023.01.06-13.54.36:708][575]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
