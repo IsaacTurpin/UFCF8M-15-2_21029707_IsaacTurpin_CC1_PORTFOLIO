@@ -2722,3 +2722,179 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.01.06-13.54.32:547][375]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
 [2023.01.06-13.54.34:433][465]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
 [2023.01.06-13.54.36:708][575]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2023.01.06-13.54.58:043][810]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2023.01.06-13.55.13:155][410]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [4999ms] waiting for h/w. InstanceID=1
+[2023.01.06-14.25.34:141][411]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=8268
+[2023.01.06-14.25.34:497][412]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{a101d3e3-8670-4c3f-ae72-abcc3eb0edc5}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=174.72
+[2023.01.06-14.25.34:498][412]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.01.06-14.25.34:624][412]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.01.06-14.25.36:625][419]LogHttp: Warning: 00000491FA03E600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B20285CEF-48EE-F157-6E7A-8BAA72850D14%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=dcbda12d475fba513e5eb4afbf386d3b%7C0c9c30c06a7644e291da7c06857625a0%7C8609e13b-c038-49d9-b59a-4b01570150fa&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.01.06-14.25.36:625][419]LogHttp: Warning: 00000491FA03E600: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2023.01.06-14.25.36:625][419]LogHttp: Warning: 00000491FA03E600: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x491a58d0000 [can pipeline])
+[2023.01.06-14.25.36:625][419]LogHttp: Warning: 00000491FA03E600: libcurl info message cache 1 (Re-using existing connection! (#0) with host datarouter.ol.epicgames.com)
+[2023.01.06-14.25.36:625][419]LogHttp: Warning: 00000491FA03E600: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.208.201.196) port 443 (#0))
+[2023.01.06-14.25.36:625][419]LogHttp: Warning: 00000491FA03E600: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.01.06-14.25.36:625][419]LogHttp: Warning: 00000491FA03E600: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2023.01.06-14.25.36:625][419]LogHttp: Warning: 00000491FA03E600: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2023.01.06-14.25.36:625][419]LogHttp: Warning: 00000491FA03E600: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2023.01.06-14.25.36:625][419]LogHttp: Warning: 00000491FA03E600: libcurl info message cache 7 (Closing connection 0)
+[2023.01.06-14.25.36:626][419]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B20285CEF-48EE-F157-6E7A-8BAA72850D14%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=dcbda12d475fba513e5eb4afbf386d3b%7C0c9c30c06a7644e291da7c06857625a0%7C8609e13b-c038-49d9-b59a-4b01570150fa&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.01.06-14.25.37:092][420]LogViewport: Scene viewport resized to 1544x1302, mode Windowed.
+[2023.01.06-14.25.41:845][433]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2023.01.06-14.25.41:848][433]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.086
+[2023.01.06-14.25.43:218][437]LogViewport: Scene viewport resized to 1544x1254, mode Windowed.
+[2023.01.06-14.32.52:781][457]BlueprintLog: New page: Compile ExplosionMarker
+[2023.01.06-14.32.52:913][457]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2023.01.06-14.32.53:638][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ExplosionMarker" FILE="D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ExplosionMarker.uasset" SILENT=true
+[2023.01.06-14.32.53:752][483]LogSavePackage: Moving output files for package: /Game/ExplosionMarker
+[2023.01.06-14.32.53:753][483]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/ExplosionMarker0981222449D131650E46619CE39956B7.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/ExplosionMarker.uasset'
+[2023.01.06-14.32.53:772][483]AssetCheck: New page: Asset Save: ExplosionMarker
+[2023.01.06-14.32.53:772][483]LogContentValidation: Display: Validating Blueprint /Game/ExplosionMarker.ExplosionMarker
+[2023.01.06-14.33.05:516][157]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.06-14.33.05:516][157]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.06-14.33.05:516][157]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.06-14.33.05:516][157]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.01.06-14.33.05:516][157]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.01.06-14.33.05:516][157]LogWorldPartition: Display: GetPartitionedActors took 51 us
+[2023.01.06-14.33.05:517][157]LogWorldPartition: Display: GenerateStreaming took 707 us
+[2023.01.06-14.33.05:517][157]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.06-14.33.05:517][157]PIE: New page: PIE session: ThirdPersonMap (6 Jan 2023, 14:33:05)
+[2023.01.06-14.33.05:517][157]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.01.06-14.33.05:532][157]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.01.06-14.33.05:532][157]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014587s)
+[2023.01.06-14.33.05:532][157]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.014640s)
+[2023.01.06-14.33.05:532][157]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.06-14.33.05:532][157]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.01.06-14.33.05:533][157]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.06-14.33.05:533][157]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.01.06-14.33.05:537][157]LogWorldPartition: Display: WorldPartition initialize took 3 ms
+[2023.01.06-14.33.05:537][157]LogPlayLevel: PIE: World Init took: (0.004895s)
+[2023.01.06-14.33.05:615][157]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.01.06-14.33.05:618][157]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.01.06-14.33.05:618][157]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.06-14.33.05:618][157]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.06-14.33.05:618][157]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.06-14.33.05:618][157]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.06-14.33.05:618][157]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.06-14.33.05:618][157]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.06-14.33.05:618][157]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.06-14.33.05:618][157]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.06-14.33.05:620][157]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.06-14.33.05:620][157]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.06-14.33.05:620][157]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.06-14.33.05:622][157]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.06-14.33.05:693][157]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.01.06-14.33.05:693][157]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.06-14.33.05:693][157]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.06-14.33.05:693][157]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.06-14.33.05:694][157]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2023.01.06-14.33.05:694][157]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2023.01.06-14.33.05:697][157]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2023.01.06-14.33.05:697][157]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2023.01.06-14.33.05:697][157]LogInit: FAudioDevice initialized.
+[2023.01.06-14.33.05:697][157]LogAudio: Display: Audio Device (ID: 21) registered with world 'ThirdPersonMap'.
+[2023.01.06-14.33.05:711][157]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.01.06-14.33.05:715][157]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2023.01.06-14.33.05
+[2023.01.06-14.33.05:716][157]LogWorld: Bringing up level for play took: 0.005705
+[2023.01.06-14.33.05:718][157]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2023.01.06-14.33.05:722][157]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=5982.865 Y=5540.262 Z=233.162
+[2023.01.06-14.33.05:723][157]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.06-14.33.05:725][157]PIE: Warning: The widget 'HealthWidget_C' was already added to the screen.
+[2023.01.06-14.33.05:725][157]PIE: Server logged in
+[2023.01.06-14.33.05:727][157]PIE: Play in editor total start time 0.219 seconds.
+[2023.01.06-14.33.05:752][157]LogAudio: Warning: Detected orphaned looping sound '143915__scotchio__flickeringlight_Cue'.
+[2023.01.06-14.33.05:752][157]LogAudio: Warning: Detected orphaned looping sound '143915__scotchio__flickeringlight_Cue'.
+[2023.01.06-14.33.11:404][486]LogAudio: Warning: Detected orphaned looping sound '388878__deleted-user-7313090__base-alarm_Cue'.
+[2023.01.06-14.33.11:741][506]LogAudio: Warning: Detected orphaned looping sound 'ExplosionCUE'.
+[2023.01.06-14.33.11:741][506]LogAudio: Warning: Detected orphaned looping sound 'ExplosionCUE'.
+[2023.01.06-14.33.11:741][506]LogAudio: Warning: Detected orphaned looping sound 'ExplosionCUE'.
+[2023.01.06-14.33.23:020][183]LogNet: Browse: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2023.01.06-14.33.23:021][183]LogLoad: LoadMap: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2023.01.06-14.33.23:021][183]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.01.06-14.33.23:021][183]LogSpawn: Warning: SpawnActor failed because we are in the process of tearing down the world
+[2023.01.06-14.33.23:022][183]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.06-14.33.23:022][183]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.06-14.33.23:130][183]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.06-14.33.23:135][183]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2023.01.06-14.33.23:139][183]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.01.06-14.33.23:154][183]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.01.06-14.33.23:154][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014608s)
+[2023.01.06-14.33.23:154][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.014703s)
+[2023.01.06-14.33.23:154][183]LogAudio: Display: Audio Device (ID: 21) registered with world 'ThirdPersonMap'.
+[2023.01.06-14.33.23:154][183]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.06-14.33.23:154][183]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.01.06-14.33.23:155][183]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.06-14.33.23:155][183]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.01.06-14.33.23:158][183]LogWorldPartition: Display: WorldPartition initialize took 3 ms
+[2023.01.06-14.33.23:158][183]LogPlayLevel: PIE: World Init took: (0.004758s)
+[2023.01.06-14.33.23:158][183]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.01.06-14.33.23:162][183]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2023.01.06-14.33.23
+[2023.01.06-14.33.23:163][183]LogWorld: Bringing up level for play took: 0.004683
+[2023.01.06-14.33.23:168][183]PIE: Warning: The widget 'HealthWidget_C' was already added to the screen.
+[2023.01.06-14.33.23:169][183]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1560.000 Y=220.000 Z=92.013
+[2023.01.06-14.33.23:169][183]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.06-14.33.23:169][183]LogLoad: Took 0.148010 seconds to LoadMap(/Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap)
+[2023.01.06-14.33.23:174][183]LogAudio: Warning: Detected orphaned looping sound '388878__deleted-user-7313090__base-alarm_Cue'.
+[2023.01.06-14.35.50:169][993]LogAudio: Warning: Detected orphaned looping sound '388878__deleted-user-7313090__base-alarm_Cue'.
+[2023.01.06-14.36.56:029][940]LogAudio: Warning: Detected orphaned looping sound 'ExplosionCUE'.
+[2023.01.06-14.36.56:029][940]LogAudio: Warning: Detected orphaned looping sound 'ExplosionCUE'.
+[2023.01.06-14.36.56:029][940]LogAudio: Warning: Detected orphaned looping sound 'ExplosionCUE'.
+[2023.01.06-14.36.58:034][ 60]LogAudio: Warning: Detected orphaned looping sound 'ExplosionCUE'.
+[2023.01.06-14.36.58:034][ 60]LogAudio: Warning: Detected orphaned looping sound 'ExplosionCUE'.
+[2023.01.06-14.36.58:034][ 60]LogAudio: Warning: Detected orphaned looping sound 'ExplosionCUE'.
+[2023.01.06-14.37.00:038][180]LogAudio: Warning: Detected orphaned looping sound 'ExplosionCUE'.
+[2023.01.06-14.37.00:038][180]LogAudio: Warning: Detected orphaned looping sound 'ExplosionCUE'.
+[2023.01.06-14.37.00:038][180]LogAudio: Warning: Detected orphaned looping sound 'ExplosionCUE'.
+[2023.01.06-14.37.08:449][685]LogNet: Browse: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2023.01.06-14.37.08:449][685]LogLoad: LoadMap: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2023.01.06-14.37.08:449][685]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.01.06-14.37.08:450][685]LogSpawn: Warning: SpawnActor failed because we are in the process of tearing down the world
+[2023.01.06-14.37.08:450][685]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.06-14.37.08:451][685]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.06-14.37.08:563][685]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.06-14.37.08:570][685]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.01.06-14.37.08:574][685]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.01.06-14.37.08:589][685]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.01.06-14.37.08:589][685]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015344s)
+[2023.01.06-14.37.08:589][685]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.015451s)
+[2023.01.06-14.37.08:589][685]LogAudio: Display: Audio Device (ID: 21) registered with world 'ThirdPersonMap'.
+[2023.01.06-14.37.08:589][685]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.06-14.37.08:589][685]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.01.06-14.37.08:590][685]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.06-14.37.08:590][685]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.01.06-14.37.08:594][685]LogWorldPartition: Display: WorldPartition initialize took 3 ms
+[2023.01.06-14.37.08:594][685]LogPlayLevel: PIE: World Init took: (0.005100s)
+[2023.01.06-14.37.08:594][685]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.01.06-14.37.08:598][685]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2023.01.06-14.37.08
+[2023.01.06-14.37.08:599][685]LogWorld: Bringing up level for play took: 0.005011
+[2023.01.06-14.37.08:604][685]PIE: Warning: The widget 'HealthWidget_C' was already added to the screen.
+[2023.01.06-14.37.08:604][685]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1560.000 Y=220.000 Z=92.013
+[2023.01.06-14.37.08:604][685]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.06-14.37.08:604][685]LogLoad: Took 0.155246 seconds to LoadMap(/Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap)
+[2023.01.06-14.37.08:610][685]LogAudio: Warning: Detected orphaned looping sound '388878__deleted-user-7313090__base-alarm_Cue'.
+[2023.01.06-14.37.15:115][ 65]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.06-14.37.15:115][ 65]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.01.06-14.37.15:115][ 65]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.06-14.37.15:116][ 65]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.06-14.37.15:131][ 65]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.06-14.37.15:138][ 65]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.06-14.37.15:218][ 65]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.06-14.37.15:218][ 65]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.01.06-14.37.15:221][ 65]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.01.06-14.37.15:234][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2023.01.06-14.37.15:515][ 66]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2023.01.06-14.37.18:225][194]LogSlate: Window 'Message Log' being destroyed
+[2023.01.06-14.37.18:235][194]LogSlate: Window 'Message Log' being destroyed
+[2023.01.06-14.37.19:889][272]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/K0/Z9J8B60IAL1M4KSXALB7OO
+[2023.01.06-14.37.19:891][272]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/Z9J8B60IAL1M4KSXALB7OO6929CB2A4D08F4463EC457BFED9DBCEC.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/K0/Z9J8B60IAL1M4KSXALB7OO.uasset'
+[2023.01.06-14.37.19:898][272]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/20/NQTAPYRDSWFREII3ZPASXW
+[2023.01.06-14.37.19:899][272]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/NQTAPYRDSWFREII3ZPASXW602BE0F04F6125D22A6118841BD20F28.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/20/NQTAPYRDSWFREII3ZPASXW.uasset'
+[2023.01.06-14.37.19:906][272]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/OS/488UNKFF1BI6RXRWHXX520
+[2023.01.06-14.37.19:908][272]LogSavePackage: Moving 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Saved/488UNKFF1BI6RXRWHXX520765A70994662B58281A5EABF8D25F116.tmp' to 'D:/Year 2/Game Level Design/LevelDesignProject/Level/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/OS/488UNKFF1BI6RXRWHXX520.uasset'
+[2023.01.06-14.37.19:931][272]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.06-14.37.19:931][272]LogContentValidation: Display: Validating ExplosionMarker_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ExplosionMarker_C_UAID_3C7C3FEBD3253B5A01_1644623586
+[2023.01.06-14.37.19:931][272]LogContentValidation: Display: Validating ExplosionMarker_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ExplosionMarker_C_UAID_3C7C3FEBD3253B5A01_1600720585
+[2023.01.06-14.37.19:931][272]LogContentValidation: Display: Validating ExplosionMarker_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ExplosionMarker_C_UAID_3C7C3FEBD3253B5A01_1686239587
+[2023.01.06-14.37.22:414][399]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.01.06-14.37.24:842][514]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2023.01.06-14.37.26:703][605]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
