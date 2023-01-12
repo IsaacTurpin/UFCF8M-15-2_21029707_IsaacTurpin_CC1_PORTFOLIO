@@ -1,4 +1,4 @@
-Instructions: Basic movement controls as seen in the Unreal 3rd person blueprint project. Use key 'E' to interact with things, including light switches, buttons, doors and key pickups. 
+Instructions: Basic movement controls as seen in the Unreal 3rd person blueprint project. Use key 'E' to interact with things, including light switches, buttons, doors and key pickups. //
 Sources used: 
 TC GAMES (2020). Make Coins and Coin Counter HUD in Unreal Engine --- Nodvember 4/30. YouTube [video]. 04 November. Available from: https://www.youtube.com/watch?v=uDK3rf8UG5o [Accessed 02 November 2022]. 
 Matt Apsland (2021). How To Open A Locked Door With A Key - Unreal Engine 4 Tutorial. YouTube [video]. 20 January. Available from: https://www.youtube.com/watch?v=29--ieorX7Q [Accessed 02 November 2022]. 
